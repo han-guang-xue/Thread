@@ -1,0 +1,26 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.hostinfo.dao.HostInfoDao">
+
+    <select id="selectByToDay" resultType="com.example.hostinfo.bean.Anchor">
+        select "Id", "RoomId","Plantform","PlantformUid"
+        from "Anchor"
+        where "UpdateTime" > #{ToDay }
+        and "Plantform" = '2'
+        order by "UpdateTime" desc;
+    </select>
+
+    <select id="selectAll" resultType="com.example.hostinfo.bean.Anchor">
+        select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "Id" > #{LastIndex } order by "Id" limit 100;
+    </select>
+
+    <insert id="insert" parameterType="com.example.hostinfo.bean.HostInfo" >
+        insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime")
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.RoomId} ,#{item.Platform} ,#{item.HotNum} ,#{item.FocusNum} ,#{item.VipNum} ,#{item.State} ,#{item.CreateTime})
+        </foreach>
+    </insert>
+</mapper>
