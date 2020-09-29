@@ -8,7 +8,7 @@
         select "Id", "RoomId","Plantform","PlantformUid"
         from "Anchor"
         where "UpdateTime" > #{ToDay }
-        and "Plantform" = '2'
+        and "Plantform" = '1'
         order by "UpdateTime" desc;
     </select>
 

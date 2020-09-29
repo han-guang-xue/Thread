@@ -54,7 +54,7 @@ public class FileUtil {
         String []line2 = reader.readLine().split(",");
         try{
             hostInfo.setCreateTime(new Timestamp(System.currentTimeMillis()));
-            hostInfo.setPlatform(Task.getTypeByValue(line1[0].trim()));
+            hostInfo.setPlatform(Integer.parseInt(Task.getTypeByValue(line1[0].trim())));
             hostInfo.setRoomId(line1[1].trim());
             hostInfo.setFocusNum(Integer.parseInt(line2[0].split(":")[1]));
             hostInfo.setHotNum(Integer.parseInt(line2[1].split(":")[1]));

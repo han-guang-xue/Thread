@@ -23,6 +23,9 @@ import java.util.concurrent.TimeoutException;
 
 @Component
 public class Task {
+    public final static Integer default_threadNum = 1;
+    public final static Long default_interval = 15*60*1000L;
+    public final static int default_timeout = 2*60*1000;
 
     public static Logger logger = LoggerFactory.getLogger(Task.class);
 
@@ -32,17 +35,42 @@ public class Task {
     public static Integer index;
 
     //客户端运行数
-    public static Integer threadNum = 2;
+    public static Integer threadNum = null;
 
     //间隔 开始的时候 间隔时间为 15 分钟
-    public static Long interval = 15*60*1000L;
+    public static Long interval = null;
 
     //进程超时时间
-    public static int timeout = 2*60*1000;
+    public static Integer timeout = null;
 
     private static ExecutorService fixedThreadPool = null;
     private static Thread thread = null;
-    List<Runnable> runnablesList = null;
+
+    public boolean runServer (Integer threadNum,Long interval, Integer timeout) {
+
+        this.threadNum = null == threadNum ? default_threadNum : threadNum;
+        this.interval = null == interval ? default_interval : interval;
+        this.timeout = null == timeout ? default_timeout : timeout;
+
+        thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    runClient();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        thread.start();
+        return status();
+    }
+
+    public boolean runServer() {
+        return runServer(null,null,null);
+    }
+
+
 
     public static Map<String,String> typeMap = new HashMap<>();
 
@@ -76,8 +104,8 @@ public class Task {
         logger.info("程序启动, 读取 Anchor 数据...");
         List<Anchor> list = this.getList();
         if(list.size() == 0){
-            Thread.sleep(1000*60*15);
-            logger.info("当前时间:" + new Timestamp(System.currentTimeMillis()).toString() + " 没有获取数据, 程序将于十五分钟后运行");
+            logger.info("当前时间:" + new Timestamp(System.currentTimeMillis()).toString() + " 没有获取数据, 程序将于两分钟后运行");
+            Thread.sleep(1000*60*2);
             start();
         }
 
@@ -91,6 +119,12 @@ public class Task {
             fixedThreadPool.execute(new Runnable() {
                 @Override
                 public void run() {
+                    try {
+                        //休息一分钟
+                        Thread.sleep((long)(Math.random()*10/3*1000*60));
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     runInThread(anchor, finalI);
                 }
             });
@@ -129,23 +163,6 @@ public class Task {
         return true;
     }
 
-    public boolean runServer (Integer threadNum,Long interval, Integer timeout) {
-        this.threadNum = null == threadNum ? 2 : threadNum; //默认是两个进程
-        this.interval = null == interval ? 15*60*1000L : interval; //默认是15分钟
-        this.timeout = null == timeout ? 2*60*1000 : timeout; //默认是2分钟
-        thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    runClient();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        thread.start();
-        return status();
-    }
 
     public boolean status() {
         if(null == thread){
@@ -176,7 +193,7 @@ public class Task {
 
     public Map<String,Object> getPool() {
         Map<String,Object> resMap = new HashMap<>();
-//        resMap.put("",fixedThreadPool.invokeAll());
+        resMap.put("FixedThreadPool", status());
         return resMap;
     }
 }

@@ -48,7 +48,7 @@ public class HostInfoController {
     public Map<String,Object> getInfo(){
         Map<String,Object> resMap = new HashMap<>();
         resMap.put("Server(Calabash.Business.Daemon.Host)", CalabashUtil.status());
-        resMap.put("FixedThreadPool", task);
+        resMap.put("FixedThreadPool", task.getPool());
         return resMap;
     }
 

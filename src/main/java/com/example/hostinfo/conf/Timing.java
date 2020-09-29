@@ -15,9 +15,12 @@ import java.sql.Time;
 public class Timing{
     public static Logger  logger = LoggerFactory.getLogger(Time.class);
 
+
     @Autowired
     HostService hostService;
 
+    @Autowired
+    Task task;
 
 
     //每一小时执行一次

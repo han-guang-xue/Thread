@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 public class HostInfo {
     private Integer UId;
     private String RoomId;
-    private String Platform;
+    private Integer Platform;
     private Integer HotNum;
     private Integer FocusNum;
     private Integer VipNum;
@@ -27,11 +27,11 @@ public class HostInfo {
         RoomId = roomId;
     }
 
-    public String getPlatform() {
+    public Integer getPlatform() {
         return Platform;
     }
 
-    public void setPlatform(String platform) {
+    public void setPlatform(Integer platform) {
         Platform = platform;
     }
 

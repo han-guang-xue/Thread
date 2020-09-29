@@ -638,3 +638,1397 @@ java.lang.NoSuchMethodError: null
 2020-09-29 11:56:26.489  INFO 20428 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-09-29 11:56:26.490  INFO 20428 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-09-29 11:56:26.493  INFO 20428 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-29 12:08:22.504  INFO 21664 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 21664 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 12:08:22.506  INFO 21664 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 12:08:23.534  INFO 21664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 12:08:23.542  INFO 21664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 12:08:23.542  INFO 21664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 12:08:23.636  INFO 21664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 12:08:23.637  INFO 21664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2020-09-29 12:08:23.987  INFO 21664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 12:08:24.123  INFO 21664 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 12:08:24.156  INFO 21664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 12:08:24.170  INFO 21664 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.945 seconds (JVM running for 2.708)
+2020-09-29 12:10:00.004 ERROR 21664 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:32) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 12:10:59.624  INFO 21664 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 12:10:59.625  INFO 21664 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-29 12:10:59.629  INFO 21664 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-09-29 12:10:59.650  INFO 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 12:11:04.725  INFO 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 12:11:04.743  INFO 21664 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 12:11:05.060  INFO 21664 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 12:11:05.067 DEBUG 21664 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 12:11:05.074 DEBUG 21664 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 11:56:04.725(Timestamp)
+2020-09-29 12:11:05.396 DEBUG 21664 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 4396
+2020-09-29 12:11:05.400  INFO 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 读取到数据总共有4396条
+2020-09-29 12:11:05.401  INFO 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 12:11:05.401  INFO 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 12:12:00.000  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:12:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:12:00.007  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:13:05.458 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":128842,"plantform":"2","plantformUid":"2243666028","roomId":"7652322"}
+2020-09-29 12:13:05.458 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":215595,"plantform":"2","plantformUid":"2379553291","roomId":"9165251"}
+2020-09-29 12:13:18.985  INFO 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:13秒
+2020-09-29 12:14:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:14:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:14:00.007  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:14:13.590  INFO 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:68秒
+2020-09-29 12:15:18.992 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":136449,"plantform":"2","plantformUid":"2377236970","roomId":"9173236"}
+2020-09-29 12:16:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:16:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:16:00.008  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:16:13.597 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":472765,"plantform":"2","plantformUid":"2333975548","roomId":"7839905"}
+2020-09-29 12:17:18.997 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":91391,"plantform":"2","plantformUid":"2335983915","roomId":"7890349"}
+2020-09-29 12:18:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:18:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:18:00.007  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:18:04.416  INFO 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条, 用时:110秒
+2020-09-29 12:19:19.008 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":9280,"plantform":"2","plantformUid":"256434707","roomId":"754026"}
+2020-09-29 12:20:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:20:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:20:00.011  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:20:04.426 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":466100,"plantform":"2","plantformUid":"2311808300","roomId":"7217712"}
+2020-09-29 12:21:19.015 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":9220,"plantform":"2","plantformUid":"23579797","roomId":"608523"}
+2020-09-29 12:22:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:22:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:22:00.007  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:22:04.432 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":76223,"plantform":"2","plantformUid":"2346367937","roomId":"8895705"}
+2020-09-29 12:23:18.783  INFO 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条, 用时:74秒
+2020-09-29 12:23:19.023 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":4972,"plantform":"2","plantformUid":"263529669","roomId":"8168818"}
+2020-09-29 12:24:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:24:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:24:00.008  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:25:18.789 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":9872,"plantform":"2","plantformUid":"2375075067","roomId":"9068525"}
+2020-09-29 12:25:19.034 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":34593,"plantform":"2","plantformUid":"2280703239","roomId":"8876605"}
+2020-09-29 12:26:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 异常关闭
+2020-09-29 12:26:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 重启服务中
+2020-09-29 12:26:00.008  WARN 21664 --- [scheduling-1] com.example.hostinfo.util.CalabashUtil   : 服务器已重启
+2020-09-29 12:27:18.796 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":65354,"plantform":"2","plantformUid":"2378690731","roomId":"9155266"}
+2020-09-29 12:27:19.040 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":332821,"plantform":"2","plantformUid":"26436630","roomId":"9191885"}
+2020-09-29 12:27:45.405 ERROR 21664 --- [Thread-10] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-09-29 12:28:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:28:38.061  INFO 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条, 用时:79秒
+2020-09-29 12:28:56.820  INFO 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第21条, 用时:18秒
+2020-09-29 12:29:19.056 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":188090,"plantform":"2","plantformUid":"233422069","roomId":"4078948"}
+2020-09-29 12:30:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:30:56.836 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第22条数据获取超时; 详细数据:{"id":287705,"plantform":"2","plantformUid":"2302573383","roomId":"8876224"}
+2020-09-29 12:31:19.065 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第23条数据获取超时; 详细数据:{"id":193032,"plantform":"2","plantformUid":"2252966337","roomId":"6178338"}
+2020-09-29 12:32:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:32:56.842 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第24条数据获取超时; 详细数据:{"id":11115,"plantform":"2","plantformUid":"2147317458","roomId":"5806101"}
+2020-09-29 12:33:19.099 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第25条数据获取超时; 详细数据:{"id":229869,"plantform":"2","plantformUid":"2376939492","roomId":"9120797"}
+2020-09-29 12:34:00.004  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:34:56.849 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第26条数据获取超时; 详细数据:{"id":10330,"plantform":"2","plantformUid":"2374442761","roomId":"9053269"}
+2020-09-29 12:35:19.110 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第27条数据获取超时; 详细数据:{"id":340651,"plantform":"2","plantformUid":"234000700","roomId":"3831627"}
+2020-09-29 12:36:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:36:56.856 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第28条数据获取超时; 详细数据:{"id":8695,"plantform":"2","plantformUid":"2334817483","roomId":"8820920"}
+2020-09-29 12:37:19.120 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第29条数据获取超时; 详细数据:{"id":11848,"plantform":"2","plantformUid":"2364440784","roomId":"8804864"}
+2020-09-29 12:38:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:38:56.937 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第30条数据获取超时; 详细数据:{"id":139472,"plantform":"2","plantformUid":"2376119475","roomId":"9180532"}
+2020-09-29 12:39:19.126 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第31条数据获取超时; 详细数据:{"id":11315,"plantform":"2","plantformUid":"2370140851","roomId":"9139633"}
+2020-09-29 12:40:00.003  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:40:56.946 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第32条数据获取超时; 详细数据:{"id":143896,"plantform":"2","plantformUid":"250288875","roomId":"3239577"}
+2020-09-29 12:41:19.132 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第33条数据获取超时; 详细数据:{"id":10280,"plantform":"2","plantformUid":"243533121","roomId":"5165676"}
+2020-09-29 12:42:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:42:56.960 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第34条数据获取超时; 详细数据:{"id":58724,"plantform":"2","plantformUid":"2195115461","roomId":"8486495"}
+2020-09-29 12:43:19.148 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第35条数据获取超时; 详细数据:{"id":9370,"plantform":"2","plantformUid":"262671395","roomId":"901320"}
+2020-09-29 12:44:00.004  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:44:56.984 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第36条数据获取超时; 详细数据:{"id":45545,"plantform":"2","plantformUid":"2152456914","roomId":"3209704"}
+2020-09-29 12:45:19.155 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第37条数据获取超时; 详细数据:{"id":153750,"plantform":"2","plantformUid":"2102938258","roomId":"8956307"}
+2020-09-29 12:46:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:46:57.001 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第38条数据获取超时; 详细数据:{"id":9204,"plantform":"2","plantformUid":"2212212004","roomId":"5316917"}
+2020-09-29 12:47:19.168 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第39条数据获取超时; 详细数据:{"id":9723,"plantform":"2","plantformUid":"2334220516","roomId":"8312410"}
+2020-09-29 12:48:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:48:57.021 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第40条数据获取超时; 详细数据:{"id":10261,"plantform":"2","plantformUid":"218235808","roomId":"2394963"}
+2020-09-29 12:49:19.182 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第41条数据获取超时; 详细数据:{"id":9394,"plantform":"2","plantformUid":"2327623146","roomId":"7584396"}
+2020-09-29 12:50:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:50:57.028 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第42条数据获取超时; 详细数据:{"id":178250,"plantform":"2","plantformUid":"218018034","roomId":"2670830"}
+2020-09-29 12:51:19.209 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第43条数据获取超时; 详细数据:{"id":10588,"plantform":"2","plantformUid":"2211540388","roomId":"5297259"}
+2020-09-29 12:52:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:52:57.044 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第44条数据获取超时; 详细数据:{"id":369552,"plantform":"2","plantformUid":"2344470981","roomId":"8135958"}
+2020-09-29 12:53:19.229 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第45条数据获取超时; 详细数据:{"id":135234,"plantform":"2","plantformUid":"2380048233","roomId":"9176029"}
+2020-09-29 12:54:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:54:57.063 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第46条数据获取超时; 详细数据:{"id":10335,"plantform":"2","plantformUid":"2338037904","roomId":"8166315"}
+2020-09-29 12:55:19.249 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第47条数据获取超时; 详细数据:{"id":134742,"plantform":"2","plantformUid":"2370772866","roomId":"9163460"}
+2020-09-29 12:56:00.005  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:56:57.086 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第48条数据获取超时; 详细数据:{"id":9834,"plantform":"2","plantformUid":"2173551406","roomId":"4474040"}
+2020-09-29 12:57:19.266 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第49条数据获取超时; 详细数据:{"id":11289,"plantform":"2","plantformUid":"287436049","roomId":"6591377"}
+2020-09-29 12:58:00.000  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 12:58:57.117 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第50条数据获取超时; 详细数据:{"id":10757,"plantform":"2","plantformUid":"2369856708","roomId":"9057450"}
+2020-09-29 12:59:19.276 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第51条数据获取超时; 详细数据:{"id":154126,"plantform":"2","plantformUid":"2189901443","roomId":"9181133"}
+2020-09-29 13:00:00.096 DEBUG 21664 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
+2020-09-29 13:00:00.099 DEBUG 21664 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 1069044(String), 2(String), 20113(Integer), 1374(Integer), 2(Integer), null, 2020-09-29 13:00:00.014(Timestamp), 2206405(String), 2(String), 3869(Integer), 44664(Integer), 8(Integer), null, 2020-09-29 13:00:00.014(Timestamp), 3013344(String), 2(String), 234(Integer), 1210(Integer), 2(Integer), null, 2020-09-29 13:00:00.015(Timestamp), 5359264(String), 2(String), 3721(Integer), 3279(Integer), 1(Integer), null, 2020-09-29 13:00:00.015(Timestamp), 5566694(String), 2(String), 19526(Integer), 3521(Integer), 9(Integer), null, 2020-09-29 13:00:00.015(Timestamp), 6270044(String), 2(String), 42190(Integer), 808(Integer), 23(Integer), null, 2020-09-29 13:00:00.015(Timestamp), 7919320(String), 2(String), 20054(Integer), 1351(Integer), 1(Integer), null, 2020-09-29 13:00:00.015(Timestamp), 9077736(String), 2(String), 3768(Integer), 914(Integer), 1(Integer), null, 2020-09-29 13:00:00.016(Timestamp)
+2020-09-29 13:00:00.132 DEBUG 21664 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 8
+2020-09-29 13:00:00.133  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:00:57.140 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第52条数据获取超时; 详细数据:{"id":361950,"plantform":"2","plantformUid":"2369064177","roomId":"9124873"}
+2020-09-29 13:01:19.295 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第53条数据获取超时; 详细数据:{"id":232133,"plantform":"2","plantformUid":"2377507874","roomId":"9184140"}
+2020-09-29 13:02:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:02:57.159 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第54条数据获取超时; 详细数据:{"id":337243,"plantform":"2","plantformUid":"280445920","roomId":"1330702"}
+2020-09-29 13:03:19.313 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第55条数据获取超时; 详细数据:{"id":9270,"plantform":"2","plantformUid":"2176633512","roomId":"3663072"}
+2020-09-29 13:04:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:04:57.183 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第56条数据获取超时; 详细数据:{"id":11077,"plantform":"2","plantformUid":"2369854708","roomId":"9058369"}
+2020-09-29 13:05:19.322 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第57条数据获取超时; 详细数据:{"id":608538,"plantform":"2","plantformUid":"2216122190","roomId":"5462271"}
+2020-09-29 13:06:00.007  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:06:57.204 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第58条数据获取超时; 详细数据:{"id":9778,"plantform":"2","plantformUid":"2138927052","roomId":"8907754"}
+2020-09-29 13:07:19.354 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第59条数据获取超时; 详细数据:{"id":74454,"plantform":"2","plantformUid":"29639264","roomId":"5815259"}
+2020-09-29 13:08:00.002  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:08:57.219 ERROR 21664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第60条数据获取超时; 详细数据:{"id":91309,"plantform":"2","plantformUid":"2106042215","roomId":"7602129"}
+2020-09-29 13:09:19.376 ERROR 21664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第61条数据获取超时; 详细数据:{"id":11692,"plantform":"2","plantformUid":"2370140364","roomId":"9139645"}
+2020-09-29 13:10:00.001  INFO 21664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:11:26.834  INFO 20664 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 20664 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 13:11:26.837  INFO 20664 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 13:11:29.726  INFO 20664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 13:11:29.740  INFO 20664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 13:11:29.741  INFO 20664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 13:11:29.954  INFO 20664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 13:11:29.955  INFO 20664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3005 ms
+2020-09-29 13:11:30.820  INFO 20664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 13:11:31.192  INFO 20664 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 13:11:31.329  INFO 20664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 13:11:31.395  INFO 20664 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 5.405 seconds (JVM running for 7.043)
+2020-09-29 13:12:00.039 ERROR 20664 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:32) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 13:12:40.028  INFO 20664 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 13:12:40.030  INFO 20664 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-29 13:12:40.041  INFO 20664 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-09-29 13:12:40.077  INFO 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 13:12:45.244  INFO 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 13:12:45.283  INFO 20664 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 13:12:45.647  INFO 20664 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 13:12:45.652 DEBUG 20664 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 13:12:45.671 DEBUG 20664 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 12:57:45.245(Timestamp)
+2020-09-29 13:12:46.130 DEBUG 20664 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 6664
+2020-09-29 13:12:46.138  INFO 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 读取到数据总共有6664条
+2020-09-29 13:12:46.142  INFO 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 13:12:46.144  INFO 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 13:13:13.717  INFO 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条, 用时:27秒
+2020-09-29 13:14:00.003  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:14:19.814  INFO 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:66秒
+2020-09-29 13:14:31.040  INFO 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第4条, 用时:11秒
+2020-09-29 13:14:43.116  INFO 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条, 用时:12秒
+2020-09-29 13:14:46.283 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":10670,"plantform":"2","plantformUid":"2107958399","roomId":"2257844"}
+2020-09-29 13:16:00.002  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:16:43.137 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":128559,"plantform":"2","plantformUid":"217210533","roomId":"4687203"}
+2020-09-29 13:16:46.309 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":28163,"plantform":"2","plantformUid":"2368835319","roomId":"8918059"}
+2020-09-29 13:18:00.004  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:18:43.153 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":16632,"plantform":"2","plantformUid":"2324359360","roomId":"7458356"}
+2020-09-29 13:18:46.368 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":13106,"plantform":"2","plantformUid":"2370335684","roomId":"9152321"}
+2020-09-29 13:20:00.000  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:20:43.173 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":14861,"plantform":"2","plantformUid":"2203395715","roomId":"4934359"}
+2020-09-29 13:20:46.459 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":23733,"plantform":"2","plantformUid":"2370213957","roomId":"9169683"}
+2020-09-29 13:22:00.002  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:22:43.192 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":34621,"plantform":"2","plantformUid":"2346917792","roomId":"8222687"}
+2020-09-29 13:22:46.484 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":65841,"plantform":"2","plantformUid":"2378655097","roomId":"9154733"}
+2020-09-29 13:24:00.001  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:24:43.218 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":43598,"plantform":"2","plantformUid":"223182558","roomId":"484955"}
+2020-09-29 13:24:46.523 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":9835,"plantform":"2","plantformUid":"261056283","roomId":"863239"}
+2020-09-29 13:26:00.002  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:26:43.237 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":9814,"plantform":"2","plantformUid":"2154023799","roomId":"8926495"}
+2020-09-29 13:26:46.547 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":528780,"plantform":"2","plantformUid":"2377690189","roomId":"9213610"}
+2020-09-29 13:28:00.002  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:28:43.289 ERROR 20664 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":578298,"plantform":"2","plantformUid":"2377588208","roomId":"9220522"}
+2020-09-29 13:28:46.576 ERROR 20664 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":12331,"plantform":"2","plantformUid":"2357567573","roomId":"8663287"}
+2020-09-29 13:29:26.152 ERROR 20664 --- [Thread-17] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-09-29 13:30:00.001  INFO 20664 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:30:48.679  INFO 20468 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 20468 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 13:30:48.681  INFO 20468 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 13:30:49.695  INFO 20468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 13:30:49.709  INFO 20468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 13:30:49.710  INFO 20468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 13:30:49.771  INFO 20468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 13:30:49.771  INFO 20468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1042 ms
+2020-09-29 13:30:50.117  INFO 20468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 13:30:50.231  INFO 20468 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 13:30:50.270  INFO 20468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 13:30:50.280  INFO 20468 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.878 seconds (JVM running for 2.51)
+2020-09-29 13:31:17.844  INFO 20468 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 13:31:17.844  INFO 20468 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-29 13:31:17.848  INFO 20468 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-09-29 13:31:17.873  INFO 20468 --- [Thread-10] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 13:31:22.880  INFO 20468 --- [Thread-10] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 13:31:22.892  INFO 20468 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 13:31:23.199  INFO 20468 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 13:31:23.205 DEBUG 20468 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 13:31:23.212 DEBUG 20468 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 13:16:22.88(Timestamp)
+2020-09-29 13:31:23.703 DEBUG 20468 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 4468
+2020-09-29 13:31:23.708  INFO 20468 --- [Thread-10] com.example.hostinfo.conf.Task           : 读取到数据总共有4468条
+2020-09-29 13:31:23.708  INFO 20468 --- [Thread-10] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 13:31:23.709  INFO 20468 --- [Thread-10] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 13:31:43.268  INFO 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条, 用时:19秒
+2020-09-29 13:32:00.002  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:33:23.762 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":416402,"plantform":"2","plantformUid":"2342346117","roomId":"8174393"}
+2020-09-29 13:33:38.061  INFO 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:114秒
+2020-09-29 13:34:00.002  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:35:23.768 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条数据获取超时; 详细数据:{"id":599168,"plantform":"2","plantformUid":"2382293321","roomId":"9221298"}
+2020-09-29 13:35:38.074 ERROR 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":30944,"plantform":"2","plantformUid":"2127955921","roomId":"8848267"}
+2020-09-29 13:36:00.001  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:37:23.777 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":658895,"plantform":"2","plantformUid":"2109185734","roomId":"9235845"}
+2020-09-29 13:37:38.079 ERROR 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":52821,"plantform":"2","plantformUid":"26237323","roomId":"224445"}
+2020-09-29 13:38:00.001  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:39:23.858 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":41243,"plantform":"2","plantformUid":"2377197818","roomId":"9129028"}
+2020-09-29 13:39:38.085 ERROR 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":376161,"plantform":"2","plantformUid":"2331612370","roomId":"8721017"}
+2020-09-29 13:40:00.001  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:41:23.863 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":662383,"plantform":"2","plantformUid":"267498452","roomId":"9236224"}
+2020-09-29 13:41:38.092 ERROR 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":653251,"plantform":"2","plantformUid":"2250582996","roomId":"9235363"}
+2020-09-29 13:42:00.001  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 13:43:23.870 ERROR 20468 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":568568,"plantform":"2","plantformUid":"2317140417","roomId":"9218605"}
+2020-09-29 13:43:38.105 ERROR 20468 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":345139,"plantform":"2","plantformUid":"2380559736","roomId":"9185574"}
+2020-09-29 13:44:00.001  INFO 20468 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:09:05.084  INFO 15292 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 15292 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:09:05.087  INFO 15292 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:09:06.189  INFO 15292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:09:06.199  INFO 15292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:09:06.200  INFO 15292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:09:06.278  INFO 15292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:09:06.278  INFO 15292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2020-09-29 14:09:06.670  INFO 15292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:09:06.792  INFO 15292 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:09:06.827  INFO 15292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:09:06.836  INFO 15292 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.025 seconds (JVM running for 2.682)
+2020-09-29 14:09:10.001  INFO 15292 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:09:15.001  INFO 15292 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:09:20.001  INFO 15292 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:09:30.843  INFO 8044 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 8044 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:09:30.848  INFO 8044 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:09:31.835  INFO 8044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:09:31.845  INFO 8044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:09:31.846  INFO 8044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:09:31.919  INFO 8044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:09:31.920  INFO 8044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2020-09-29 14:09:32.274  INFO 8044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:09:32.398  INFO 8044 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:09:32.434  INFO 8044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:09:32.449  INFO 8044 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.868 seconds (JVM running for 2.476)
+2020-09-29 14:10:02.065  INFO 6440 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 6440 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:10:02.067  INFO 6440 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:10:03.022  INFO 6440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:10:03.040  INFO 6440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:10:03.041  INFO 6440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:10:03.109  INFO 6440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:10:03.110  INFO 6440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
+2020-09-29 14:10:03.539  INFO 6440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:10:03.662  INFO 6440 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:10:03.700  INFO 6440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:10:03.714  INFO 6440 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.936 seconds (JVM running for 2.554)
+2020-09-29 14:10:05.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:10.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:15.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:20.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:25.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:30.000  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:35.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:40.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:45.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:50.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:10:55.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:00.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:05.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:10.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:15.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:20.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:25.003  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:30.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:35.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:40.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:45.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:50.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:11:55.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:12:00.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:12:00.004 ERROR 6440 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:35) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 14:12:05.002  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:12:10.000  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:12:15.001  INFO 6440 --- [scheduling-1] java.sql.Time                            : nice
+2020-09-29 14:12:26.368  INFO 18140 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 18140 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:12:26.370  INFO 18140 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:12:27.426  INFO 18140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:12:27.438  INFO 18140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:12:27.439  INFO 18140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:12:27.525  INFO 18140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:12:27.526  INFO 18140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2020-09-29 14:12:27.798  WARN 18140 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'timing' defined in file [E:\YCXGIT\HostInfo\target\classes\com\example\hostinfo\conf\Timing.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'runServer': Cron expression must consist of 6 fields (found 7 in "0 0 9 1 7 ? 2020")
+2020-09-29 14:12:27.802  INFO 18140 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-29 14:12:27.809  INFO 18140 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-29 14:12:27.823 ERROR 18140 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'timing' defined in file [E:\YCXGIT\HostInfo\target\classes\com\example\hostinfo\conf\Timing.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'runServer': Cron expression must consist of 6 fields (found 7 in "0 0 9 1 7 ? 2020")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.example.hostinfo.HostinfoApplication.main(HostinfoApplication.java:14) [classes/:na]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'runServer': Cron expression must consist of 6 fields (found 7 in "0 0 9 1 7 ? 2020")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_191]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_191]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:430) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 16 common frames omitted
+
+2020-09-29 14:12:44.640  INFO 22216 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 22216 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:12:44.642  INFO 22216 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:12:45.743  INFO 22216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:12:45.753  INFO 22216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:12:45.754  INFO 22216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:12:45.824  INFO 22216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:12:45.824  INFO 22216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1133 ms
+2020-09-29 14:12:46.198  INFO 22216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:12:46.323  INFO 22216 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:12:46.363  INFO 22216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:12:46.377  INFO 22216 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.025 seconds (JVM running for 2.663)
+2020-09-29 14:14:00.004 ERROR 22216 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:35) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 14:16:00.001 ERROR 22216 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:35) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 14:18:00.001 ERROR 22216 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:35) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 14:20:00.002 ERROR 22216 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.example.hostinfo.util.CalabashUtil.status(CalabashUtil.java:35) ~[classes/:na]
+	at com.example.hostinfo.conf.Timing.listenServer(Timing.java:35) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93) [spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_191]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 14:20:59.115  INFO 15340 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 15340 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:20:59.117  INFO 15340 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:21:00.038  INFO 15340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:21:00.047  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:21:00.048  INFO 15340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:21:00.127  INFO 15340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:21:00.128  INFO 15340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 965 ms
+2020-09-29 14:21:00.538  INFO 15340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:21:00.682  INFO 15340 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:21:00.721  INFO 15340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:21:00.735  INFO 15340 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.885 seconds (JVM running for 2.508)
+2020-09-29 14:21:05.001  INFO 15340 --- [Thread-9] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:10.001  INFO 15340 --- [Thread-10] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:10.082  INFO 15340 --- [Thread-9] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:21:10.100  INFO 15340 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 14:21:10.414  INFO 15340 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 14:21:10.420 DEBUG 15340 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:21:10.428 DEBUG 15340 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:06:10.082(Timestamp)
+2020-09-29 14:21:10.917 DEBUG 15340 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 11044
+2020-09-29 14:21:10.921  INFO 15340 --- [Thread-9] com.example.hostinfo.conf.Task           : 读取到数据总共有11044条
+2020-09-29 14:21:10.922  INFO 15340 --- [Thread-9] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:21:10.922  INFO 15340 --- [Thread-9] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:21:15.000  INFO 15340 --- [Thread-14] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:15.007  INFO 15340 --- [Thread-10] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:21:15.039 DEBUG 15340 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:21:15.039 DEBUG 15340 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:06:15.007(Timestamp)
+2020-09-29 14:21:15.442 DEBUG 15340 --- [Thread-10] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 11162
+2020-09-29 14:21:15.443  INFO 15340 --- [Thread-10] com.example.hostinfo.conf.Task           : 读取到数据总共有11162条
+2020-09-29 14:21:15.443  INFO 15340 --- [Thread-10] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:21:15.443  INFO 15340 --- [Thread-10] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:21:20.002  INFO 15340 --- [Thread-17] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:20.006  INFO 15340 --- [Thread-14] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:21:20.038 DEBUG 15340 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:21:20.039 DEBUG 15340 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:06:20.006(Timestamp)
+2020-09-29 14:21:20.439 DEBUG 15340 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10571
+2020-09-29 14:21:20.440  INFO 15340 --- [Thread-14] com.example.hostinfo.conf.Task           : 读取到数据总共有10571条
+2020-09-29 14:21:20.440  INFO 15340 --- [Thread-14] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:21:20.440  INFO 15340 --- [Thread-14] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:21:25.002  INFO 15340 --- [Thread-20] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:25.012  INFO 15340 --- [Thread-17] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:21:25.042 DEBUG 15340 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:21:25.043 DEBUG 15340 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:06:25.012(Timestamp)
+2020-09-29 14:21:25.456 DEBUG 15340 --- [Thread-17] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10571
+2020-09-29 14:21:25.456  INFO 15340 --- [Thread-17] com.example.hostinfo.conf.Task           : 读取到数据总共有10571条
+2020-09-29 14:21:25.456  INFO 15340 --- [Thread-17] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:21:25.456  INFO 15340 --- [Thread-17] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:21:30.002  INFO 15340 --- [Thread-23] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:21:30.010  INFO 15340 --- [Thread-20] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:21:30.041 DEBUG 15340 --- [Thread-20] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:21:30.042 DEBUG 15340 --- [Thread-20] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:06:30.01(Timestamp)
+2020-09-29 14:21:30.448 DEBUG 15340 --- [Thread-20] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10690
+2020-09-29 14:21:30.448  INFO 15340 --- [Thread-20] com.example.hostinfo.conf.Task           : 读取到数据总共有10690条
+2020-09-29 14:21:30.448  INFO 15340 --- [Thread-20] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:21:30.448  INFO 15340 --- [Thread-20] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:21:52.053  INFO 23068 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 23068 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:21:52.055  INFO 23068 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:21:53.025  INFO 23068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:21:53.032  INFO 23068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:21:53.032  INFO 23068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:21:53.109  INFO 23068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:21:53.110  INFO 23068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2020-09-29 14:21:53.551  INFO 23068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:21:53.683  INFO 23068 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:21:53.720  INFO 23068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:21:53.734  INFO 23068 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.948 seconds (JVM running for 2.579)
+2020-09-29 14:21:55.002  INFO 23068 --- [Thread-9] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:22:00.002  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:22:00.014  INFO 23068 --- [Thread-9] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:22:00.028  INFO 23068 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 14:22:00.328  INFO 23068 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 14:22:00.338 DEBUG 23068 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:22:00.409 DEBUG 23068 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:07:00.014(Timestamp)
+2020-09-29 14:22:00.851 DEBUG 23068 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10785
+2020-09-29 14:22:00.857  INFO 23068 --- [Thread-9] com.example.hostinfo.conf.Task           : 读取到数据总共有10785条
+2020-09-29 14:22:00.857  INFO 23068 --- [Thread-9] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:22:00.857  INFO 23068 --- [Thread-9] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:23:46.519  INFO 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条, 用时:105秒
+2020-09-29 14:24:00.002  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:24:00.909 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":30329,"plantform":"2","plantformUid":"2226953529","roomId":"5720047"}
+2020-09-29 14:24:57.571  INFO 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:56秒
+2020-09-29 14:25:45.858  INFO 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:119秒
+2020-09-29 14:26:00.001  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:26:44.640  INFO 18568 --- [main] c.e.hostinfo.HostinfoApplicationTests    : Starting HostinfoApplicationTests on SD-20200824WBZQ with PID 18568 (started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:26:44.641  INFO 18568 --- [main] c.e.hostinfo.HostinfoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-29 14:26:46.542  INFO 18568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:26:46.912  INFO 18568 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:26:46.961  INFO 18568 --- [main] c.e.hostinfo.HostinfoApplicationTests    : Started HostinfoApplicationTests in 2.566 seconds (JVM running for 3.565)
+2020-09-29 14:26:47.168  INFO 18568 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-09-29 14:26:47.168  INFO 18568 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:26:57.603 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":53830,"plantform":"2","plantformUid":"2330971078","roomId":"7730254"}
+2020-09-29 14:27:45.866 ERROR 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":42236,"plantform":"2","plantformUid":"2378506594","roomId":"9154141"}
+2020-09-29 14:28:00.000  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:28:57.608 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":152279,"plantform":"2","plantformUid":"2365786265","roomId":"8811080"}
+2020-09-29 14:29:45.873 ERROR 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":17372,"plantform":"2","plantformUid":"232403520","roomId":"613458"}
+2020-09-29 14:30:00.002  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:30:57.620 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":52349,"plantform":"2","plantformUid":"212362690","roomId":"3713905"}
+2020-09-29 14:31:45.879 ERROR 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":145942,"plantform":"2","plantformUid":"2348159546","roomId":"9066904"}
+2020-09-29 14:32:00.002  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:32:57.628 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":491182,"plantform":"2","plantformUid":"2231433103","roomId":"6420339"}
+2020-09-29 14:33:45.892 ERROR 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":341757,"plantform":"2","plantformUid":"2345421155","roomId":"8953548"}
+2020-09-29 14:34:00.001  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:34:57.633 ERROR 23068 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":29944,"plantform":"2","plantformUid":"2253019872","roomId":"7082524"}
+2020-09-29 14:35:45.905 ERROR 23068 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":24796,"plantform":"2","plantformUid":"2330966625","roomId":"7725190"}
+2020-09-29 14:36:00.003  INFO 23068 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:52:33.770  INFO 17528 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 17528 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:52:33.788  INFO 17528 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 14:52:34.869  INFO 17528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 14:52:34.877  INFO 17528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 14:52:34.877  INFO 17528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 14:52:34.962  INFO 17528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 14:52:34.962  INFO 17528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1133 ms
+2020-09-29 14:52:35.224  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 14:52:35.360  INFO 17528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:52:35.506  INFO 17528 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:52:35.550  INFO 17528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 14:52:35.561  INFO 17528 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.076 seconds (JVM running for 2.798)
+2020-09-29 14:52:40.233  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:52:40.246  INFO 17528 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 14:52:40.558  INFO 17528 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 14:52:40.563 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:52:40.607 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:37:40.233(Timestamp)
+2020-09-29 14:52:41.156 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 5908
+2020-09-29 14:52:41.162  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有5908条
+2020-09-29 14:52:41.162  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:52:41.162  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:52:57.483  INFO 16188 --- [main] c.e.hostinfo.HostinfoApplicationTests    : Starting HostinfoApplicationTests on SD-20200824WBZQ with PID 16188 (started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 14:52:57.484  INFO 16188 --- [main] c.e.hostinfo.HostinfoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-29 14:52:59.213  INFO 16188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:52:59.520  INFO 16188 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 14:52:59.577  INFO 16188 --- [main] c.e.hostinfo.HostinfoApplicationTests    : Started HostinfoApplicationTests in 2.372 seconds (JVM running for 3.274)
+2020-09-29 14:52:59.770  INFO 16188 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-09-29 14:52:59.773  INFO 16188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-29 14:53:16.454  INFO 17528 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条, 用时:35秒
+2020-09-29 14:54:00.002  INFO 17528 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:54:20.801  INFO 17528 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:99秒
+2020-09-29 14:54:38.244  INFO 17528 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:81秒
+2020-09-29 14:55:34.518  INFO 17528 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条, 用时:56秒
+2020-09-29 14:55:39.769  INFO 17528 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:78秒
+2020-09-29 14:56:00.001  INFO 17528 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:57:34.572 ERROR 17528 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":337482,"plantform":"2","plantformUid":"211829128","roomId":"5633957"}
+2020-09-29 14:57:39.776 ERROR 17528 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":574240,"plantform":"2","plantformUid":"2382249787","roomId":"9219811"}
+2020-09-29 14:58:00.002  INFO 17528 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 14:58:05.102  INFO 17528 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 14:58:05.102  INFO 17528 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-29 14:58:05.105  INFO 17528 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-09-29 14:58:05.126 ERROR 17528 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":472847,"plantform":"2","plantformUid":"28983347","roomId":"221480"}
+2020-09-29 14:58:05.126 ERROR 17528 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":29081,"plantform":"2","plantformUid":"245935066","roomId":"7551789"}
+2020-09-29 14:58:05.183 DEBUG 17528 --- [Thread-4] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
+2020-09-29 14:58:05.185 DEBUG 17528 --- [Thread-4] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 4075472(String), 2(String), 3651(Integer), 2887(Integer), 1(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 4103254(String), 2(String), 462(Integer), 102(Integer), 2(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 5181807(String), 2(String), 7918(Integer), 2900(Integer), 73(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 5525055(String), 2(String), 12540(Integer), 1573(Integer), 6(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 6043416(String), 2(String), 12388(Integer), 496(Integer), 9(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 7491883(String), 2(String), 8104(Integer), 1025(Integer), 4(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 7578477(String), 2(String), 8307(Integer), 1362(Integer), 9(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 8623108(String), 2(String), 1881(Integer), 823(Integer), 2(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 8926193(String), 2(String), 12264(Integer), 4076(Integer), 3(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 8930224(String), 2(String), 7909(Integer), 2917(Integer), 1(Integer), null, 2020-09-29 14:58:05.128(Timestamp), 9054038(String), 2(String), 8437(Integer), 1356(Integer), 2(Integer), null, 2020-09-29 14:58:05.129(Timestamp), 9129565(String), 2(String), 3599(Integer), 348(Integer), 1(Integer), null, 2020-09-29 14:58:05.129(Timestamp), 9160590(String), 2(String), 12137(Integer), 1439(Integer), 3(Integer), null, 2020-09-29 14:58:05.129(Timestamp)
+2020-09-29 14:58:05.221 DEBUG 17528 --- [Thread-4] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 13
+2020-09-29 14:58:05.221  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:58:05.221 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:58:05.221 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:43:05.221(Timestamp)
+2020-09-29 14:58:05.502 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 2893
+2020-09-29 14:58:05.503  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有2893条
+2020-09-29 14:58:05.503  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:58:05.503  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:58:31.948 ERROR 17528 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":83558,"plantform":"2","plantformUid":"210172398","roomId":"821554"}
+2020-09-29 14:58:31.948 ERROR 17528 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":99061,"plantform":"2","plantformUid":"227554119","roomId":"6834804"}
+2020-09-29 14:58:31.948  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:58:31.980 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:58:31.980 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:43:31.948(Timestamp)
+2020-09-29 14:58:32.252 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 2304
+2020-09-29 14:58:32.253  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有2304条
+2020-09-29 14:58:32.253  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:58:32.253  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:59:21.663 ERROR 17528 --- [pool-3-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":83558,"plantform":"2","plantformUid":"210172398","roomId":"821554"}
+2020-09-29 14:59:21.663 ERROR 17528 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":137514,"plantform":"2","plantformUid":"253768894","roomId":"7125097"}
+2020-09-29 14:59:21.664  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:59:21.696 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:59:21.697 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:44:21.664(Timestamp)
+2020-09-29 14:59:21.944 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1692
+2020-09-29 14:59:21.944  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有1692条
+2020-09-29 14:59:21.944  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:59:21.944  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 14:59:28.227 ERROR 17528 --- [pool-4-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":92609,"plantform":"2","plantformUid":"218138586","roomId":"550749"}
+2020-09-29 14:59:28.228 ERROR 17528 --- [pool-4-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":574043,"plantform":"2","plantformUid":"2205480052","roomId":"9219730"}
+2020-09-29 14:59:28.229  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 14:59:28.261 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 14:59:28.262 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:44:28.229(Timestamp)
+2020-09-29 14:59:28.508 DEBUG 17528 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1692
+2020-09-29 14:59:28.508  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有1692条
+2020-09-29 14:59:28.508  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 14:59:28.508  INFO 17528 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:00:00.000  INFO 17528 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:02:13.089  INFO 11284 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 11284 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:02:13.091  INFO 11284 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:02:14.421  INFO 11284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:02:14.441  INFO 11284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:02:14.441  INFO 11284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:02:14.609  INFO 11284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:02:14.609  INFO 11284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2020-09-29 15:02:15.537  INFO 11284 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:02:15.696  INFO 11284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:02:15.878  INFO 11284 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:02:15.923  INFO 11284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:02:15.933  INFO 11284 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.162 seconds (JVM running for 3.928)
+2020-09-29 15:02:20.559  INFO 11284 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:02:20.577  INFO 11284 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:02:20.960  INFO 11284 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:02:20.965 DEBUG 11284 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:02:21.009 DEBUG 11284 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 14:47:20.559(Timestamp)
+2020-09-29 15:02:21.317 DEBUG 11284 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1195
+2020-09-29 15:02:21.323  INFO 11284 --- [Thread-5] com.example.hostinfo.conf.Task           : 读取到数据总共有1195条
+2020-09-29 15:02:21.323  INFO 11284 --- [Thread-5] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 15:02:21.323  INFO 11284 --- [Thread-5] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:02:48.358  INFO 11284 --- [http-nio-8060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 15:02:48.359  INFO 11284 --- [http-nio-8060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-29 15:02:48.363  INFO 11284 --- [http-nio-8060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-09-29 15:04:00.003  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:04:21.413 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":14059,"plantform":"2","plantformUid":"296233619","roomId":"5637567"}
+2020-09-29 15:04:21.413 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":611860,"plantform":"2","plantformUid":"2344057399","roomId":"9227600"}
+2020-09-29 15:04:41.501  INFO 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第3条, 用时:20秒
+2020-09-29 15:04:49.275  INFO 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:27秒
+2020-09-29 15:06:00.002  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:06:41.508 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":19211,"plantform":"2","plantformUid":"2328294333","roomId":"7610971"}
+2020-09-29 15:06:49.282 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":392648,"plantform":"2","plantformUid":"2377322971","roomId":"9197333"}
+2020-09-29 15:08:00.000  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:08:41.526 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":15071,"plantform":"2","plantformUid":"2143157548","roomId":"2259748"}
+2020-09-29 15:08:49.300 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":80449,"plantform":"2","plantformUid":"221349869","roomId":"2219348"}
+2020-09-29 15:10:00.002  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:10:41.540 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":129469,"plantform":"2","plantformUid":"227106330","roomId":"447646"}
+2020-09-29 15:10:49.307 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":62534,"plantform":"2","plantformUid":"2204680847","roomId":"7494544"}
+2020-09-29 15:12:00.001  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:12:41.566 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":37460,"plantform":"2","plantformUid":"2270917104","roomId":"8979791"}
+2020-09-29 15:12:49.318 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":368395,"plantform":"2","plantformUid":"275955254","roomId":"9186680"}
+2020-09-29 15:14:00.001  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:14:41.575 ERROR 11284 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":494887,"plantform":"2","plantformUid":"221935576","roomId":"311426"}
+2020-09-29 15:14:49.327 ERROR 11284 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":137418,"plantform":"2","plantformUid":"2189985512","roomId":"7068329"}
+2020-09-29 15:16:00.001  INFO 11284 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:16:34.448  INFO 19576 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 19576 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:16:34.450  INFO 19576 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:16:35.385  INFO 19576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:16:35.393  INFO 19576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:16:35.394  INFO 19576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:16:35.463  INFO 19576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:16:35.464  INFO 19576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+2020-09-29 15:16:35.727  INFO 19576 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:16:35.851  INFO 19576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:16:35.990  INFO 19576 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:16:36.030  INFO 19576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:16:36.043  INFO 19576 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.894 seconds (JVM running for 2.731)
+2020-09-29 15:16:40.735  INFO 19576 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:16:40.752  INFO 19576 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:16:41.082  INFO 19576 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:16:41.087 DEBUG 19576 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:16:41.131 DEBUG 19576 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:01:40.735(Timestamp)
+2020-09-29 15:16:41.430 DEBUG 19576 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1377
+2020-09-29 15:16:41.435  INFO 19576 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有1377条
+2020-09-29 15:16:41.435  INFO 19576 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 15:16:41.435  INFO 19576 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:18:00.002  INFO 19576 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:18:41.497 ERROR 19576 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":560187,"plantform":"2","plantformUid":"2142409384","roomId":"2238315"}
+2020-09-29 15:18:41.497 ERROR 19576 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":350651,"plantform":"2","plantformUid":"220778260","roomId":"3377983"}
+2020-09-29 15:20:00.001  INFO 19576 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:20:53.315  INFO 15712 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 15712 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:20:53.320  INFO 15712 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:20:55.367  INFO 15712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:20:55.394  INFO 15712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:20:55.394  INFO 15712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:20:55.552  INFO 15712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:20:55.555  INFO 15712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2162 ms
+2020-09-29 15:20:55.957  INFO 15712 --- [Thread-9] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:20:56.157  INFO 15712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:20:56.429  INFO 15712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:20:56.495  INFO 15712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:20:56.514  INFO 15712 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 4.871 seconds (JVM running for 7.476)
+2020-09-29 15:21:00.965  INFO 15712 --- [Thread-9] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:21:00.995  INFO 15712 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:21:01.352  INFO 15712 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:21:01.362 DEBUG 15712 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:21:01.464 DEBUG 15712 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:06:00.965(Timestamp)
+2020-09-29 15:21:01.727 DEBUG 15712 --- [Thread-9] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 867
+2020-09-29 15:21:01.738  INFO 15712 --- [Thread-9] com.example.hostinfo.conf.Task           : 读取到数据总共有867条
+2020-09-29 15:21:01.739  INFO 15712 --- [Thread-9] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 15:21:01.740  INFO 15712 --- [Thread-9] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:22:00.054  INFO 15712 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:22:15.412  INFO 22380 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 22380 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:22:15.420  INFO 22380 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:22:17.670  INFO 22380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:22:17.679  INFO 22380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:22:17.680  INFO 22380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:22:17.817  INFO 22380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:22:17.818  INFO 22380 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2329 ms
+2020-09-29 15:22:18.162  INFO 22380 --- [Thread-8] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:22:18.372  INFO 22380 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:22:18.637  INFO 22380 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:22:18.704  INFO 22380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:22:18.722  INFO 22380 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.856 seconds (JVM running for 5.439)
+2020-09-29 15:22:23.191  INFO 22380 --- [Thread-8] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:22:23.215  INFO 22380 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:22:23.611  INFO 22380 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:22:23.616 DEBUG 22380 --- [Thread-8] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:22:23.702 DEBUG 22380 --- [Thread-8] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:07:23.191(Timestamp)
+2020-09-29 15:22:23.975 DEBUG 22380 --- [Thread-8] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 758
+2020-09-29 15:22:23.981  INFO 22380 --- [Thread-8] com.example.hostinfo.conf.Task           : 读取到数据总共有758条
+2020-09-29 15:22:23.981  INFO 22380 --- [Thread-8] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 15:22:23.982  INFO 22380 --- [Thread-8] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:23:08.126  INFO 22380 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:44秒
+2020-09-29 15:24:00.002  INFO 22380 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:24:16.395  INFO 22380 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:68秒
+2020-09-29 15:24:24.078 ERROR 22380 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":522274,"plantform":"2","plantformUid":"212466817","roomId":"2495713"}
+2020-09-29 15:24:42.581  INFO 21400 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 21400 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:24:42.584  INFO 21400 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:24:44.321  INFO 21400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:24:44.354  INFO 21400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:24:44.355  INFO 21400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:24:44.525  INFO 21400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:24:44.556  INFO 21400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1901 ms
+2020-09-29 15:24:45.038  INFO 21400 --- [Thread-7] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:24:45.326  INFO 21400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:24:45.624  INFO 21400 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:24:45.708  INFO 21400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:24:45.723  INFO 21400 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.625 seconds (JVM running for 4.768)
+2020-09-29 15:24:50.056  INFO 21400 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:24:50.074  INFO 21400 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:24:50.444  INFO 21400 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:24:50.459 DEBUG 21400 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:24:50.527 DEBUG 21400 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:09:50.056(Timestamp)
+2020-09-29 15:24:50.785 DEBUG 21400 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 437
+2020-09-29 15:24:50.792  INFO 21400 --- [Thread-7] com.example.hostinfo.conf.Task           : 读取到数据总共有437条
+2020-09-29 15:24:50.792  INFO 21400 --- [Thread-7] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 2
+2020-09-29 15:24:50.792  INFO 21400 --- [Thread-7] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:26:00.001  INFO 21400 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:26:50.892 ERROR 21400 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":15964,"plantform":"2","plantformUid":"2365752675","roomId":"8803951"}
+2020-09-29 15:26:50.892 ERROR 21400 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":63467,"plantform":"2","plantformUid":"21221619","roomId":"6902599"}
+2020-09-29 15:27:42.951  INFO 21400 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第4条, 用时:52秒
+2020-09-29 15:28:00.001  INFO 21400 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:28:50.900 ERROR 21400 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":82912,"plantform":"2","plantformUid":"2355400652","roomId":"8576039"}
+2020-09-29 15:29:42.962 ERROR 21400 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":85604,"plantform":"2","plantformUid":"23328874","roomId":"133609"}
+2020-09-29 15:30:00.002  INFO 21400 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:30:50.920 ERROR 21400 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":41040,"plantform":"2","plantformUid":"2369083775","roomId":"9010070"}
+2020-09-29 15:31:42.971 ERROR 21400 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":41413,"plantform":"2","plantformUid":"2370906380","roomId":"9010334"}
+2020-09-29 15:32:00.001  INFO 21400 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:32:50.942 ERROR 21400 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":22120,"plantform":"2","plantformUid":"2369906344","roomId":"9020272"}
+2020-09-29 15:33:03.918  INFO 17220 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 17220 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:33:03.920  INFO 17220 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:33:05.891  INFO 17220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:33:05.923  INFO 17220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:33:05.925  INFO 17220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:33:06.151  INFO 17220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:33:06.153  INFO 17220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2139 ms
+2020-09-29 15:33:06.588  INFO 17220 --- [Thread-7] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:33:06.829  INFO 17220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:33:07.118  INFO 17220 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:33:07.196  INFO 17220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:33:07.212  INFO 17220 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.807 seconds (JVM running for 5.057)
+2020-09-29 15:33:11.604  INFO 17220 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:33:11.629  INFO 17220 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:33:12.023  INFO 17220 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:33:12.029 DEBUG 17220 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:33:12.097 DEBUG 17220 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:18:11.605(Timestamp)
+2020-09-29 15:33:12.305 DEBUG 17220 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:34:00.002  INFO 17220 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:35:08.065  INFO 13780 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 13780 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 15:35:08.093  INFO 13780 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 15:35:10.145  INFO 13780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 15:35:10.158  INFO 13780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 15:35:10.159  INFO 13780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 15:35:10.337  INFO 13780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 15:35:10.339  INFO 13780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2171 ms
+2020-09-29 15:35:10.793  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 15:35:11.012  INFO 13780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 15:35:11.295  INFO 13780 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 15:35:11.367  INFO 13780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 15:35:11.380  INFO 13780 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.849 seconds (JVM running for 5.088)
+2020-09-29 15:35:15.811  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:35:15.830  INFO 13780 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 15:35:16.200  INFO 13780 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 15:35:16.205 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:35:16.279 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:20:15.811(Timestamp)
+2020-09-29 15:35:16.471 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:35:16.479  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:35:16.479 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:36:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:37:16.480  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:37:16.516 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:37:16.517 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:22:16.48(Timestamp)
+2020-09-29 15:37:16.693 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:37:16.693  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:37:16.693 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:38:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:39:16.693  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:39:16.729 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:39:16.729 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:24:16.693(Timestamp)
+2020-09-29 15:39:16.909 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:39:16.909  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:39:16.909 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:40:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:41:16.910  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:41:16.946 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:41:16.946 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:26:16.91(Timestamp)
+2020-09-29 15:41:17.125 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:41:17.127  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:41:17.127 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:42:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:43:17.128  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:43:17.163 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:43:17.164 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:28:17.128(Timestamp)
+2020-09-29 15:43:17.340 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:43:17.341  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:43:17.341 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:44:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:45:17.342  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:45:17.378 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:45:17.378 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:30:17.342(Timestamp)
+2020-09-29 15:45:17.589 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:45:17.590  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:45:17.59 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:46:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:47:17.590  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:47:17.631 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:47:17.631 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:32:17.59(Timestamp)
+2020-09-29 15:47:17.842 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:47:17.842  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:47:17.842 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:48:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:49:17.842  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:49:17.877 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:49:17.877 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:34:17.842(Timestamp)
+2020-09-29 15:49:18.088 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:49:18.088  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:49:18.088 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:50:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:51:18.089  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:51:18.124 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:51:18.124 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:36:18.089(Timestamp)
+2020-09-29 15:51:18.336 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:51:18.336  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:51:18.336 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:52:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:53:18.338  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:53:18.375 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:53:18.375 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:38:18.338(Timestamp)
+2020-09-29 15:53:18.585 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 0
+2020-09-29 15:53:18.585  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 当前时间:2020-09-29 15:53:18.585 没有获取数据, 程序将于两分钟后运行
+2020-09-29 15:54:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:55:18.586  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 15:55:18.622 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 15:55:18.622 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:40:18.586(Timestamp)
+2020-09-29 15:55:19.054 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1432
+2020-09-29 15:55:19.054  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 读取到数据总共有1432条
+2020-09-29 15:55:19.055  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 3
+2020-09-29 15:55:19.055  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 15:55:59.542  INFO 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:40秒
+2020-09-29 15:56:00.003  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:56:09.876  INFO 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:10秒
+2020-09-29 15:56:24.254  INFO 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条, 用时:14秒
+2020-09-29 15:56:43.968  INFO 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条, 用时:84秒
+2020-09-29 15:57:05.132  INFO 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第3条, 用时:106秒
+2020-09-29 15:58:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 15:58:24.305 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":744,"plantform":"2","plantformUid":"2366611846","roomId":"8966906"}
+2020-09-29 15:58:43.973 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":75453,"plantform":"2","plantformUid":"2176056955","roomId":"8170581"}
+2020-09-29 15:59:05.139 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":4348,"plantform":"2","plantformUid":"2315197494","roomId":"7305938"}
+2020-09-29 16:00:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:00:00.060 DEBUG 13780 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
+2020-09-29 16:00:00.062 DEBUG 13780 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 131977(String), 2(String), 63870(Integer), 233110(Integer), 561(Integer), null, 2020-09-29 16:00:00.002(Timestamp), 1665579(String), 2(String), 4844(Integer), 6158(Integer), 1(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 3656383(String), 2(String), 61850(Integer), 251898(Integer), 14(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 466692(String), 2(String), 6224(Integer), 343(Integer), 22(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 5918293(String), 2(String), 111859(Integer), 737(Integer), 57(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 9044296(String), 2(String), 6603(Integer), 2235(Integer), 5(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 9160173(String), 2(String), 4811(Integer), 703(Integer), 2(Integer), null, 2020-09-29 16:00:00.003(Timestamp), 9173768(String), 2(String), 59973(Integer), 669(Integer), 2(Integer), null, 2020-09-29 16:00:00.003(Timestamp)
+2020-09-29 16:00:00.098 DEBUG 13780 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 8
+2020-09-29 16:00:24.312 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":1421,"plantform":"2","plantformUid":"2213674795","roomId":"5391916"}
+2020-09-29 16:00:43.987 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":56818,"plantform":"2","plantformUid":"272660759","roomId":"7007581"}
+2020-09-29 16:01:05.145 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":56781,"plantform":"2","plantformUid":"2346658351","roomId":"8224477"}
+2020-09-29 16:02:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:02:24.318 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":127707,"plantform":"2","plantformUid":"22624526","roomId":"9076410"}
+2020-09-29 16:02:43.994 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":42999,"plantform":"2","plantformUid":"219806818","roomId":"544865"}
+2020-09-29 16:03:05.151 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":2788,"plantform":"2","plantformUid":"2367479042","roomId":"8869614"}
+2020-09-29 16:04:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:04:24.330 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":3534,"plantform":"2","plantformUid":"2147183672","roomId":"2455234"}
+2020-09-29 16:04:44.000 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":2728,"plantform":"2","plantformUid":"2305828867","roomId":"7136517"}
+2020-09-29 16:05:05.159 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":127632,"plantform":"2","plantformUid":"2200684703","roomId":"4835718"}
+2020-09-29 16:06:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:06:24.338 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":1262,"plantform":"2","plantformUid":"2340556206","roomId":"8983940"}
+2020-09-29 16:06:44.026 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":2589,"plantform":"2","plantformUid":"2372326874","roomId":"8988198"}
+2020-09-29 16:07:05.171 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":43498,"plantform":"2","plantformUid":"2142153335","roomId":"2227474"}
+2020-09-29 16:08:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:08:24.353 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第21条数据获取超时; 详细数据:{"id":33422,"plantform":"2","plantformUid":"216235152","roomId":"8752041"}
+2020-09-29 16:08:44.049 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第22条数据获取超时; 详细数据:{"id":25882,"plantform":"2","plantformUid":"2305872982","roomId":"7622977"}
+2020-09-29 16:09:05.179 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第23条数据获取超时; 详细数据:{"id":1870,"plantform":"2","plantformUid":"2316958714","roomId":"7512931"}
+2020-09-29 16:10:00.002  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:10:24.369 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第24条数据获取超时; 详细数据:{"id":57297,"plantform":"2","plantformUid":"2373295093","roomId":"9013841"}
+2020-09-29 16:10:44.058 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第25条数据获取超时; 详细数据:{"id":127704,"plantform":"2","plantformUid":"28858137","roomId":"974900"}
+2020-09-29 16:11:05.185 ERROR 13780 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第26条数据获取超时; 详细数据:{"id":3379,"plantform":"2","plantformUid":"2337242825","roomId":"7903307"}
+2020-09-29 16:11:59.058 ERROR 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-09-29 16:11:59.058  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 读取到数据总共有0条
+2020-09-29 16:11:59.058  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 3
+2020-09-29 16:11:59.058  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 16:11:59.058  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:11:59.092 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 16:11:59.092 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:56:59.058(Timestamp)
+2020-09-29 16:12:00.001  INFO 13780 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:12:00.021 DEBUG 13780 --- [Thread-7] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10553
+2020-09-29 16:12:00.021  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 读取到数据总共有10553条
+2020-09-29 16:12:00.022  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 3
+2020-09-29 16:12:00.022  INFO 13780 --- [Thread-7] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 16:12:24.375 ERROR 13780 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第27条数据获取超时; 详细数据:{"id":170455,"plantform":"2","plantformUid":"2379767412","roomId":"9170610"}
+2020-09-29 16:12:44.065 ERROR 13780 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第28条数据获取超时; 详细数据:{"id":155987,"plantform":"2","plantformUid":"29300367","roomId":"201535"}
+2020-09-29 16:13:21.132  INFO 17248 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 17248 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 16:13:21.142  INFO 17248 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 16:13:22.038  INFO 17248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 16:13:22.053  INFO 17248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 16:13:22.053  INFO 17248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 16:13:22.120  INFO 17248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 16:13:22.120  INFO 17248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2020-09-29 16:13:22.377  INFO 17248 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 16:13:22.499  INFO 17248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 16:13:22.651  INFO 17248 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 16:13:22.689  INFO 17248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 16:13:22.698  INFO 17248 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.861 seconds (JVM running for 2.776)
+2020-09-29 16:13:27.391  INFO 17248 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:13:27.406  INFO 17248 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 16:13:27.724  INFO 17248 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 16:13:27.731 DEBUG 17248 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 16:13:27.810 DEBUG 17248 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 15:58:27.392(Timestamp)
+2020-09-29 16:13:28.363 DEBUG 17248 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10660
+2020-09-29 16:13:28.367  INFO 17248 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有10660条
+2020-09-29 16:13:28.368  INFO 17248 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-09-29 16:13:28.368  INFO 17248 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 16:14:00.001  INFO 17248 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:15:28.424 ERROR 17248 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":15061,"plantform":"2","plantformUid":"2107488119","roomId":"9025707"}
+2020-09-29 16:15:40.071  INFO 17248 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:11秒
+2020-09-29 16:16:00.002  INFO 17248 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:17:40.082 ERROR 17248 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":311594,"plantform":"2","plantformUid":"219464699","roomId":"329545"}
+2020-09-29 16:18:00.002  INFO 17248 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:19:44.358  INFO 17944 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 17944 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 16:19:44.360  INFO 17944 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 16:19:45.266  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 16:19:45.280  INFO 17944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 16:19:45.281  INFO 17944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 16:19:45.344  INFO 17944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 16:19:45.344  INFO 17944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2020-09-29 16:19:45.574  INFO 17944 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 16:19:45.700  INFO 17944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 16:19:45.817  INFO 17944 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 16:19:45.872  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 16:19:45.898  INFO 17944 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.779 seconds (JVM running for 2.524)
+2020-09-29 16:19:50.582  INFO 17944 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:19:50.594  INFO 17944 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 16:19:50.889  INFO 17944 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 16:19:50.895 DEBUG 17944 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 16:19:50.957 DEBUG 17944 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 16:04:50.582(Timestamp)
+2020-09-29 16:19:51.807 DEBUG 17944 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10478
+2020-09-29 16:19:51.812  INFO 17944 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有10478条
+2020-09-29 16:19:51.812  INFO 17944 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-09-29 16:19:51.812  INFO 17944 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 16:20:00.003  INFO 17944 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:21:51.863 ERROR 17944 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":382191,"plantform":"2","plantformUid":"225115845","roomId":"9125057"}
+2020-09-29 16:22:00.001  INFO 17944 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:23:51.868 ERROR 17944 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":423750,"plantform":"2","plantformUid":"2375962702","roomId":"9101446"}
+2020-09-29 16:24:00.001  INFO 17944 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:25:51.880 ERROR 17944 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":423745,"plantform":"2","plantformUid":"2375908745","roomId":"9096402"}
+2020-09-29 16:26:00.002  INFO 17944 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:27:51.887 ERROR 17944 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条数据获取超时; 详细数据:{"id":407230,"plantform":"2","plantformUid":"2114935410","roomId":"9085483"}
+2020-09-29 16:28:00.001  INFO 17944 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:33:31.632  INFO 11948 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 11948 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 16:33:31.634  INFO 11948 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 16:33:32.826  INFO 11948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 16:33:32.838  INFO 11948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 16:33:32.839  INFO 11948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 16:33:32.940  INFO 11948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 16:33:32.941  INFO 11948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2020-09-29 16:33:33.260  INFO 11948 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 16:33:33.419  INFO 11948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 16:33:33.624  INFO 11948 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 16:33:33.671  INFO 11948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 16:33:33.682  INFO 11948 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.406 seconds (JVM running for 3.327)
+2020-09-29 16:33:38.328  INFO 11948 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:33:38.362  INFO 11948 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 16:33:40.520 ERROR 11948 --- [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for non-replication superuser connections
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2644) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:137) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:255) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:217) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.Driver.makeConnection(Driver.java:458) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.Driver.connect(Driver.java:260) ~[postgresql-42.2.14.jar:42.2.14]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.5.jar:3.5.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.5.jar:2.0.5]
+	at com.sun.proxy.$Proxy53.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) [mybatis-3.5.5.jar:3.5.5]
+	at com.sun.proxy.$Proxy54.selectByToDay(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.sun.proxy.$Proxy55.selectByToDay(Unknown Source) [na:na]
+	at com.example.hostinfo.service.HostService.getData_toDay(HostService.java:21) [classes/:na]
+	at com.example.hostinfo.conf.Task.getList(Task.java:100) [classes/:na]
+	at com.example.hostinfo.conf.Task.start(Task.java:105) [classes/:na]
+	at com.example.hostinfo.conf.Task.runClient(Task.java:175) [classes/:na]
+	at com.example.hostinfo.conf.Task$1.run(Task.java:59) [classes/:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 16:34:27.240  INFO 8212 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 8212 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 16:34:27.243  INFO 8212 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 16:34:28.443  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 16:34:28.450  INFO 8212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 16:34:28.451  INFO 8212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 16:34:28.565  INFO 8212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 16:34:28.565  INFO 8212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2020-09-29 16:34:28.855  INFO 8212 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 16:34:29.017  INFO 8212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 16:34:29.180  INFO 8212 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 16:34:29.224  INFO 8212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 16:34:29.240  INFO 8212 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.346 seconds (JVM running for 3.26)
+2020-09-29 16:34:33.863  INFO 8212 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:34:33.893  INFO 8212 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 16:34:35.060 ERROR 8212 --- [Thread-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for non-replication superuser connections
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2644) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:137) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:255) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:217) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.Driver.makeConnection(Driver.java:458) ~[postgresql-42.2.14.jar:42.2.14]
+	at org.postgresql.Driver.connect(Driver.java:260) ~[postgresql-42.2.14.jar:42.2.14]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.5.jar:3.5.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.5.jar:2.0.5]
+	at com.sun.proxy.$Proxy53.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.5.jar:2.0.5]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152) [mybatis-3.5.5.jar:3.5.5]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) [mybatis-3.5.5.jar:3.5.5]
+	at com.sun.proxy.$Proxy54.selectByToDay(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at com.sun.proxy.$Proxy55.selectByToDay(Unknown Source) [na:na]
+	at com.example.hostinfo.service.HostService.getData_toDay(HostService.java:21) [classes/:na]
+	at com.example.hostinfo.conf.Task.getList(Task.java:100) [classes/:na]
+	at com.example.hostinfo.conf.Task.start(Task.java:105) [classes/:na]
+	at com.example.hostinfo.conf.Task.runClient(Task.java:175) [classes/:na]
+	at com.example.hostinfo.conf.Task$1.run(Task.java:59) [classes/:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+
+2020-09-29 16:35:15.712  INFO 5524 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 5524 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 16:35:15.714  INFO 5524 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 16:35:16.948  INFO 5524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 16:35:16.963  INFO 5524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 16:35:16.964  INFO 5524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 16:35:17.060  INFO 5524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 16:35:17.060  INFO 5524 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1242 ms
+2020-09-29 16:35:17.323  INFO 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 16:35:17.476  INFO 5524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 16:35:17.660  INFO 5524 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 16:35:17.714  INFO 5524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 16:35:17.724  INFO 5524 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.453 seconds (JVM running for 3.349)
+2020-09-29 16:35:22.339  INFO 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 16:35:22.352  INFO 5524 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 16:35:22.704  INFO 5524 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 16:35:22.711 DEBUG 5524 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
+2020-09-29 16:35:22.760 DEBUG 5524 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 16:20:22.339(Timestamp)
+2020-09-29 16:35:23.252 DEBUG 5524 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 2915
+2020-09-29 16:35:23.260  INFO 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 读取到数据总共有2915条
+2020-09-29 16:35:23.261  INFO 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-09-29 16:35:23.261  INFO 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 16:36:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:37:23.318 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":166055,"plantform":"2","plantformUid":"2194929838","roomId":"4585566"}
+2020-09-29 16:38:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:39:23.323 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":141195,"plantform":"2","plantformUid":"2325039021","roomId":"8715472"}
+2020-09-29 16:39:46.557  INFO 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:23秒
+2020-09-29 16:40:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:40:35.445  INFO 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:48秒
+2020-09-29 16:42:00.003  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:42:35.452 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":22582,"plantform":"2","plantformUid":"220546971","roomId":"7589475"}
+2020-09-29 16:44:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:44:35.461 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":237960,"plantform":"2","plantformUid":"2214256984","roomId":"8682156"}
+2020-09-29 16:46:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:46:35.485 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":237947,"plantform":"2","plantformUid":"2189084665","roomId":"9147260"}
+2020-09-29 16:48:00.023  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:48:35.491 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":237933,"plantform":"2","plantformUid":"2333691144","roomId":"8398235"}
+2020-09-29 16:50:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:50:35.505 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":521881,"plantform":"2","plantformUid":"231773877","roomId":"9209931"}
+2020-09-29 16:52:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:52:03.265 ERROR 5524 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-09-29 16:52:35.527 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":476433,"plantform":"2","plantformUid":"299568988","roomId":"5036078"}
+2020-09-29 16:54:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:54:35.537 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":413513,"plantform":"2","plantformUid":"260074219","roomId":"839169"}
+2020-09-29 16:56:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:56:35.549 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":42315,"plantform":"2","plantformUid":"2186550525","roomId":"6455113"}
+2020-09-29 16:58:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 16:58:35.579 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":477468,"plantform":"2","plantformUid":"2311912377","roomId":"8561261"}
+2020-09-29 17:00:00.000  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:00:00.081 DEBUG 5524 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
+2020-09-29 17:00:00.089 DEBUG 5524 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 2050221(String), 2(Integer), 915(Integer), 1652(Integer), 1(Integer), null, 2020-09-29 17:00:00.007(Timestamp), 3487641(String), 2(Integer), 3143(Integer), 3091(Integer), 1(Integer), null, 2020-09-29 17:00:00.008(Timestamp), 5720533(String), 2(Integer), 1656472(Integer), 846332(Integer), 3801(Integer), null, 2020-09-29 17:00:00.009(Timestamp), 5801xiaowei(String), 1(Integer), 916411(Integer), 1354015(Integer), 473(Integer), null, 2020-09-29 17:00:00.009(Timestamp)
+2020-09-29 17:00:00.129 DEBUG 5524 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 4
+2020-09-29 17:00:35.590 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":349097,"plantform":"2","plantformUid":"2380370772","roomId":"9192746"}
+2020-09-29 17:02:00.003  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:02:35.603 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":40372,"plantform":"2","plantformUid":"2148719688","roomId":"7978616"}
+2020-09-29 17:04:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:04:35.612 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":646783,"plantform":"2","plantformUid":"2349444847","roomId":"8339063"}
+2020-09-29 17:06:00.001  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:06:35.620 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":349064,"plantform":"2","plantformUid":"2213410830","roomId":"7328927"}
+2020-09-29 17:08:00.002  INFO 5524 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:08:35.633 ERROR 5524 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":124476,"plantform":"2","plantformUid":"26368677","roomId":"6357770"}
+2020-09-29 17:09:36.750  INFO 23520 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 23520 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 17:09:36.752  INFO 23520 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 17:09:38.132  INFO 23520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 17:09:38.142  INFO 23520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 17:09:38.144  INFO 23520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 17:09:38.275  INFO 23520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 17:09:38.281  INFO 23520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
+2020-09-29 17:09:38.636  INFO 23520 --- [Thread-6] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 17:09:38.805  INFO 23520 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 17:09:38.994  INFO 23520 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 17:09:39.049  INFO 23520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 17:09:39.066  INFO 23520 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.709 seconds (JVM running for 3.834)
+2020-09-29 17:09:43.648  INFO 23520 --- [Thread-6] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 17:09:43.676  INFO 23520 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 17:09:44.044  INFO 23520 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 17:09:44.051 DEBUG 23520 --- [Thread-6] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc;
+2020-09-29 17:09:44.109 DEBUG 23520 --- [Thread-6] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 16:54:43.648(Timestamp)
+2020-09-29 17:09:45.008 DEBUG 23520 --- [Thread-6] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 9100
+2020-09-29 17:09:45.012  INFO 23520 --- [Thread-6] com.example.hostinfo.conf.Task           : 读取到数据总共有9100条
+2020-09-29 17:09:45.012  INFO 23520 --- [Thread-6] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-09-29 17:09:45.012  INFO 23520 --- [Thread-6] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 17:10:00.001  INFO 23520 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:10:35.209  INFO 23520 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:50秒
+2020-09-29 17:10:40.964  INFO 23520 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:5秒
+2020-09-29 17:11:31.051  INFO 6884 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 6884 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 17:11:31.063  INFO 6884 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 17:11:32.069  INFO 6884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 17:11:32.084  INFO 6884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 17:11:32.084  INFO 6884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 17:11:32.156  INFO 6884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 17:11:32.156  INFO 6884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2020-09-29 17:11:32.530  INFO 6884 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 17:11:32.755  INFO 6884 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 17:11:32.952  INFO 6884 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 17:11:33.051  INFO 6884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 17:11:33.068  INFO 6884 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.4 seconds (JVM running for 3.389)
+2020-09-29 17:11:37.547  INFO 6884 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 17:11:37.570  INFO 6884 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 17:11:37.893  INFO 6884 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 17:11:37.899 DEBUG 6884 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc;
+2020-09-29 17:11:37.948 DEBUG 6884 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 16:56:37.547(Timestamp)
+2020-09-29 17:11:38.441 DEBUG 6884 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 7866
+2020-09-29 17:11:38.450  INFO 6884 --- [Thread-5] com.example.hostinfo.conf.Task           : 读取到数据总共有7866条
+2020-09-29 17:11:38.451  INFO 6884 --- [Thread-5] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 5
+2020-09-29 17:11:38.451  INFO 6884 --- [Thread-5] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 17:12:00.001  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:12:09.566  INFO 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第4条, 用时:31秒
+2020-09-29 17:12:11.834  INFO 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第5条, 用时:33秒
+2020-09-29 17:12:31.540  INFO 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第7条, 用时:19秒
+2020-09-29 17:13:38.518 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":474903,"plantform":"1","plantformUid":"1537250501","roomId":"10530655"}
+2020-09-29 17:13:38.518 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":139720,"plantform":"1","plantformUid":"1386111781","roomId":"22378017"}
+2020-09-29 17:13:38.518 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":653784,"plantform":"1","plantformUid":"11199556621765","roomId":"23355737"}
+2020-09-29 17:13:41.148  INFO 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第11条, 用时:2秒
+2020-09-29 17:13:42.700  INFO 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条, 用时:4秒
+2020-09-29 17:13:50.787  INFO 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条, 用时:8秒
+2020-09-29 17:14:00.003  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:14:09.573 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":228557,"plantform":"1","plantformUid":"12381424654","roomId":"22694275"}
+2020-09-29 17:14:11.244  INFO 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第10条, 用时:32秒
+2020-09-29 17:14:31.547 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":219067,"plantform":"1","plantformUid":"11617032727","roomId":"15110360"}
+2020-09-29 17:15:41.165 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":31035,"plantform":"1","plantformUid":"11138395389","roomId":"22756590"}
+2020-09-29 17:15:50.799 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":643338,"plantform":"1","plantformUid":"191269653","roomId":"10203932"}
+2020-09-29 17:16:00.001  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:16:09.581 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":28040,"plantform":"1","plantformUid":"11259524884477","roomId":"20878835"}
+2020-09-29 17:16:11.254 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":247523,"plantform":"1","plantformUid":"11199546365222","roomId":"22720860"}
+2020-09-29 17:16:31.557 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":640517,"plantform":"1","plantformUid":"11636101769","roomId":"12088316"}
+2020-09-29 17:17:41.180 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":640537,"plantform":"1","plantformUid":"11259518434679","roomId":"23328610"}
+2020-09-29 17:17:50.813 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":112618,"plantform":"1","plantformUid":"116904333","roomId":"19761905"}
+2020-09-29 17:18:00.001  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:18:09.661 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":489093,"plantform":"1","plantformUid":"11259512282893","roomId":"21920397"}
+2020-09-29 17:18:11.259 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第21条数据获取超时; 详细数据:{"id":354226,"plantform":"1","plantformUid":"11199552888314","roomId":"23137980"}
+2020-09-29 17:18:31.568 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第22条数据获取超时; 详细数据:{"id":352056,"plantform":"1","plantformUid":"11630238602","roomId":"16251618"}
+2020-09-29 17:19:41.244 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第23条数据获取超时; 详细数据:{"id":100480,"plantform":"1","plantformUid":"1810072114","roomId":"10642292"}
+2020-09-29 17:19:50.823 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第24条数据获取超时; 详细数据:{"id":203573,"plantform":"1","plantformUid":"11199537809384","roomId":"22105263"}
+2020-09-29 17:20:00.004  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:20:09.667 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第25条数据获取超时; 详细数据:{"id":380841,"plantform":"1","plantformUid":"12341252823","roomId":"23147817"}
+2020-09-29 17:20:11.264 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第26条数据获取超时; 详细数据:{"id":63281,"plantform":"1","plantformUid":"11199550442733","roomId":"23005989"}
+2020-09-29 17:20:31.577 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第27条数据获取超时; 详细数据:{"id":230252,"plantform":"1","plantformUid":"11259523246428","roomId":"22813740"}
+2020-09-29 17:21:41.254 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第28条数据获取超时; 详细数据:{"id":243737,"plantform":"1","plantformUid":"11199545224054","roomId":"22627534"}
+2020-09-29 17:21:50.834 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第29条数据获取超时; 详细数据:{"id":265516,"plantform":"1","plantformUid":"11279514586937","roomId":"23126345"}
+2020-09-29 17:22:00.002  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:22:09.686 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第30条数据获取超时; 详细数据:{"id":70867,"plantform":"1","plantformUid":"12298124003","roomId":"19827097"}
+2020-09-29 17:22:11.270 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第31条数据获取超时; 详细数据:{"id":222373,"plantform":"1","plantformUid":"12306632583","roomId":"22076532"}
+2020-09-29 17:22:31.585 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第32条数据获取超时; 详细数据:{"id":427411,"plantform":"1","plantformUid":"12210518743","roomId":"14809396"}
+2020-09-29 17:23:41.261 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第33条数据获取超时; 详细数据:{"id":273387,"plantform":"1","plantformUid":"11370494540","roomId":"18000517"}
+2020-09-29 17:23:50.840 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第34条数据获取超时; 详细数据:{"id":655041,"plantform":"1","plantformUid":"1778962088","roomId":"21097885"}
+2020-09-29 17:24:00.002  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:24:09.698 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第35条数据获取超时; 详细数据:{"id":129178,"plantform":"1","plantformUid":"12245323272","roomId":"15358119"}
+2020-09-29 17:24:11.276 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第36条数据获取超时; 详细数据:{"id":154332,"plantform":"1","plantformUid":"11199535416018","roomId":"21676130"}
+2020-09-29 17:24:31.595 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第37条数据获取超时; 详细数据:{"id":119408,"plantform":"1","plantformUid":"11199549838569","roomId":"22991914"}
+2020-09-29 17:25:41.271 ERROR 6884 --- [pool-1-thread-2] com.example.hostinfo.conf.Task           : 第38条数据获取超时; 详细数据:{"id":70425,"plantform":"1","plantformUid":"11199513971840","roomId":"18022602"}
+2020-09-29 17:25:50.851 ERROR 6884 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第39条数据获取超时; 详细数据:{"id":264982,"plantform":"1","plantformUid":"11259530254688","roomId":"23148983"}
+2020-09-29 17:26:00.001  INFO 6884 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:26:09.704 ERROR 6884 --- [pool-1-thread-4] com.example.hostinfo.conf.Task           : 第40条数据获取超时; 详细数据:{"id":185999,"plantform":"1","plantformUid":"14338748","roomId":"10028906"}
+2020-09-29 17:26:11.289 ERROR 6884 --- [pool-1-thread-3] com.example.hostinfo.conf.Task           : 第41条数据获取超时; 详细数据:{"id":139246,"plantform":"1","plantformUid":"11199554254754","roomId":"23221120"}
+2020-09-29 17:26:31.631 ERROR 6884 --- [pool-1-thread-5] com.example.hostinfo.conf.Task           : 第42条数据获取超时; 详细数据:{"id":469611,"plantform":"1","plantformUid":"11199553871818","roomId":"23200654"}
+2020-09-29 17:27:18.327  INFO 18652 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 18652 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-09-29 17:27:18.329  INFO 18652 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-09-29 17:27:19.684  INFO 18652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-09-29 17:27:19.694  INFO 18652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-29 17:27:19.695  INFO 18652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-29 17:27:19.777  INFO 18652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-29 17:27:19.778  INFO 18652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1375 ms
+2020-09-29 17:27:20.534  INFO 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-09-29 17:27:20.844  INFO 18652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 17:27:21.059  INFO 18652 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-09-29 17:27:21.122  INFO 18652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-09-29 17:27:21.134  INFO 18652 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 3.166 seconds (JVM running for 4.203)
+2020-09-29 17:27:25.616  INFO 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-09-29 17:27:25.636  INFO 18652 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-29 17:27:25.978  INFO 18652 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-29 17:27:25.984 DEBUG 18652 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc;
+2020-09-29 17:27:26.051 DEBUG 18652 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-29 17:12:25.616(Timestamp)
+2020-09-29 17:27:26.887 DEBUG 18652 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10770
+2020-09-29 17:27:26.897  INFO 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 读取到数据总共有10770条
+2020-09-29 17:27:26.898  INFO 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-09-29 17:27:26.898  INFO 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 数据读取中...
+2020-09-29 17:28:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:28:05.419  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:38秒
+2020-09-29 17:28:20.808  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:15秒
+2020-09-29 17:28:23.871  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:3秒
+2020-09-29 17:28:34.604  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:10秒
+2020-09-29 17:29:08.361  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条, 用时:33秒
+2020-09-29 17:30:00.002  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:31:08.420 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":497618,"plantform":"1","plantformUid":"11199530689610","roomId":"21354996"}
+2020-09-29 17:31:45.890  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条, 用时:37秒
+2020-09-29 17:32:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:32:50.892  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条, 用时:65秒
+2020-09-29 17:34:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:34:50.908 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":22438,"plantform":"1","plantformUid":"11099531752873","roomId":"21103951"}
+2020-09-29 17:34:56.034  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条, 用时:5秒
+2020-09-29 17:34:58.167  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条, 用时:2秒
+2020-09-29 17:36:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:36:58.173 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":648319,"plantform":"1","plantformUid":"11199552754753","roomId":"23130535"}
+2020-09-29 17:37:32.487  INFO 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条, 用时:34秒
+2020-09-29 17:38:00.002  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:39:32.502 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":13537,"plantform":"1","plantformUid":"1248696333","roomId":"10364106"}
+2020-09-29 17:40:00.002  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:41:32.513 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":21287,"plantform":"1","plantformUid":"11813453624","roomId":"20359932"}
+2020-09-29 17:42:00.000  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:43:32.519 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":262178,"plantform":"1","plantformUid":"12185610385","roomId":"20235689"}
+2020-09-29 17:44:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:44:06.903 ERROR 18652 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-09-29 17:45:32.526 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":650455,"plantform":"1","plantformUid":"11276639281","roomId":"23342863"}
+2020-09-29 17:46:00.002  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:47:32.534 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":118389,"plantform":"1","plantformUid":"111096390","roomId":"18084736"}
+2020-09-29 17:48:00.002  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:49:32.542 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":646072,"plantform":"1","plantformUid":"1223571030","roomId":"16166407"}
+2020-09-29 17:50:00.001  INFO 18652 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
+2020-09-29 17:51:32.548 ERROR 18652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":658741,"plantform":"1","plantformUid":"11279515453376","roomId":"22379192"}
