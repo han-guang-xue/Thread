@@ -33,9 +33,9 @@ public class Timing{
     @Scheduled(cron = "0 */2 * * * *")
     public void listenServer() {
         boolean flag = CalabashUtil.status();
-        logger.info("监听服务状态 " + (flag ? "正常" : "异常关闭"));
+        logger.debug("监听服务状态 " + (flag ? "正常" : "异常关闭"));
         if(!flag) {
-            logger.info("重启服务中");
+            logger.info("服务异常关闭,重启中...");
             CalabashUtil.restart();
         }
     }
