@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net debug="true">
+	<!-- OFF, FATAL, ERROR, WARN, INFO, DEBUG, ALL -->
+	<!-- Set root logger level to ERROR and its appenders -->
+	<root>
+		<level value="ALL" />
+		<appender-ref ref="RollingFile" />
+	</root>
+	<!-- Print only messages of level DEBUG or above in the packages -->
+	<logger name="Calabash.Daemon">
+		<level value="ALL" />
+	</logger>
+	<logger name="Calabash.Transport">
+		<level value="ALL" />
+	</logger>	
+	<logger name="Calabash.Platform.Protocol">
+		<level value="ALL" />
+	</logger>
+	<appender name="RollingFile" type="log4net.Appender.RollingFileAppender,log4net">
+		<param name="File" value="log/" />
+		<lockingModel type="log4net.Appender.FileAppender+MinimalLock" />
+		<param name="Encoding" value="utf-8" />
+		<param name="AppendToFile" value="true" />
+		<param name="MaximumFileSize" value="50MB"/>	
+		<param name="RollingStyle" value="Date" />		
+		<param name="DatePattern" value="yyyyMMdd&quot;.log&quot;" />
+		<param name="StaticLogFileName" value="false" />
+		<layout type="log4net.Layout.PatternLayout,log4net">
+			<param name="ConversionPattern" value="%d [%t] %-5p %c - %m%n" />
+		</layout>
+	</appender>	
+</log4net>

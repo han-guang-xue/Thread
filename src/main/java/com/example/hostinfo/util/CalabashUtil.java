@@ -16,11 +16,11 @@ import java.util.concurrent.TimeoutException;
 public class CalabashUtil {
     public static Logger logger = LoggerFactory.getLogger(CalabashUtil.class);
 
-    public static String path = "tools\\Client\\Debug\\";
+    public static String path = "tools\\ConsoleClient\\Debug\\";
 
     private static String program = "Calabash.Plugin.ConsoleApp.exe";
 
-    private static String server = "tools\\Server\\Calabash.Business.Daemon.Host.exe";
+    private static String server = "tools\\Server\\Debug\\Calabash.Business.Daemon.Host.exe";
 
     private static Process serverProcess = null;
 

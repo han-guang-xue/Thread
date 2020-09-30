@@ -636,3 +636,28 @@
 2020-09-30 14:25:11.509 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":38326,"plantform":"1","plantformUid":"11279512483307","roomId":"22986646"}
 2020-09-30 14:34:38.871 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":134185,"plantform":"1","plantformUid":"11199553189320","roomId":"23155340"}
 2020-09-30 14:35:11.515 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":78990,"plantform":"1","plantformUid":"11657329936","roomId":"16701638"}
+2020-09-30 14:44:38.876 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":87565,"plantform":"1","plantformUid":"11199531483018","roomId":"21246504"}
+2020-09-30 14:45:11.523 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":480324,"plantform":"1","plantformUid":"11611974371","roomId":"16571318"}
+2020-09-30 14:54:38.933 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":45606,"plantform":"1","plantformUid":"12393886557","roomId":"20021702"}
+2020-09-30 14:55:11.531 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":59117,"plantform":"1","plantformUid":"12375240931","roomId":"17863134"}
+2020-09-30 15:00:00.050 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?)
+2020-09-30 15:00:00.051 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 13763478(String), 1(Integer), 34(Integer), 41401(Integer), 1(Integer), null, 2020-09-30 15:00:00.001(Timestamp)
+2020-09-30 15:00:00.095 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 1
+2020-09-30 15:04:38.940 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":664900,"plantform":"1","plantformUid":"11599643613","roomId":"23278187"}
+2020-09-30 15:05:11.550 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":679354,"plantform":"1","plantformUid":"11199556271173","roomId":"23363499"}
+2020-09-30 15:14:41.102 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":156312,"plantform":"1","plantformUid":"11259522986016","roomId":"20248674"}
+2020-09-30 15:15:11.565 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":637953,"plantform":"1","plantformUid":"11842172031","roomId":"17904368"}
+2020-09-30 15:24:41.111 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":18479,"plantform":"1","plantformUid":"11199549432382","roomId":"22964234"}
+2020-09-30 15:25:11.573 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":141452,"plantform":"1","plantformUid":"1475393030","roomId":"10489277"}
+2020-09-30 15:34:41.119 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":32284,"plantform":"1","plantformUid":"11199537770633","roomId":"21930463"}
+2020-09-30 15:35:11.580 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":335121,"plantform":"1","plantformUid":"12232085211","roomId":"23197616"}
+2020-09-30 15:44:41.125 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":74070,"plantform":"1","plantformUid":"11199531806681","roomId":"21282443"}
+2020-09-30 15:45:11.602 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":46105,"plantform":"1","plantformUid":"1310716157","roomId":"21980552"}
+2020-09-30 15:54:41.132 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":43561,"plantform":"1","plantformUid":"11815143733","roomId":"20340745"}
+2020-09-30 15:55:11.609 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":492798,"plantform":"1","plantformUid":"11653453349","roomId":"23270793"}
+2020-09-30 16:04:41.140 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":337828,"plantform":"1","plantformUid":"11199528291703","roomId":"21920412"}
+2020-09-30 16:05:11.614 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":57195,"plantform":"1","plantformUid":"11199516200962","roomId":"18638226"}
+2020-09-30 16:14:41.201 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":15312,"plantform":"1","plantformUid":"12464177389","roomId":"19240280"}
+2020-09-30 16:15:11.621 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":501232,"plantform":"1","plantformUid":"11279525264342","roomId":"23274981"}
+2020-09-30 16:24:41.223 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":655193,"plantform":"1","plantformUid":"1576735629","roomId":"23350816"}
+2020-09-30 16:25:11.627 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":653628,"plantform":"1","plantformUid":"11490510579","roomId":"11509967"}

@@ -26,6 +26,7 @@ public class Task {
     public final static Integer default_threadNum = 1;
     public final static Long default_interval = 15*60*1000L;
     public final static int default_timeout = 5*60*1000;
+    public final static int default_interval_time = 5*60*1000;
 
     public static Logger logger = LoggerFactory.getLogger(Task.class);
 
@@ -119,12 +120,12 @@ public class Task {
             fixedThreadPool.execute(new Runnable() {
                 @Override
                 public void run() {
+                    runInThread(anchor, finalI);
                     try {
-                        Thread.sleep(1000*60*5);
+                        Thread.sleep(default_interval_time);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    runInThread(anchor, finalI);
                 }
             });
         }
