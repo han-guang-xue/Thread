@@ -1,663 +1,311 @@
-2020-09-30 00:00:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:00:53.076 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第103条数据获取超时; 详细数据:{"id":25827,"plantform":"1","plantformUid":"11549400089","roomId":"20303126"}
-2020-09-30 00:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:04:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:05:15.223 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第104条数据获取超时; 详细数据:{"id":73932,"plantform":"1","plantformUid":"11199546219874","roomId":"22708665"}
-2020-09-30 00:06:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:08:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:08:32.268 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第105条数据获取超时; 详细数据:{"id":38930,"plantform":"1","plantformUid":"11199538803826","roomId":"22049856"}
-2020-09-30 00:10:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:12:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:12:46.829 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第106条数据获取超时; 详细数据:{"id":168860,"plantform":"1","plantformUid":"11279522846455","roomId":"20567563"}
-2020-09-30 00:14:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:16:35.987 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第107条数据获取超时; 详细数据:{"id":25254,"plantform":"1","plantformUid":"11199526303119","roomId":"20428781"}
-2020-09-30 00:18:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:19:00.339 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第108条数据获取超时; 详细数据:{"id":64699,"plantform":"1","plantformUid":"11199534450110","roomId":"489476"}
-2020-09-30 00:20:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:22:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:23:25.799 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第109条数据获取超时; 详细数据:{"id":2853,"plantform":"1","plantformUid":"11613578130","roomId":"11928855"}
-2020-09-30 00:24:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:25:38.987 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第110条数据获取超时; 详细数据:{"id":110179,"plantform":"1","plantformUid":"11272990125","roomId":"831051"}
-2020-09-30 00:26:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:28:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:30:18.242 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第111条数据获取超时; 详细数据:{"id":2169,"plantform":"1","plantformUid":"11423782044","roomId":"11352882"}
-2020-09-30 00:32:00.003  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:32:52.155 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第112条数据获取超时; 详细数据:{"id":451,"plantform":"1","plantformUid":"12365631411","roomId":"22017513"}
-2020-09-30 00:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:36:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:36:18.610 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第113条数据获取超时; 详细数据:{"id":2459,"plantform":"1","plantformUid":"11319530365096","roomId":"22847797"}
-2020-09-30 00:38:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:39:59.486 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第114条数据获取超时; 详细数据:{"id":254,"plantform":"1","plantformUid":"11329073085","roomId":"52933"}
-2020-09-30 00:40:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:42:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:44:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:44:17.316 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第115条数据获取超时; 详细数据:{"id":53036,"plantform":"1","plantformUid":"1478752765","roomId":"677138"}
-2020-09-30 00:46:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:48:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:49:35.441 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第116条数据获取超时; 详细数据:{"id":76184,"plantform":"1","plantformUid":"11199544923718","roomId":"22594720"}
-2020-09-30 00:50:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:52:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:52:09.925 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第117条数据获取超时; 详细数据:{"id":1743,"plantform":"1","plantformUid":"11199517776119","roomId":"19150348"}
-2020-09-30 00:54:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:56:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:56:10.424 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第118条数据获取超时; 详细数据:{"id":228635,"plantform":"1","plantformUid":"11199524685408","roomId":"510609"}
-2020-09-30 00:58:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 00:58:13.409 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第119条数据获取超时; 详细数据:{"id":55527,"plantform":"1","plantformUid":"12331252154","roomId":"16954920"}
-2020-09-30 01:00:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:01:13.098 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第120条数据获取超时; 详细数据:{"id":62420,"plantform":"1","plantformUid":"11292002402","roomId":"114514"}
-2020-09-30 01:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:04:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:04:53.749 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第121条数据获取超时; 详细数据:{"id":4201,"plantform":"1","plantformUid":"182631316","roomId":"18629596"}
-2020-09-30 01:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:08:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:10:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:10:04.735 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第122条数据获取超时; 详细数据:{"id":33655,"plantform":"1","plantformUid":"11199543580510","roomId":"22491516"}
-2020-09-30 01:12:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:12:48.017 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第123条数据获取超时; 详细数据:{"id":464,"plantform":"1","plantformUid":"11507215239","roomId":"465273"}
-2020-09-30 01:14:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:17:42.754 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第124条数据获取超时; 详细数据:{"id":62913,"plantform":"1","plantformUid":"12454898227","roomId":"18767565"}
-2020-09-30 01:18:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:20:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:20:17.452 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第125条数据获取超时; 详细数据:{"id":1000,"plantform":"1","plantformUid":"11199529468483","roomId":"20943792"}
-2020-09-30 01:22:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:24:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:24:22.950 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第126条数据获取超时; 详细数据:{"id":4806,"plantform":"1","plantformUid":"11235232165","roomId":"18914635"}
-2020-09-30 01:26:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:28:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:29:27.002 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第127条数据获取超时; 详细数据:{"id":11781,"plantform":"1","plantformUid":"11752321853","roomId":"381342"}
-2020-09-30 01:30:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:32:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:33:43.096 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第128条数据获取超时; 详细数据:{"id":62977,"plantform":"1","plantformUid":"11199539580581","roomId":"22505658"}
-2020-09-30 01:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:36:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:36:27.178 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第129条数据获取超时; 详细数据:{"id":474867,"plantform":"1","plantformUid":"11199516785594","roomId":"22416960"}
-2020-09-30 01:38:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:40:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:41:12.390 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第130条数据获取超时; 详细数据:{"id":996,"plantform":"1","plantformUid":"11643568359","roomId":"565371"}
-2020-09-30 01:42:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:43:21.993 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第131条数据获取超时; 详细数据:{"id":54145,"plantform":"1","plantformUid":"11375976235","roomId":"721725"}
-2020-09-30 01:44:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:46:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:47:28.544 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第132条数据获取超时; 详细数据:{"id":3957,"plantform":"1","plantformUid":"1159288327","roomId":"921810"}
-2020-09-30 01:48:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:50:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:51:45.323 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第133条数据获取超时; 详细数据:{"id":467857,"plantform":"1","plantformUid":"11624913746","roomId":"375343"}
-2020-09-30 01:52:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:54:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:56:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 01:56:18.982 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第134条数据获取超时; 详细数据:{"id":53188,"plantform":"1","plantformUid":"11541739467","roomId":"16101915"}
-2020-09-30 01:58:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:00:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:00:29.317 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第135条数据获取超时; 详细数据:{"id":428552,"plantform":"1","plantformUid":"11199555030086","roomId":"23265662"}
-2020-09-30 02:02:00.003  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:04:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:05:33.055 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第136条数据获取超时; 详细数据:{"id":485,"plantform":"1","plantformUid":"11279516716665","roomId":"147253"}
-2020-09-30 02:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:07:50.722 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第137条数据获取超时; 详细数据:{"id":64267,"plantform":"1","plantformUid":"12378554082","roomId":"374642"}
-2020-09-30 02:08:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:10:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:11:42.010 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第138条数据获取超时; 详细数据:{"id":41673,"plantform":"1","plantformUid":"110603124","roomId":"983974"}
-2020-09-30 02:12:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:14:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:15:08.377 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第139条数据获取超时; 详细数据:{"id":25746,"plantform":"1","plantformUid":"11907649","roomId":"17885937"}
-2020-09-30 02:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:18:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:19:29.491 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第140条数据获取超时; 详细数据:{"id":1024,"plantform":"1","plantformUid":"1949164552","roomId":"168808"}
-2020-09-30 02:20:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:22:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:22:50.386 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第141条数据获取超时; 详细数据:{"id":246030,"plantform":"1","plantformUid":"11454145281","roomId":"671446"}
-2020-09-30 02:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:25:21.623 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第142条数据获取超时; 详细数据:{"id":33634,"plantform":"1","plantformUid":"11279514674045","roomId":"21996938"}
-2020-09-30 02:26:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:28:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:28:59.946 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第143条数据获取超时; 详细数据:{"id":62406,"plantform":"1","plantformUid":"12304616936","roomId":"766518"}
-2020-09-30 02:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:32:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:34:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:34:18.863 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第144条数据获取超时; 详细数据:{"id":127685,"plantform":"1","plantformUid":"179248385","roomId":"763239"}
-2020-09-30 02:36:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:36:34.926 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第145条数据获取超时; 详细数据:{"id":55384,"plantform":"1","plantformUid":"12318079264","roomId":"16427967"}
-2020-09-30 02:38:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:39:59.489 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第146条数据获取超时; 详细数据:{"id":35502,"plantform":"1","plantformUid":"181881364","roomId":"10183653"}
-2020-09-30 02:40:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:42:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:42:50.554 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第147条数据获取超时; 详细数据:{"id":501,"plantform":"1","plantformUid":"11199524685932","roomId":"20162803"}
-2020-09-30 02:44:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:46:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:46:04.933 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第148条数据获取超时; 详细数据:{"id":2233,"plantform":"1","plantformUid":"11199526840069","roomId":"20533636"}
-2020-09-30 02:48:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:50:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:50:56.126 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第149条数据获取超时; 详细数据:{"id":316,"plantform":"1","plantformUid":"11259520890016","roomId":"21770529"}
-2020-09-30 02:52:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:54:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:54:32.992 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第150条数据获取超时; 详细数据:{"id":25825,"plantform":"1","plantformUid":"12362042815","roomId":"18543349"}
-2020-09-30 02:56:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:58:00.003  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 02:58:40.573 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第151条数据获取超时; 详细数据:{"id":99377,"plantform":"1","plantformUid":"11199541275977","roomId":"22287573"}
-2020-09-30 03:00:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:02:02.862 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第152条数据获取超时; 详细数据:{"id":55665,"plantform":"1","plantformUid":"11819132473","roomId":"264965"}
-2020-09-30 03:04:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:05:46.464 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第153条数据获取超时; 详细数据:{"id":3262,"plantform":"1","plantformUid":"11199513387374","roomId":"20469715"}
-2020-09-30 03:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:08:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:10:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:10:04.573 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第154条数据获取超时; 详细数据:{"id":127883,"plantform":"1","plantformUid":"11199534577120","roomId":"22995360"}
-2020-09-30 03:12:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:13:42.566 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第155条数据获取超时; 详细数据:{"id":72653,"plantform":"1","plantformUid":"11825922341","roomId":"681149"}
-2020-09-30 03:14:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:17:27.567 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第156条数据获取超时; 详细数据:{"id":10030,"plantform":"1","plantformUid":"11259517992976","roomId":"19637122"}
-2020-09-30 03:18:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:20:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:20:53.169 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第157条数据获取超时; 详细数据:{"id":42692,"plantform":"1","plantformUid":"11199517668903","roomId":"52013"}
-2020-09-30 03:22:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:25:26.705 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第158条数据获取超时; 详细数据:{"id":38195,"plantform":"1","plantformUid":"11199531987616","roomId":"21303441"}
-2020-09-30 03:26:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:27:39.301 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第159条数据获取超时; 详细数据:{"id":108357,"plantform":"1","plantformUid":"12363651893","roomId":"815118"}
-2020-09-30 03:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:30:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:30:04.542 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第160条数据获取超时; 详细数据:{"id":49622,"plantform":"1","plantformUid":"11599110986","roomId":"11861462"}
-2020-09-30 03:32:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:34:19.400 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第161条数据获取超时; 详细数据:{"id":2511,"plantform":"1","plantformUid":"11199530791769","roomId":"21172281"}
-2020-09-30 03:36:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:38:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:38:55.538 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第162条数据获取超时; 详细数据:{"id":327,"plantform":"1","plantformUid":"11394575540","roomId":"11342418"}
-2020-09-30 03:40:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:42:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:43:23.484 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第163条数据获取超时; 详细数据:{"id":2358,"plantform":"1","plantformUid":"11199518281577","roomId":"19278405"}
-2020-09-30 03:44:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:45:38.998 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第164条数据获取超时; 详细数据:{"id":1646,"plantform":"1","plantformUid":"11559273874","roomId":"11715464"}
-2020-09-30 03:46:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:48:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:50:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:50:47.008 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第165条数据获取超时; 详细数据:{"id":42667,"plantform":"1","plantformUid":"11679328461","roomId":"698208"}
-2020-09-30 03:52:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:54:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:56:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:56:06.166 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第166条数据获取超时; 详细数据:{"id":74433,"plantform":"1","plantformUid":"11199542120936","roomId":"23033540"}
-2020-09-30 03:58:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 03:59:57.726 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第167条数据获取超时; 详细数据:{"id":461,"plantform":"1","plantformUid":"11199512837905","roomId":"21969336"}
-2020-09-30 04:00:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:02:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:03:42.525 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第168条数据获取超时; 详细数据:{"id":90840,"plantform":"1","plantformUid":"11199526572117","roomId":"20485119"}
-2020-09-30 04:04:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:08:00.003  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:08:10.384 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第169条数据获取超时; 详细数据:{"id":55671,"plantform":"1","plantformUid":"11654678010","roomId":"20199047"}
-2020-09-30 04:10:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:12:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:12:44.016 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第170条数据获取超时; 详细数据:{"id":43153,"plantform":"1","plantformUid":"1360429905","roomId":"964277"}
-2020-09-30 04:14:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:15:07.459 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第171条数据获取超时; 详细数据:{"id":489156,"plantform":"1","plantformUid":"11279514737869","roomId":"23272916"}
-2020-09-30 04:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:18:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:18:23.578 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第172条数据获取超时; 详细数据:{"id":70161,"plantform":"1","plantformUid":"11855537793","roomId":"22895266"}
-2020-09-30 04:20:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:22:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:22:03.398 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第173条数据获取超时; 详细数据:{"id":3746,"plantform":"1","plantformUid":"11279519251167","roomId":"19981112"}
-2020-09-30 04:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:24:27.479 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第174条数据获取超时; 详细数据:{"id":331,"plantform":"1","plantformUid":"12453232621","roomId":"18710100"}
-2020-09-30 04:26:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:27:29.077 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第175条数据获取超时; 详细数据:{"id":26359,"plantform":"1","plantformUid":"11199552958637","roomId":"23142118"}
-2020-09-30 04:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:32:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:32:36.890 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第176条数据获取超时; 详细数据:{"id":222,"plantform":"1","plantformUid":"11199537999613","roomId":"22362128"}
-2020-09-30 04:34:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:34:52.162 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第177条数据获取超时; 详细数据:{"id":25530,"plantform":"1","plantformUid":"11279525705636","roomId":"412491"}
-2020-09-30 04:36:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:38:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:39:28.732 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第178条数据获取超时; 详细数据:{"id":61601,"plantform":"1","plantformUid":"161134534","roomId":"494382"}
-2020-09-30 04:40:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:42:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:44:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:44:32.611 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第179条数据获取超时; 详细数据:{"id":90110,"plantform":"1","plantformUid":"11199525170730","roomId":"20218960"}
-2020-09-30 04:46:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:47:29.592 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第180条数据获取超时; 详细数据:{"id":1008,"plantform":"1","plantformUid":"11835123656","roomId":"14106434"}
-2020-09-30 04:48:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:50:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:51:47.520 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第181条数据获取超时; 详细数据:{"id":144368,"plantform":"1","plantformUid":"11199523178907","roomId":"20888303"}
-2020-09-30 04:52:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:54:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:54:01.261 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第182条数据获取超时; 详细数据:{"id":2506,"plantform":"1","plantformUid":"12391670964","roomId":"18344938"}
-2020-09-30 04:56:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:58:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 04:58:01.265 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第183条数据获取超时; 详细数据:{"id":305,"plantform":"1","plantformUid":"11199539171693","roomId":"22082568"}
-2020-09-30 05:00:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:01:36.460 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第184条数据获取超时; 详细数据:{"id":5367,"plantform":"1","plantformUid":"11259527633104","roomId":"21127897"}
-2020-09-30 05:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:04:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:06:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:06:40.233 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第185条数据获取超时; 详细数据:{"id":34125,"plantform":"1","plantformUid":"11749822646","roomId":"18952867"}
-2020-09-30 05:08:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:09:04.168 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第186条数据获取超时; 详细数据:{"id":62506,"plantform":"1","plantformUid":"11534374586","roomId":"408713"}
-2020-09-30 05:10:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:12:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:13:49.370 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第187条数据获取超时; 详细数据:{"id":22341,"plantform":"1","plantformUid":"12292280923","roomId":"556037"}
-2020-09-30 05:14:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:18:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:18:14.006 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第188条数据获取超时; 详细数据:{"id":39305,"plantform":"1","plantformUid":"11199544215650","roomId":"22540435"}
-2020-09-30 05:20:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:21:30.133 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第189条数据获取超时; 详细数据:{"id":476,"plantform":"1","plantformUid":"11199533125848","roomId":"21433955"}
-2020-09-30 05:22:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:25:54.973 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第190条数据获取超时; 详细数据:{"id":69,"plantform":"1","plantformUid":"1594244216","roomId":"18835480"}
-2020-09-30 05:26:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:29:35.951 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第191条数据获取超时; 详细数据:{"id":1069,"plantform":"1","plantformUid":"11199512013158","roomId":"20000"}
-2020-09-30 05:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:32:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:32:03.000 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第192条数据获取超时; 详细数据:{"id":62407,"plantform":"1","plantformUid":"1993614503","roomId":"173029"}
-2020-09-30 05:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:36:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:37:07.191 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第193条数据获取超时; 详细数据:{"id":155661,"plantform":"1","plantformUid":"12295858547","roomId":"21932359"}
-2020-09-30 05:38:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:39:34.834 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第194条数据获取超时; 详细数据:{"id":74492,"plantform":"1","plantformUid":"11581490322","roomId":"547906"}
-2020-09-30 05:40:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:42:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:43:33.438 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第195条数据获取超时; 详细数据:{"id":62491,"plantform":"1","plantformUid":"12328294823","roomId":"17980136"}
-2020-09-30 05:44:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:46:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:48:00.003  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:48:41.913 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第196条数据获取超时; 详细数据:{"id":52585,"plantform":"1","plantformUid":"11199539459737","roomId":"317949"}
-2020-09-30 05:50:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:52:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:52:58.962 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第197条数据获取超时; 详细数据:{"id":120835,"plantform":"1","plantformUid":"11651960996","roomId":"461092"}
-2020-09-30 05:54:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:55:12.191 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第198条数据获取超时; 详细数据:{"id":5220,"plantform":"1","plantformUid":"11299515418453","roomId":"831507"}
-2020-09-30 05:56:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:58:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 05:59:19.614 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第199条数据获取超时; 详细数据:{"id":1070,"plantform":"1","plantformUid":"12202254768","roomId":"20576461"}
-2020-09-30 06:00:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:02:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:02:59.003 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第200条数据获取超时; 详细数据:{"id":5962,"plantform":"1","plantformUid":"11199529796661","roomId":"21003753"}
-2020-09-30 06:04:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:05:43.438 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第201条数据获取超时; 详细数据:{"id":638594,"plantform":"1","plantformUid":"11199553764052","roomId":"23314574"}
-2020-09-30 06:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:08:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:08:33.790 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第202条数据获取超时; 详细数据:{"id":424,"plantform":"1","plantformUid":"11199546603177","roomId":"22746840"}
-2020-09-30 06:10:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:12:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:12:06.585 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第203条数据获取超时; 详细数据:{"id":73669,"plantform":"1","plantformUid":"11199543323472","roomId":"22470647"}
-2020-09-30 06:14:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:16:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:16:39.542 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第204条数据获取超时; 详细数据:{"id":638635,"plantform":"1","plantformUid":"11199517780425","roomId":"19152154"}
-2020-09-30 06:18:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:20:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:21:31.089 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第205条数据获取超时; 详细数据:{"id":636233,"plantform":"1","plantformUid":"11199550607137","roomId":"23068953"}
-2020-09-30 06:22:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:26:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:26:32.935 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第206条数据获取超时; 详细数据:{"id":25743,"plantform":"1","plantformUid":"12323956996","roomId":"16533391"}
-2020-09-30 06:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:29:40.260 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第207条数据获取超时; 详细数据:{"id":25591,"plantform":"1","plantformUid":"12326649574","roomId":"16579375"}
-2020-09-30 06:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:32:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:33:13.575 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第208条数据获取超时; 详细数据:{"id":25577,"plantform":"1","plantformUid":"11199546547554","roomId":"22741434"}
-2020-09-30 06:34:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:36:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:38:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:38:20.736 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第209条数据获取超时; 详细数据:{"id":72865,"plantform":"1","plantformUid":"11199549972573","roomId":"22978844"}
-2020-09-30 06:40:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:42:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:42:19.029 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第210条数据获取超时; 详细数据:{"id":221614,"plantform":"1","plantformUid":"11498855531","roomId":"631677"}
-2020-09-30 06:44:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:46:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:46:53.418 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第211条数据获取超时; 详细数据:{"id":6740,"plantform":"1","plantformUid":"12340359593","roomId":"251782"}
-2020-09-30 06:48:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:50:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:50:34.798 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第212条数据获取超时; 详细数据:{"id":137412,"plantform":"1","plantformUid":"12456130734","roomId":"23117423"}
-2020-09-30 06:52:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:53:07.473 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第213条数据获取超时; 详细数据:{"id":33642,"plantform":"1","plantformUid":"11530335071","roomId":"16160429"}
-2020-09-30 06:54:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:56:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:58:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 06:58:14.412 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第214条数据获取超时; 详细数据:{"id":127831,"plantform":"1","plantformUid":"11199542681154","roomId":"22430880"}
-2020-09-30 07:00:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:02:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:03:08.664 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第215条数据获取超时; 详细数据:{"id":13958,"plantform":"1","plantformUid":"11199539662636","roomId":"22140791"}
-2020-09-30 07:04:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:07:56.001 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第216条数据获取超时; 详细数据:{"id":314937,"plantform":"1","plantformUid":"11199536320690","roomId":"23172212"}
-2020-09-30 07:08:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:10:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:10:40.279 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第217条数据获取超时; 详细数据:{"id":1560,"plantform":"1","plantformUid":"11199539568165","roomId":"22129403"}
-2020-09-30 07:12:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:13:08.159 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第218条数据获取超时; 详细数据:{"id":260190,"plantform":"1","plantformUid":"11667356311","roomId":"12309336"}
-2020-09-30 07:14:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:16:39.046 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第219条数据获取超时; 详细数据:{"id":73068,"plantform":"1","plantformUid":"11842414505","roomId":"880243"}
-2020-09-30 07:18:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:20:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:20:06.073 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第220条数据获取超时; 详细数据:{"id":7043,"plantform":"1","plantformUid":"11279527897627","roomId":"22198934"}
-2020-09-30 07:22:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:22:07.294 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第221条数据获取超时; 详细数据:{"id":1664,"plantform":"1","plantformUid":"11199521554828","roomId":"19625663"}
-2020-09-30 07:24:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:26:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:27:18.235 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第222条数据获取超时; 详细数据:{"id":54756,"plantform":"1","plantformUid":"164303277","roomId":"10132120"}
-2020-09-30 07:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:30:59.710 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第223条数据获取超时; 详细数据:{"id":1055,"plantform":"1","plantformUid":"1793872452","roomId":"17273016"}
-2020-09-30 07:32:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:35:13.448 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第224条数据获取超时; 详细数据:{"id":149700,"plantform":"1","plantformUid":"12342330740","roomId":"856207"}
-2020-09-30 07:36:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:38:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:38:23.736 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第225条数据获取超时; 详细数据:{"id":76019,"plantform":"1","plantformUid":"11589607596","roomId":"22764086"}
-2020-09-30 07:40:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:41:48.006 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第226条数据获取超时; 详细数据:{"id":5610,"plantform":"1","plantformUid":"11690899204","roomId":"20372611"}
-2020-09-30 07:42:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:44:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:45:18.922 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第227条数据获取超时; 详细数据:{"id":25193,"plantform":"1","plantformUid":"12460105723","roomId":"19021078"}
-2020-09-30 07:46:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:48:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:50:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:50:16.285 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第228条数据获取超时; 详细数据:{"id":62319,"plantform":"1","plantformUid":"12364556832","roomId":"926024"}
-2020-09-30 07:52:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:54:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:55:06.132 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第229条数据获取超时; 详细数据:{"id":39736,"plantform":"1","plantformUid":"11199552714704","roomId":"23128187"}
-2020-09-30 07:56:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:58:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 07:59:06.290 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第230条数据获取超时; 详细数据:{"id":53594,"plantform":"1","plantformUid":"11199541642943","roomId":"22317673"}
-2020-09-30 08:00:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:02:55.588 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第231条数据获取超时; 详细数据:{"id":54009,"plantform":"1","plantformUid":"11279520200973","roomId":"21436150"}
-2020-09-30 08:04:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:07:25.217 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第232条数据获取超时; 详细数据:{"id":41607,"plantform":"1","plantformUid":"11199524177330","roomId":"190197"}
-2020-09-30 08:08:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:10:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:10:51.689 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第233条数据获取超时; 详细数据:{"id":42752,"plantform":"1","plantformUid":"1348729625","roomId":"10395027"}
-2020-09-30 08:12:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:13:02.308 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第234条数据获取超时; 详细数据:{"id":26584,"plantform":"1","plantformUid":"11259518086064","roomId":"19530577"}
-2020-09-30 08:14:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:15:47.964 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第235条数据获取超时; 详细数据:{"id":1567,"plantform":"1","plantformUid":"11199526299389","roomId":"20428838"}
-2020-09-30 08:16:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:18:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:19:15.160 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第236条数据获取超时; 详细数据:{"id":43085,"plantform":"1","plantformUid":"12385940332","roomId":"754873"}
-2020-09-30 08:20:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:22:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:23:38.028 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第237条数据获取超时; 详细数据:{"id":3883,"plantform":"1","plantformUid":"11199548716900","roomId":"22905135"}
-2020-09-30 08:24:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:26:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:28:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:28:33.672 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第238条数据获取超时; 详细数据:{"id":73279,"plantform":"1","plantformUid":"118532672","roomId":"935798"}
-2020-09-30 08:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:32:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:32:48.748 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第239条数据获取超时; 详细数据:{"id":43053,"plantform":"1","plantformUid":"12392946745","roomId":"22713192"}
-2020-09-30 08:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:36:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:36:52.340 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第240条数据获取超时; 详细数据:{"id":99,"plantform":"1","plantformUid":"11674470414","roomId":"52019"}
-2020-09-30 08:38:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:40:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:41:10.361 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第241条数据获取超时; 详细数据:{"id":648826,"plantform":"1","plantformUid":"11199513784794","roomId":"23351038"}
-2020-09-30 08:42:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:44:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:45:35.137 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第242条数据获取超时; 详细数据:{"id":39091,"plantform":"1","plantformUid":"11199520233437","roomId":"19495989"}
-2020-09-30 08:46:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:48:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:50:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:50:22.937 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第243条数据获取超时; 详细数据:{"id":73025,"plantform":"1","plantformUid":"1104190979","roomId":"16800953"}
-2020-09-30 08:52:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:54:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:54:49.421 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第244条数据获取超时; 详细数据:{"id":33557,"plantform":"1","plantformUid":"12222407573","roomId":"23171868"}
-2020-09-30 08:56:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 08:57:48.117 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第245条数据获取超时; 详细数据:{"id":39783,"plantform":"1","plantformUid":"11199526939787","roomId":"144657"}
-2020-09-30 08:58:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:00:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:00:43.621 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第246条数据获取超时; 详细数据:{"id":1028,"plantform":"1","plantformUid":"11199546556452","roomId":"327294"}
-2020-09-30 09:02:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:03:29.074 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第247条数据获取超时; 详细数据:{"id":62324,"plantform":"1","plantformUid":"165404099","roomId":"270033"}
-2020-09-30 09:04:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:06:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:08:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:08:37.687 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第248条数据获取超时; 详细数据:{"id":194833,"plantform":"1","plantformUid":"12240811800","roomId":"15282380"}
-2020-09-30 09:10:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:12:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:12:13.752 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第249条数据获取超时; 详细数据:{"id":72861,"plantform":"1","plantformUid":"11645713085","roomId":"102819"}
-2020-09-30 09:14:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:15:37.984 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第250条数据获取超时; 详细数据:{"id":635526,"plantform":"1","plantformUid":"11199555959608","roomId":"23310796"}
-2020-09-30 09:16:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:18:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:18:47.465 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第251条数据获取超时; 详细数据:{"id":635516,"plantform":"1","plantformUid":"11259522849029","roomId":"23314517"}
-2020-09-30 09:20:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:22:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:23:46.061 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第252条数据获取超时; 详细数据:{"id":196618,"plantform":"1","plantformUid":"11199549161338","roomId":"22926513"}
-2020-09-30 09:24:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:26:00.000  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:28:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:28:58.060 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第253条数据获取超时; 详细数据:{"id":33881,"plantform":"1","plantformUid":"11285988278","roomId":"459690"}
-2020-09-30 09:30:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:32:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:32:15.009 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第254条数据获取超时; 详细数据:{"id":73883,"plantform":"1","plantformUid":"11124773800","roomId":"18317314"}
-2020-09-30 09:34:00.002  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:34:55.452 ERROR 22456 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第255条数据获取超时; 详细数据:{"id":503,"plantform":"1","plantformUid":"12308138054","roomId":"16257701"}
-2020-09-30 09:36:00.001  INFO 22456 --- [scheduling-1] java.sql.Time                            : 监听服务状态 正常
-2020-09-30 09:40:56.494  INFO 21716 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 21716 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
-2020-09-30 09:40:56.502  INFO 21716 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 09:40:57.417  INFO 21716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
-2020-09-30 09:40:57.422  INFO 21716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 09:40:57.423  INFO 21716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 09:40:57.487  INFO 21716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 09:40:57.488  INFO 21716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 950 ms
-2020-09-30 09:40:57.731  INFO 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 09:40:57.855  INFO 21716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 09:40:57.974  INFO 21716 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-09-30 09:40:58.017  INFO 21716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
-2020-09-30 09:40:58.026  INFO 21716 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.796 seconds (JVM running for 2.65)
-2020-09-30 09:41:02.816  INFO 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 09:41:02.828  INFO 21716 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 09:41:03.173  INFO 21716 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 09:41:03.178 DEBUG 21716 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
-2020-09-30 09:41:03.279 DEBUG 21716 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 09:26:02.816(Timestamp)
-2020-09-30 09:41:04.394 DEBUG 21716 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 8516
-2020-09-30 09:41:04.400  INFO 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有8516条
-2020-09-30 09:41:04.400  INFO 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 09:41:04.401  INFO 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 09:44:21.367  INFO 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:16秒
-2020-09-30 09:47:30.690  INFO 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:9秒
-2020-09-30 09:52:30.755 ERROR 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":184309,"plantform":"2","plantformUid":"2379901028","roomId":"9173389"}
-2020-09-30 09:56:44.646  INFO 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:73秒
-2020-09-30 09:57:44.404 ERROR 21716 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 10:00:00.066 DEBUG 21716 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 10:00:00.070 DEBUG 21716 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 8696510(String), 2(Integer), 4(Integer), 34651(Integer), 35457(Integer), null, 2020-09-30 10:00:00.003(Timestamp), 8862124(String), 2(Integer), 21898(Integer), 3987(Integer), 9(Integer), null, 2020-09-30 10:00:00.003(Timestamp), 9164174(String), 2(Integer), 19966(Integer), 1446(Integer), 10(Integer), null, 2020-09-30 10:00:00.003(Timestamp)
-2020-09-30 10:00:00.110 DEBUG 21716 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 3
-2020-09-30 10:01:44.658 ERROR 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":468550,"plantform":"2","plantformUid":"2350296657","roomId":"8372282"}
-2020-09-30 10:06:44.665 ERROR 21716 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":7136,"plantform":"2","plantformUid":"2304773689","roomId":"7124784"}
-2020-09-30 10:10:53.103  INFO 14000 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 14000 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
-2020-09-30 10:10:53.106  INFO 14000 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 10:10:54.251  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
-2020-09-30 10:10:54.294  INFO 14000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 10:10:54.296  INFO 14000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 10:10:54.840  INFO 14000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 10:10:54.840  INFO 14000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1685 ms
-2020-09-30 10:10:55.162  INFO 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 10:10:55.291  INFO 14000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 10:10:55.451  INFO 14000 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-09-30 10:10:55.510  INFO 14000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
-2020-09-30 10:10:55.524  INFO 14000 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 2.694 seconds (JVM running for 3.489)
-2020-09-30 10:11:00.170  INFO 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 10:11:00.186  INFO 14000 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 10:11:00.515  INFO 14000 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 10:11:00.521 DEBUG 14000 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
-2020-09-30 10:11:00.603 DEBUG 14000 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 09:56:00.17(Timestamp)
-2020-09-30 10:11:01.131 DEBUG 14000 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 9728
-2020-09-30 10:11:01.135  INFO 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有9728条
-2020-09-30 10:11:01.135  INFO 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 10:11:01.135  INFO 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 10:16:16.197  INFO 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:15秒
-2020-09-30 10:23:09.112  INFO 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:112秒
-2020-09-30 10:25:34.998  INFO 14000 --- [http-nio-8060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 10:25:34.999  INFO 14000 --- [http-nio-8060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 10:25:35.012  INFO 14000 --- [http-nio-8060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
-2020-09-30 10:25:35.081  INFO 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 10:25:40.088  INFO 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 10:25:40.121 DEBUG 14000 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
-2020-09-30 10:25:40.122 DEBUG 14000 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 10:10:40.088(Timestamp)
-2020-09-30 10:25:40.626 DEBUG 14000 --- [Thread-14] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10525
-2020-09-30 10:25:40.627  INFO 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 读取到数据总共有10525条
-2020-09-30 10:25:40.627  INFO 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 10:25:40.627  INFO 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 10:27:41.140 ERROR 14000 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 10:30:09.166 ERROR 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":8082,"plantform":"2","plantformUid":"243515867","roomId":"8463663"}
-2020-09-30 10:31:02.548  INFO 14000 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:21秒
-2020-09-30 10:35:39.014  INFO 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:29秒
-2020-09-30 10:36:45.051  INFO 14000 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:42秒
-2020-09-30 10:40:45.782  INFO 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条, 用时:6秒
-2020-09-30 10:42:20.631 ERROR 14000 --- [Thread-14] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 10:43:45.061 ERROR 14000 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第3条数据获取超时; 详细数据:{"id":5783,"plantform":"2","plantformUid":"2378773886","roomId":"9156210"}
-2020-09-30 10:47:45.842 ERROR 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":128725,"plantform":"2","plantformUid":"211206653","roomId":"533660"}
-2020-09-30 10:50:45.070 ERROR 14000 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第4条数据获取超时; 详细数据:{"id":1969,"plantform":"2","plantformUid":"2379652955","roomId":"9167566"}
-2020-09-30 10:54:45.852 ERROR 14000 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":270130,"plantform":"2","plantformUid":"2204616911","roomId":"5655535"}
-2020-09-30 10:56:00.082  INFO 25732 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 25732 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
-2020-09-30 10:56:00.084  INFO 25732 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 10:56:00.935  INFO 25732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
-2020-09-30 10:56:00.941  INFO 25732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 10:56:00.942  INFO 25732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 10:56:01.002  INFO 25732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 10:56:01.002  INFO 25732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
-2020-09-30 10:56:01.190  INFO 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 10:56:01.292  INFO 25732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 10:56:01.408  INFO 25732 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-09-30 10:56:01.450  INFO 25732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
-2020-09-30 10:56:01.461  INFO 25732 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.671 seconds (JVM running for 2.838)
-2020-09-30 10:56:06.284  INFO 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 10:56:06.303  INFO 25732 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 10:56:06.622  INFO 25732 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 10:56:06.630 DEBUG 25732 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
-2020-09-30 10:56:06.675 DEBUG 25732 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 10:41:06.284(Timestamp)
-2020-09-30 10:56:06.996 DEBUG 25732 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 2745
-2020-09-30 10:56:07.000  INFO 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有2745条
-2020-09-30 10:56:07.000  INFO 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 10:56:07.000  INFO 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 11:00:00.055 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 11:00:00.058 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 1343018(String), 2(Integer), 42442(Integer), 32472(Integer), 207(Integer), null, 2020-09-30 11:00:00.003(Timestamp), 4918610(String), 2(Integer), 36868(Integer), 6032(Integer), 14(Integer), null, 2020-09-30 11:00:00.003(Timestamp), 5511603(String), 2(Integer), 49068(Integer), 40902(Integer), 32(Integer), null, 2020-09-30 11:00:00.003(Timestamp), 660843(String), 2(Integer), 36665(Integer), 2175(Integer), 15(Integer), null, 2020-09-30 11:00:00.003(Timestamp), 9128705(String), 2(Integer), 31460(Integer), 1236(Integer), 3(Integer), null, 2020-09-30 11:00:00.003(Timestamp), 9166562(String), 2(Integer), 38833(Integer), 1172(Integer), 5(Integer), null, 2020-09-30 11:00:00.003(Timestamp)
-2020-09-30 11:00:00.096 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 6
-2020-09-30 11:02:19.392  INFO 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:72秒
-2020-09-30 11:07:38.154  INFO 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:18秒
-2020-09-30 11:12:47.003 ERROR 25732 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 11:13:09.035  INFO 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:30秒
-2020-09-30 11:18:51.361  INFO 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:42秒
-2020-09-30 11:25:51.416 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":155659,"plantform":"2","plantformUid":"2370545642","roomId":"9119061"}
-2020-09-30 11:32:51.429 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":6338,"plantform":"2","plantformUid":"2240231844","roomId":"5926825"}
-2020-09-30 11:39:51.452 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":6499,"plantform":"2","plantformUid":"2167814661","roomId":"3365417"}
-2020-09-30 11:46:51.462 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":4963,"plantform":"2","plantformUid":"274327252","roomId":"1197627"}
-2020-09-30 11:53:51.552 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":157944,"plantform":"2","plantformUid":"24230738","roomId":"114071"}
-2020-09-30 12:00:00.054 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 12:00:00.055 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 5617997(String), 2(Integer), 36498(Integer), 3361(Integer), 5(Integer), null, 2020-09-30 12:00:00.004(Timestamp), 7644931(String), 2(Integer), 20893(Integer), 23784(Integer), 28(Integer), null, 2020-09-30 12:00:00.004(Timestamp), 7851366(String), 2(Integer), 18706(Integer), 1306(Integer), 8(Integer), null, 2020-09-30 12:00:00.004(Timestamp)
-2020-09-30 12:00:00.099 DEBUG 25732 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 3
-2020-09-30 12:00:51.560 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":2764,"plantform":"2","plantformUid":"2132026563","roomId":"2040421"}
-2020-09-30 12:07:51.568 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":187529,"plantform":"2","plantformUid":"21348851","roomId":"56802"}
-2020-09-30 12:14:51.576 ERROR 25732 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":576312,"plantform":"2","plantformUid":"2332911739","roomId":"7761225"}
-2020-09-30 12:58:44.518  INFO 20728 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 20728 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
-2020-09-30 12:58:44.520  INFO 20728 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 12:58:45.437  INFO 20728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
-2020-09-30 12:58:45.445  INFO 20728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 12:58:45.447  INFO 20728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 12:58:45.510  INFO 20728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 12:58:45.510  INFO 20728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
-2020-09-30 12:58:45.755  INFO 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 12:58:45.893  INFO 20728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 12:58:46.023  INFO 20728 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-09-30 12:58:46.059  INFO 20728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
-2020-09-30 12:58:46.068  INFO 20728 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.797 seconds (JVM running for 2.558)
-2020-09-30 12:58:50.856  INFO 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 12:58:50.868  INFO 20728 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 12:58:51.177  INFO 20728 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 12:58:51.182 DEBUG 20728 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '2' order by "UpdateTime" desc;
-2020-09-30 12:58:51.239 DEBUG 20728 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 12:43:50.856(Timestamp)
-2020-09-30 12:58:52.482 DEBUG 20728 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 4393
-2020-09-30 12:58:52.490  INFO 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有4393条
-2020-09-30 12:58:52.491  INFO 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 12:58:52.491  INFO 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 13:00:00.052 DEBUG 20728 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 13:00:00.056 DEBUG 20728 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 2040421(String), 2(Integer), 66246(Integer), 3936(Integer), 13(Integer), null, 2020-09-30 13:00:00.003(Timestamp), 56802(String), 2(Integer), 22181(Integer), 453(Integer), 4(Integer), null, 2020-09-30 13:00:00.003(Timestamp), 5926825(String), 2(Integer), 37372(Integer), 4692(Integer), 3(Integer), null, 2020-09-30 13:00:00.003(Timestamp), 7761225(String), 2(Integer), 36558(Integer), 346(Integer), 6(Integer), null, 2020-09-30 13:00:00.003(Timestamp), 9119061(String), 2(Integer), 32719(Integer), 592(Integer), 6(Integer), null, 2020-09-30 13:00:00.003(Timestamp)
-2020-09-30 13:00:00.092 DEBUG 20728 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 5
-2020-09-30 13:10:42.189  INFO 20728 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:409秒
-2020-09-30 13:15:32.493 ERROR 20728 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 13:25:42.238 ERROR 20728 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":8650,"plantform":"2","plantformUid":"2248019407","roomId":"6060141"}
-2020-09-30 13:28:10.983  INFO 9164 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 9164 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
-2020-09-30 13:28:10.989  INFO 9164 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
-2020-09-30 13:28:11.812  INFO 9164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
-2020-09-30 13:28:11.818  INFO 9164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-30 13:28:11.819  INFO 9164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-30 13:28:11.891  INFO 9164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-30 13:28:11.891  INFO 9164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
-2020-09-30 13:28:12.156  INFO 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 13:28:12.277  INFO 9164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-30 13:28:12.397  INFO 9164 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-09-30 13:28:12.434  INFO 9164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
-2020-09-30 13:28:12.443  INFO 9164 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.705 seconds (JVM running for 2.389)
-2020-09-30 13:28:17.164  INFO 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 13:28:17.187  INFO 9164 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-09-30 13:28:17.478  INFO 9164 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-09-30 13:28:17.483 DEBUG 9164 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc;
-2020-09-30 13:28:17.524 DEBUG 9164 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 13:13:17.164(Timestamp)
-2020-09-30 13:28:18.046 DEBUG 9164 --- [Thread-5] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10625
-2020-09-30 13:28:18.050  INFO 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 读取到数据总共有10625条
-2020-09-30 13:28:18.051  INFO 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 13:28:18.051  INFO 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 13:28:51.986  INFO 9164 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-30 13:28:51.986  INFO 9164 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-30 13:28:52.002  INFO 9164 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-09-30 13:28:52.036  INFO 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
-2020-09-30 13:28:57.078  INFO 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
-2020-09-30 13:28:57.109 DEBUG 9164 --- [Thread-12] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc;
-2020-09-30 13:28:57.110 DEBUG 9164 --- [Thread-12] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-09-30 13:13:57.078(Timestamp)
-2020-09-30 13:28:57.578 DEBUG 9164 --- [Thread-12] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 10356
-2020-09-30 13:28:57.578  INFO 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 读取到数据总共有10356条
-2020-09-30 13:28:57.578  INFO 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
-2020-09-30 13:28:57.578  INFO 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 数据读取中...
-2020-09-30 13:33:30.613  INFO 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第1条, 用时:12秒
-2020-09-30 13:38:38.759  INFO 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第2条, 用时:8秒
-2020-09-30 13:38:57.636 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第1条数据获取超时; 详细数据:{"id":678396,"plantform":"1","plantformUid":"11199556743251","roomId":"23363137"}
-2020-09-30 13:44:27.686  INFO 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:48秒
-2020-09-30 13:44:58.055 ERROR 9164 --- [Thread-5] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 13:45:37.582 ERROR 9164 --- [Thread-12] com.example.hostinfo.conf.Task           : 程序异常结束
-2020-09-30 13:48:57.643 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第2条数据获取超时; 详细数据:{"id":38228,"plantform":"1","plantformUid":"12202347122","roomId":"14735562"}
-2020-09-30 13:49:53.707  INFO 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第4条, 用时:26秒
-2020-09-30 13:54:38.839  INFO 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第3条, 用时:41秒
-2020-09-30 13:59:53.715 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":397462,"plantform":"1","plantformUid":"11575755136","roomId":"18932008"}
-2020-09-30 14:00:00.053 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?) , (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 14:00:00.055 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 6888090(String), 2(Integer), 2609(Integer), 1941(Integer), 1(Integer), null, 2020-09-30 14:00:00.004(Timestamp), 15866568(String), 1(Integer), 114159(Integer), 22694(Integer), 100(Integer), null, 2020-09-30 14:00:00.004(Timestamp), 17385679(String), 1(Integer), 32(Integer), 32191(Integer), 1(Integer), null, 2020-09-30 14:00:00.005(Timestamp), 22740786(String), 1(Integer), 1260(Integer), 38570(Integer), 11(Integer), null, 2020-09-30 14:00:00.005(Timestamp), 23104479(String), 1(Integer), 239(Integer), 24118(Integer), 2(Integer), null, 2020-09-30 14:00:00.005(Timestamp), 23364053(String), 1(Integer), 1(Integer), 27013(Integer), 1(Integer), null, 2020-09-30 14:00:00.005(Timestamp)
-2020-09-30 14:00:00.089 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 6
-2020-09-30 14:04:38.847 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第4条数据获取超时; 详细数据:{"id":680897,"plantform":"1","plantformUid":"11199527236202","roomId":"23364008"}
-2020-09-30 14:09:53.769 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":172310,"plantform":"1","plantformUid":"11259522351046","roomId":"21621230"}
-2020-09-30 14:14:38.856 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第5条数据获取超时; 详细数据:{"id":498880,"plantform":"1","plantformUid":"12329479753","roomId":"23237198"}
-2020-09-30 14:15:11.498  INFO 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第7条, 用时:17秒
-2020-09-30 14:24:38.863 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第6条数据获取超时; 详细数据:{"id":24274,"plantform":"1","plantformUid":"11745374476","roomId":"16192158"}
-2020-09-30 14:25:11.509 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":38326,"plantform":"1","plantformUid":"11279512483307","roomId":"22986646"}
-2020-09-30 14:34:38.871 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第7条数据获取超时; 详细数据:{"id":134185,"plantform":"1","plantformUid":"11199553189320","roomId":"23155340"}
-2020-09-30 14:35:11.515 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":78990,"plantform":"1","plantformUid":"11657329936","roomId":"16701638"}
-2020-09-30 14:44:38.876 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第8条数据获取超时; 详细数据:{"id":87565,"plantform":"1","plantformUid":"11199531483018","roomId":"21246504"}
-2020-09-30 14:45:11.523 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":480324,"plantform":"1","plantformUid":"11611974371","roomId":"16571318"}
-2020-09-30 14:54:38.933 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第9条数据获取超时; 详细数据:{"id":45606,"plantform":"1","plantformUid":"12393886557","roomId":"20021702"}
-2020-09-30 14:55:11.531 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":59117,"plantform":"1","plantformUid":"12375240931","roomId":"17863134"}
-2020-09-30 15:00:00.050 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (? ,? ,? ,? ,? ,? ,?)
-2020-09-30 15:00:00.051 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 13763478(String), 1(Integer), 34(Integer), 41401(Integer), 1(Integer), null, 2020-09-30 15:00:00.001(Timestamp)
-2020-09-30 15:00:00.095 DEBUG 9164 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 1
-2020-09-30 15:04:38.940 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第10条数据获取超时; 详细数据:{"id":664900,"plantform":"1","plantformUid":"11599643613","roomId":"23278187"}
-2020-09-30 15:05:11.550 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":679354,"plantform":"1","plantformUid":"11199556271173","roomId":"23363499"}
-2020-09-30 15:14:41.102 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第11条数据获取超时; 详细数据:{"id":156312,"plantform":"1","plantformUid":"11259522986016","roomId":"20248674"}
-2020-09-30 15:15:11.565 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":637953,"plantform":"1","plantformUid":"11842172031","roomId":"17904368"}
-2020-09-30 15:24:41.111 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第12条数据获取超时; 详细数据:{"id":18479,"plantform":"1","plantformUid":"11199549432382","roomId":"22964234"}
-2020-09-30 15:25:11.573 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":141452,"plantform":"1","plantformUid":"1475393030","roomId":"10489277"}
-2020-09-30 15:34:41.119 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第13条数据获取超时; 详细数据:{"id":32284,"plantform":"1","plantformUid":"11199537770633","roomId":"21930463"}
-2020-09-30 15:35:11.580 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":335121,"plantform":"1","plantformUid":"12232085211","roomId":"23197616"}
-2020-09-30 15:44:41.125 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第14条数据获取超时; 详细数据:{"id":74070,"plantform":"1","plantformUid":"11199531806681","roomId":"21282443"}
-2020-09-30 15:45:11.602 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":46105,"plantform":"1","plantformUid":"1310716157","roomId":"21980552"}
-2020-09-30 15:54:41.132 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第15条数据获取超时; 详细数据:{"id":43561,"plantform":"1","plantformUid":"11815143733","roomId":"20340745"}
-2020-09-30 15:55:11.609 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":492798,"plantform":"1","plantformUid":"11653453349","roomId":"23270793"}
-2020-09-30 16:04:41.140 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第16条数据获取超时; 详细数据:{"id":337828,"plantform":"1","plantformUid":"11199528291703","roomId":"21920412"}
-2020-09-30 16:05:11.614 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":57195,"plantform":"1","plantformUid":"11199516200962","roomId":"18638226"}
-2020-09-30 16:14:41.201 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第17条数据获取超时; 详细数据:{"id":15312,"plantform":"1","plantformUid":"12464177389","roomId":"19240280"}
-2020-09-30 16:15:11.621 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第19条数据获取超时; 详细数据:{"id":501232,"plantform":"1","plantformUid":"11279525264342","roomId":"23274981"}
-2020-09-30 16:24:41.223 ERROR 9164 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 第18条数据获取超时; 详细数据:{"id":655193,"plantform":"1","plantformUid":"1576735629","roomId":"23350816"}
-2020-09-30 16:25:11.627 ERROR 9164 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 第20条数据获取超时; 详细数据:{"id":653628,"plantform":"1","plantformUid":"11490510579","roomId":"11509967"}
+2020-10-14 09:43:53.785  INFO 16200 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 16200 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-10-14 09:43:53.805  INFO 16200 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-10-14 09:43:54.492  INFO 16200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-10-14 09:43:54.502  INFO 16200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 09:43:54.502  INFO 16200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-14 09:43:54.552  INFO 16200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 09:43:54.552  INFO 16200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2020-10-14 09:43:54.772  INFO 16200 --- [Thread-3] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-14 09:43:54.792  INFO 16200 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 09:43:54.882  INFO 16200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 09:43:54.971  INFO 16200 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-14 09:43:55.001  INFO 16200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-10-14 09:43:55.011  INFO 16200 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.431 seconds (JVM running for 2.125)
+2020-10-14 09:43:55.092  INFO 16200 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 09:43:55.541  INFO 16200 --- [Thread-3] com.example.hostinfo.conf.Task           : 读取到数据总共有100条
+2020-10-14 09:43:55.541  INFO 16200 --- [Thread-3] com.example.hostinfo.conf.Task           : 成功创建代理进程1;
+2020-10-14 09:43:55.761  INFO 16200 --- [Thread-3] com.example.hostinfo.conf.Task           : 代理IP获取成功 [{"curIP":"60.172.82.5:4278","expireTime":1602641306000,"iP":"60.172.82.5","port":"4278"}]
+2020-10-14 09:43:55.761  INFO 16200 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-10-14 09:44:28.222  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第1条, successed,用时:32秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:44:42.421  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第2条, successed,用时:14秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:45:29.559  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第3条, successed,用时:47秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:45:38.098  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第4条, successed,用时:8秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:45:44.160  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第5条, successed,用时:6秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:46:02.105  INFO 16200 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第6条, successed,用时:17秒,代理IP: 60.172.82.5:4278
+2020-10-14 09:46:18.532  INFO 5440 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 5440 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-10-14 09:46:18.532  INFO 5440 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-10-14 09:46:19.252  INFO 5440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-10-14 09:46:19.262  INFO 5440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 09:46:19.262  INFO 5440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-14 09:46:19.312  INFO 5440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 09:46:19.312  INFO 5440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2020-10-14 09:46:19.513  INFO 5440 --- [Thread-3] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-14 09:46:19.523  INFO 5440 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 09:46:19.603  INFO 5440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 09:46:19.703  INFO 5440 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-14 09:46:19.733  INFO 5440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-10-14 09:46:19.743  INFO 5440 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.414 seconds (JVM running for 2.052)
+2020-10-14 09:46:19.843  INFO 5440 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 09:46:20.153  INFO 5440 --- [Thread-3] com.example.hostinfo.conf.Task           : 读取到数据总共有100条
+2020-10-14 09:46:20.153  INFO 5440 --- [Thread-3] com.example.hostinfo.conf.Task           : 成功创建代理进程1;
+2020-10-14 09:46:20.333  INFO 5440 --- [Thread-3] com.example.hostinfo.conf.Task           : 代理IP获取成功 [{"curIP":"110.52.224.220:4246","expireTime":1602641450000,"iP":"110.52.224.220","port":"4246"}]
+2020-10-14 09:46:20.333  INFO 5440 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 3
+2020-10-14 09:46:28.882  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第1条, successed,用时:8秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:48:30.471  INFO 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0,第2条, successed,用时:130秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:49:20.345 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第3条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":817718,"plantform":"1","plantformUid":"11199558053550","roomId":"23442360"};
+2020-10-14 09:49:28.894 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第4条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":400670,"plantform":"1","plantformUid":"12271376664","roomId":"23208194"};
+2020-10-14 09:49:47.353  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第6条, successed,用时:27秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:51:30.481 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第5条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":28686,"plantform":"1","plantformUid":"11099531767687","roomId":"22478250"};
+2020-10-14 09:52:28.894 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第7条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":14544,"plantform":"1","plantformUid":"1925731011","roomId":"17537590"};
+2020-10-14 09:52:37.425  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第10条, successed,用时:8秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:52:47.359 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第8条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":13524,"plantform":"1","plantformUid":"11279520174700","roomId":"20147737"};
+2020-10-14 09:52:55.110  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第12条, successed,用时:7秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:53:03.670  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第13条, successed,用时:8秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:53:16.987  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第14条, successed,用时:13秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:54:30.490 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第9条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":31147,"plantform":"1","plantformUid":"11199522033281","roomId":"21523842"};
+2020-10-14 09:55:37.438 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第11条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":14512,"plantform":"1","plantformUid":"11199551166327","roomId":"23043797"};
+2020-10-14 09:56:17.013 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第15条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":732456,"plantform":"1","plantformUid":"11822727171","roomId":"18026376"};
+2020-10-14 09:57:30.497 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第16条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":637904,"plantform":"1","plantformUid":"11199527068270","roomId":"20575547"};
+2020-10-14 09:58:37.445 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第17条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":799084,"plantform":"1","plantformUid":"11199522502197","roomId":"19775050"};
+2020-10-14 09:58:47.563  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第20条, successed,用时:10秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:59:14.369  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第21条, successed,用时:26秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:59:17.021 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第18条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":130033,"plantform":"1","plantformUid":"11199527832897","roomId":"20705883"};
+2020-10-14 09:59:21.779  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第22条, successed,用时:7秒,代理IP: 110.52.224.220:4246
+2020-10-14 09:59:34.450  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第24条, successed,用时:12秒,代理IP: 110.52.224.220:4246
+2020-10-14 10:00:30.504 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第19条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":656198,"plantform":"1","plantformUid":"11716467960","roomId":"23345551"};
+2020-10-14 10:00:40.553  INFO 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0,第26条, successed,用时:10秒,代理IP: 110.52.224.220:4246
+2020-10-14 10:02:17.026 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第23条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":498491,"plantform":"1","plantformUid":"11279526902068","roomId":"21468411"};
+2020-10-14 10:02:34.463 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第25条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":29243,"plantform":"1","plantformUid":"11199551400799","roomId":"23057890"};
+2020-10-14 10:03:00.337 ERROR 5440 --- [Thread-3] com.example.hostinfo.conf.Task           : 代理线程异常结束
+2020-10-14 10:03:00.338 ERROR 5440 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-10-14 10:03:40.562 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第27条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":12372,"plantform":"1","plantformUid":"1167321243","roomId":"10307651"};
+2020-10-14 10:04:14.255  INFO 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0,第30条, successed,用时:33秒,代理IP: 110.52.224.220:4246
+2020-10-14 10:05:17.035 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第28条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":644715,"plantform":"1","plantformUid":"11279523686102","roomId":"23353864"};
+2020-10-14 10:05:34.469 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第29条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":27541,"plantform":"1","plantformUid":"11279519126936","roomId":"20948625"};
+2020-10-14 10:07:14.270 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第31条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":16504,"plantform":"1","plantformUid":"11199531481160","roomId":"21246150"};
+2020-10-14 10:08:17.044 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第32条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":28308,"plantform":"1","plantformUid":"11099531728262","roomId":"19743433"};
+2020-10-14 10:08:24.783  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第35条, successed,用时:7秒,代理IP: 110.52.224.220:4246
+2020-10-14 10:08:30.775  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0,第36条, successed,用时:5秒,代理IP: 110.52.224.220:4246
+2020-10-14 10:08:34.475 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第33条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":682272,"plantform":"1","plantformUid":"11199555054669","roomId":"23363726"};
+2020-10-14 10:10:14.278 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第34条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":28779,"plantform":"1","plantformUid":"12200128129","roomId":"14711158"};
+2020-10-14 10:11:30.781 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第37条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":13588,"plantform":"1","plantformUid":"12221705759","roomId":"14889555"};
+2020-10-14 10:11:30.926  INFO 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"124.112.202.70:4278","expireTime":1602642961000,"iP":"124.112.202.70","port":"4278"}
+2020-10-14 10:11:34.490 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第38条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":135760,"plantform":"1","plantformUid":"1674788810","roomId":"17913426"};
+2020-10-14 10:13:14.283 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第39条, failure--,代理IP: 110.52.224.220:4246; 详细数据:{"id":16531,"plantform":"1","plantformUid":"11199529895452","roomId":"21020156"};
+2020-10-14 10:14:30.932 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第40条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":20330,"plantform":"1","plantformUid":"11839844596","roomId":"17448334"};
+2020-10-14 10:14:34.496 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第41条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":422057,"plantform":"1","plantformUid":"11199524079975","roomId":"20052035"};
+2020-10-14 10:16:14.289 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第42条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":734766,"plantform":"1","plantformUid":"11199523097511","roomId":"22931932"};
+2020-10-14 10:17:23.537  INFO 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0,第45条, successed,用时:69秒,代理IP: 124.112.202.70:4278
+2020-10-14 10:17:30.938 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第43条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":27944,"plantform":"1","plantformUid":"11199549203495","roomId":"22956406"};
+2020-10-14 10:17:34.501 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第44条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":79902,"plantform":"1","plantformUid":"12270256227","roomId":"22546704"};
+2020-10-14 10:18:15.452  INFO 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第48条, successed,用时:40秒,代理IP: 124.112.202.70:4278
+2020-10-14 10:20:23.544 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第46条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":492191,"plantform":"1","plantformUid":"11259515641603","roomId":"19613587"};
+2020-10-14 10:20:30.945 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第47条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":467785,"plantform":"1","plantformUid":"11120308180","roomId":"10926124"};
+2020-10-14 10:21:15.459 ERROR 5440 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0第49条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":424798,"plantform":"1","plantformUid":"11721811370","roomId":"23263464"};
+2020-10-14 10:23:23.552 ERROR 5440 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程: 0第50条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":66973,"plantform":"1","plantformUid":"11303372424","roomId":"21755057"};
+2020-10-14 10:23:30.989 ERROR 5440 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程: 0第51条, failure--,代理IP: 124.112.202.70:4278; 详细数据:{"id":16545,"plantform":"1","plantformUid":"11819448974","roomId":"19726410"};
+2020-10-14 12:49:45.647  INFO 13920 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 13920 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-10-14 12:49:45.649  INFO 13920 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-10-14 12:49:46.447  INFO 13920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-10-14 12:49:46.454  INFO 13920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 12:49:46.455  INFO 13920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-14 12:49:46.510  INFO 13920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 12:49:46.511  INFO 13920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 817 ms
+2020-10-14 12:49:46.795  INFO 13920 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-14 12:49:46.813  INFO 13920 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 12:49:47.026  INFO 13920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 12:49:47.168  INFO 13920 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-14 12:49:47.184  INFO 13920 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 12:49:47.204  INFO 13920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-10-14 12:49:47.213  INFO 13920 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.8 seconds (JVM running for 2.45)
+2020-10-14 12:49:47.832  INFO 13920 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有100条
+2020-10-14 12:49:47.833  INFO 13920 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建代理进程1;
+2020-10-14 12:49:48.023  INFO 13920 --- [Thread-4] com.example.hostinfo.conf.Task           : 代理IP获取成功 [{"curIP":"223.241.63.88:4280","expireTime":1602651705000,"iP":"223.241.63.88","port":"4280"}]
+2020-10-14 12:49:48.024  INFO 13920 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-10-14 12:52:48.083 ERROR 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第1条,failure--,代理IP: 223.241.63.88:4280; 详细数据:{"id":301567,"plantform":"1","plantformUid":"12251134667","roomId":"323803"};
+2020-10-14 12:55:48.088 ERROR 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第2条,failure--,代理IP: 223.241.63.88:4280; 详细数据:{"id":76302,"plantform":"1","plantformUid":"163792836","roomId":"10129808"};
+2020-10-14 12:58:48.094 ERROR 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第3条,failure--,代理IP: 223.241.63.88:4280; 详细数据:{"id":367206,"plantform":"1","plantformUid":"12457627533","roomId":"18922741"};
+2020-10-14 12:59:32.649  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第4条,successed,用时:44秒,代理IP: 223.241.63.88:4280
+2020-10-14 12:59:43.559  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第5条,successed,用时:10秒,代理IP: 223.241.63.88:4280
+2020-10-14 12:59:47.775  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第6条,successed,用时:4秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:00:06.158  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第7条,successed,用时:18秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:00:14.589  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第8条,successed,用时:8秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:00:49.686  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第9条,successed,用时:35秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:10.022  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第10条,successed,用时:20秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:16.768  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第11条,successed,用时:6秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:36.802  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第12条,successed,用时:20秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:44.222  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第13条,successed,用时:7秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:51.094  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第14条,successed,用时:6秒,代理IP: 223.241.63.88:4280
+2020-10-14 13:01:51.248  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"106.111.53.198:4264","expireTime":1602653181000,"iP":"106.111.53.198","port":"4264"}
+2020-10-14 13:01:59.207  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第15条,successed,用时:7秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:02:15.306  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第16条,successed,用时:16秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:02:18.736  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第17条,successed,用时:3秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:02:21.700  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第18条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:02:32.752  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第19条,successed,用时:11秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:03:10.232  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第20条,successed,用时:37秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:03:50.431  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第21条,successed,用时:40秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:04:13.530  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第22条,successed,用时:23秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:04:17.758  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第23条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:04:34.842  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第24条,successed,用时:17秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:04:37.093  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第25条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:05:19.248  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第26条,successed,用时:42秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:05:21.953  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第27条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:05:52.172  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第28条,successed,用时:30秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:03.680  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第29条,successed,用时:11秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:11.792  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第30条,successed,用时:8秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:16.459  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第31条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:26.162  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第32条,successed,用时:9秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:28.032 ERROR 13920 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-10-14 13:06:28.032 ERROR 13920 --- [Thread-4] com.example.hostinfo.conf.Task           : 代理线程异常结束
+2020-10-14 13:06:29.139  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第33条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:31.903  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第34条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:47.063  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第35条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:53.497  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第36条,successed,用时:6秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:06:59.059  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第37条,successed,用时:5秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:07:24.918  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第38条,successed,用时:25秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:07:33.499  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第39条,successed,用时:8秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:07:40.189  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第40条,successed,用时:6秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:08:30.498  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第41条,successed,用时:50秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:08:37.919  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第42条,successed,用时:7秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:08:41.730  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第43条,successed,用时:3秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:08:52.150  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第44条,successed,用时:10秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:08:59.688  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第45条,successed,用时:7秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:09:37.169  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第46条,successed,用时:37秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:09:52.070  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第47条,successed,用时:14秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:10:02.981  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第48条,successed,用时:10秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:10:19.129  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第49条,successed,用时:16秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:10:21.601  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第50条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:10:55.438  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第51条,successed,用时:33秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:11:11.448  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第52条,successed,用时:16秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:03.293  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第53条,successed,用时:51秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:08.233  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第54条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:15.288  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第55条,successed,用时:7秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:20.739  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第56条,successed,用时:5秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:25.989  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第57条,successed,用时:5秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:42.609  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第58条,successed,用时:16秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:12:58.233  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第59条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:13:03.892  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第60条,successed,用时:5秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:13:38.029  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第61条,successed,用时:34秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:14:07.726  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第62条,successed,用时:29秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:14:10.029  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第63条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:14:35.693  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第64条,successed,用时:25秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:15:01.160  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第65条,successed,用时:25秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:15:03.609  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第66条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:18:03.619 ERROR 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第67条,failure--,代理IP: 106.111.53.198:4264; 详细数据:{"id":5474,"plantform":"1","plantformUid":"11199549818915","roomId":"23046965"};
+2020-10-14 13:18:08.050  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第68条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:18:32.906  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第69条,successed,用时:24秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:18:50.649  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第70条,successed,用时:17秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:19:25.319  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第71条,successed,用时:34秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:19:32.153  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第72条,successed,用时:6秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:19:36.183  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第73条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:19:51.442  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第74条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:20:04.983  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第75条,successed,用时:13秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:23:04.990 ERROR 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第76条,failure--,代理IP: 106.111.53.198:4264; 详细数据:{"id":719493,"plantform":"1","plantformUid":"12314664606","roomId":"16395452"};
+2020-10-14 13:23:09.553  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第77条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:23:22.123  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第78条,successed,用时:12秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:23:37.358  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第79条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:02.673  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第80条,successed,用时:25秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:05.369  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第81条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:20.872  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第82条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:38.779  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第83条,successed,用时:17秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:41.758  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第84条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:49.328  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第85条,successed,用时:7秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:24:53.261  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第86条,successed,用时:3秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:25:16.098  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第87条,successed,用时:22秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:25:20.871  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第88条,successed,用时:4秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:25:34.690  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第89条,successed,用时:13秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:25:40.223  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第90条,successed,用时:5秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:25:57.629  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第91条,successed,用时:17秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:26:00.109  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第92条,successed,用时:2秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:26:12.508  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第93条,successed,用时:12秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:26:28.307  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第94条,successed,用时:15秒,代理IP: 106.111.53.198:4264
+2020-10-14 13:26:28.447  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"36.57.66.16:4270","expireTime":1602654658000,"iP":"36.57.66.16","port":"4270"}
+2020-10-14 13:26:31.800  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第95条,successed,用时:3秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:26:39.763  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第96条,successed,用时:7秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:26:54.171  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第97条,successed,用时:14秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:27:09.599  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第98条,successed,用时:15秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:27:36.848  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第99条,successed,用时:27秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:27:58.191  INFO 13920 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第100条,successed,用时:21秒,代理IP: 36.57.66.16:4270
+2020-10-14 13:29:48.396  INFO 5652 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 5652 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-10-14 13:29:48.396  INFO 5652 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-10-14 13:29:49.193  INFO 5652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-10-14 13:29:49.203  INFO 5652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-14 13:29:49.203  INFO 5652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-14 13:29:49.283  INFO 5652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-14 13:29:49.283  INFO 5652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 837 ms
+2020-10-14 13:29:49.543  INFO 5652 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-14 13:29:49.553  INFO 5652 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-14 13:29:49.633  INFO 5652 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 13:29:49.723  INFO 5652 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-14 13:29:49.753  INFO 5652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-10-14 13:29:49.763  INFO 5652 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.593 seconds (JVM running for 2.258)
+2020-10-14 13:29:49.883  INFO 5652 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-14 13:29:51.148  INFO 5652 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有100条
+2020-10-14 13:29:51.148  INFO 5652 --- [Thread-4] com.example.hostinfo.conf.Task           : 成功创建代理进程1;
+2020-10-14 13:29:51.318  INFO 5652 --- [Thread-4] com.example.hostinfo.conf.Task           : 代理IP获取成功 [{"curIP":"106.6.232.29:4245","expireTime":1602654861000,"iP":"106.6.232.29","port":"4245"}]
+2020-10-14 13:29:51.328  INFO 5652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 成功创建线程池, 线程池最大并发数: 1
+2020-10-14 13:29:57.048  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第1条,successed,用时:5秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:32:05.552  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第2条,successed,用时:128秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:32:44.821  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第3条,successed,用时:39秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:33:32.590  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第4条,successed,用时:47秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:34:00.590  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第5条,successed,用时:28秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:37:00.602 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第6条,failure--,代理IP: 106.6.232.29:4245; 详细数据:{"id":798443,"plantform":"1","plantformUid":"11651024100","roomId":"22593097"};
+2020-10-14 13:38:09.193  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第7条,successed,用时:68秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:38:20.118  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第8条,successed,用时:10秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:38:30.353  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第9条,successed,用时:10秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:41:30.359 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第10条,failure--,代理IP: 106.6.232.29:4245; 详细数据:{"id":791410,"plantform":"1","plantformUid":"11740386086","roomId":"13213997"};
+2020-10-14 13:44:30.362 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第11条,failure--,代理IP: 106.6.232.29:4245; 详细数据:{"id":498280,"plantform":"1","plantformUid":"121054974","roomId":"18183773"};
+2020-10-14 13:45:13.638  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第12条,successed,用时:43秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:45:33.653  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第13条,successed,用时:20秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:46:02.087  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第14条,successed,用时:28秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:46:31.338 ERROR 5652 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 程序异常结束
+2020-10-14 13:46:31.338 ERROR 5652 --- [Thread-4] com.example.hostinfo.conf.Task           : 代理线程异常结束
+2020-10-14 13:46:38.248  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第15条,successed,用时:36秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:47:10.171  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第16条,successed,用时:31秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:50:10.181 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第17条,failure--,代理IP: 106.6.232.29:4245; 详细数据:{"id":468702,"plantform":"1","plantformUid":"11856034542","roomId":"23268281"};
+2020-10-14 13:53:10.236 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第18条,failure--,代理IP: 106.6.232.29:4245; 详细数据:{"id":21814,"plantform":"1","plantformUid":"11619659427","roomId":"23104818"};
+2020-10-14 13:53:18.433  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第19条,successed,用时:8秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:54:05.411  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第20条,successed,用时:46秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:54:55.490  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第21条,successed,用时:50秒,代理IP: 106.6.232.29:4245
+2020-10-14 13:54:55.651  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"58.244.197.46:4282","expireTime":1602656366000,"iP":"58.244.197.46","port":"4282"}
+2020-10-14 13:57:55.661 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第22条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":724626,"plantform":"1","plantformUid":"11326883102","roomId":"18325887"};
+2020-10-14 13:59:49.655  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第23条,successed,用时:113秒,代理IP: 58.244.197.46:4282
+2020-10-14 14:02:49.664 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第24条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":39417,"plantform":"1","plantformUid":"11685744933","roomId":"12527701"};
+2020-10-14 14:05:49.669 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第25条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":19529,"plantform":"1","plantformUid":"11059044843","roomId":"22090174"};
+2020-10-14 14:08:49.669 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第26条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":809119,"plantform":"1","plantformUid":"11279528488829","roomId":"22706424"};
+2020-10-14 14:11:49.676 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第27条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":683079,"plantform":"1","plantformUid":"11199556760278","roomId":"23364344"};
+2020-10-14 14:11:54.232  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第28条,successed,用时:4秒,代理IP: 58.244.197.46:4282
+2020-10-14 14:14:54.239 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第29条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":41802,"plantform":"1","plantformUid":"11728375760","roomId":"21156665"};
+2020-10-14 14:17:54.246 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第30条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":789168,"plantform":"1","plantformUid":"12355411640","roomId":"23413255"};
+2020-10-14 14:17:57.817  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第31条,successed,用时:3秒,代理IP: 58.244.197.46:4282
+2020-10-14 14:20:57.826 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第32条,failure--,代理IP: 58.244.197.46:4282; 详细数据:{"id":101349,"plantform":"1","plantformUid":"11279520664571","roomId":"20418857"};
+2020-10-14 14:20:57.966  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"183.166.144.237:4278","expireTime":1602657621000,"iP":"183.166.144.237","port":"4278"}
+2020-10-14 14:23:57.971 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第33条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":22295,"plantform":"1","plantformUid":"11279527646401","roomId":"23191989"};
+2020-10-14 14:24:16.894  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第34条,successed,用时:18秒,代理IP: 183.166.144.237:4278
+2020-10-14 14:24:54.709  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第35条,successed,用时:37秒,代理IP: 183.166.144.237:4278
+2020-10-14 14:27:54.718 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第36条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":189265,"plantform":"1","plantformUid":"12191718619","roomId":"17568746"};
+2020-10-14 14:30:54.719 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第37条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":652300,"plantform":"1","plantformUid":"11199545080728","roomId":"22608237"};
+2020-10-14 14:33:54.725 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第38条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":818385,"plantform":"1","plantformUid":"11733703525","roomId":"18365610"};
+2020-10-14 14:36:54.732 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第39条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":282816,"plantform":"1","plantformUid":"11199546350141","roomId":"22724597"};
+2020-10-14 14:37:02.893  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第40条,successed,用时:8秒,代理IP: 183.166.144.237:4278
+2020-10-14 14:40:02.902 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第41条,failure--,代理IP: 183.166.144.237:4278; 详细数据:{"id":399429,"plantform":"1","plantformUid":"11199554669291","roomId":"23243863"};
+2020-10-14 14:40:13.141  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第42条,successed,用时:10秒,代理IP: 183.166.144.237:4278
+2020-10-14 14:41:29.796  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第43条,successed,用时:76秒,代理IP: 183.166.144.237:4278
+2020-10-14 14:41:29.935  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"183.151.255.84:4223","expireTime":1602659160000,"iP":"183.151.255.84","port":"4223"}
+2020-10-14 14:41:37.485  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第44条,successed,用时:7秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:42:04.633  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第45条,successed,用时:27秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:42:50.977  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第46条,successed,用时:46秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:45:50.985 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第47条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":498710,"plantform":"1","plantformUid":"11690170167","roomId":"17277446"};
+2020-10-14 14:46:21.988  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第48条,successed,用时:31秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:49:22.001 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第49条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":34578,"plantform":"1","plantformUid":"12348138714","roomId":"19736908"};
+2020-10-14 14:49:51.602  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第50条,successed,用时:29秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:50:37.270  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第51条,successed,用时:45秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:50:40.325  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第52条,successed,用时:3秒,代理IP: 183.151.255.84:4223
+2020-10-14 14:53:40.332 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第53条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":19779,"plantform":"1","plantformUid":"11199553406171","roomId":"23166620"};
+2020-10-14 14:56:40.341 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第54条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":56058,"plantform":"1","plantformUid":"11279513470720","roomId":"21576972"};
+2020-10-14 14:57:23.263  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第55条,successed,用时:42秒,代理IP: 183.151.255.84:4223
+2020-10-14 15:00:23.271 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第56条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":143510,"plantform":"1","plantformUid":"11259515257751","roomId":"20559020"};
+2020-10-14 15:03:23.293 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第57条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":806458,"plantform":"1","plantformUid":"11702577078","roomId":"20333409"};
+2020-10-14 15:03:27.142  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第58条,successed,用时:3秒,代理IP: 183.151.255.84:4223
+2020-10-14 15:06:27.152 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第59条,failure--,代理IP: 183.151.255.84:4223; 详细数据:{"id":328962,"plantform":"1","plantformUid":"11796096457","roomId":"18397065"};
+2020-10-14 15:06:27.339  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"119.85.3.127:4242","expireTime":1602660013000,"iP":"119.85.3.127","port":"4242"}
+2020-10-14 15:09:27.344 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第60条,failure--,代理IP: 119.85.3.127:4242; 详细数据:{"id":818169,"plantform":"1","plantformUid":"11809895695","roomId":"16536485"};
+2020-10-14 15:12:27.350 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第61条,failure--,代理IP: 119.85.3.127:4242; 详细数据:{"id":19816,"plantform":"1","plantformUid":"11199540256803","roomId":"22187696"};
+2020-10-14 15:15:27.356 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第62条,failure--,代理IP: 119.85.3.127:4242; 详细数据:{"id":500479,"plantform":"1","plantformUid":"11279512767639","roomId":"19029528"};
+2020-10-14 15:16:50.582  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第63条,successed,用时:83秒,代理IP: 119.85.3.127:4242
+2020-10-14 15:16:56.969  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第64条,successed,用时:6秒,代理IP: 119.85.3.127:4242
+2020-10-14 15:17:08.622  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第65条,successed,用时:11秒,代理IP: 119.85.3.127:4242
+2020-10-14 15:17:15.643  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第66条,successed,用时:7秒,代理IP: 119.85.3.127:4242
+2020-10-14 15:20:15.653 ERROR 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第67条,failure--,代理IP: 119.85.3.127:4242; 详细数据:{"id":71641,"plantform":"1","plantformUid":"11199529933051","roomId":"23178039"};
+2020-10-14 15:20:15.822  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0; 代理IP过时,系统重新获取; {"curIP":"114.105.153.235:4212","expireTime":1602661486000,"iP":"114.105.153.235","port":"4212"}
+2020-10-14 15:20:18.341  INFO 5652 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程: 0,第68条,successed,用时:2秒,代理IP: 114.105.153.235:4212

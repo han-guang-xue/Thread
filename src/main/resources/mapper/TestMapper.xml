@@ -9,7 +9,7 @@
         from "Anchor"
         where "UpdateTime" > #{ToDay }
         and "Plantform" = '1'
-        order by "UpdateTime" desc;
+        order by "UpdateTime" desc limit 100;
     </select>
 
     <select id="selectAll" resultType="com.example.hostinfo.bean.Anchor">
@@ -20,7 +20,7 @@
         insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime")
         values
         <foreach collection="list" item="item" separator=",">
-            (#{item.RoomId} ,#{item.Platform} ,#{item.HotNum} ,#{item.FocusNum} ,#{item.VipNum} ,#{item.State} ,#{item.CreateTime})
+            (#{item.RoomId},#{item.Platform},#{item.HotNum},#{item.FocusNum},#{item.VipNum},#{item.State},#{item.CreateTime})
         </foreach>
     </insert>
 </mapper>

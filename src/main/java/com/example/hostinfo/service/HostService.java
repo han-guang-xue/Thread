@@ -31,8 +31,10 @@ public class HostService {
         }
         if(null != list && list.size() != 0){
             hostInfoDao.insert(list);
+            return "successed";
+        }else {
+            return "没有结果文件生成";
         }
-        return "successed";
     }
 
 }

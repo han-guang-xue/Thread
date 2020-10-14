@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
 public class CalabashUtil {
     public static Logger logger = LoggerFactory.getLogger(CalabashUtil.class);
 
-    public static String path = "tools\\ConsoleClient\\Debug\\";
+    public static String path = "tools\\Client\\Debug\\";
 
     private static String program = "Calabash.Plugin.ConsoleApp.exe";
 
@@ -81,44 +81,52 @@ public class CalabashUtil {
         }
     }
 
+    public static boolean getInfo(String platform, String roomNum, int timeout) throws IOException, TimeoutException{
+        return getInfo(platform,roomNum,timeout,null);
+    }
     /**
      * 平台
      * @param platform
      * @param roomNum
      * @param timeout
+     * @param ip 代理 ip
      * @return
      * @throws IOException
      * @throws TimeoutException
      */
-    public static boolean getInfo(String platform, String roomNum, int timeout) throws IOException, TimeoutException {
-            List<String> list = new ArrayList<String>();
-            list.add(path + program);
-            list.add(platform);
-            list.add(roomNum);
-            ProcessBuilder pBuilder = new ProcessBuilder(list);
-            //类似 cd path
-            pBuilder.directory(new File(path));
-            //启动程序
-            Process process = pBuilder.start();
+    public static boolean getInfo(String platform, String roomNum, int timeout, String ip) throws IOException, TimeoutException {
+        List<String> list = new ArrayList<String>();
+        list.add(path + program);
+        list.add(platform);
+        roomNum = null != ip ? roomNum + "!" + ip : roomNum;
+        list.add(roomNum);
 
-            //将标准输出 和 错误输出合并输出
-            pBuilder.redirectErrorStream(true);
-            ProcessWithTimeout processWithTimeout = new ProcessWithTimeout(process);
+        ProcessBuilder pBuilder = new ProcessBuilder(list);
 
-            Integer exitCode = processWithTimeout.waitForProcess(timeout);
+        //类似 cd path
+        pBuilder.directory(new File(path));
 
-            if(exitCode == Integer.MIN_VALUE){
-                throw new TimeoutException("程序超时退出");
-            }else{
-                return true;
-            }
+        //启动程序
+        Process process = pBuilder.start();
+
+        //将标准输出 和 错误输出合并输出
+        pBuilder.redirectErrorStream(true);
+        ProcessWithTimeout processWithTimeout = new ProcessWithTimeout(process);
+
+        Integer exitCode = processWithTimeout.waitForProcess(timeout);
+
+        if(exitCode == Integer.MIN_VALUE){
+            throw new TimeoutException("程序超时退出");
+        }else{
+            return true;
+        }
     }
 
 
     public static void main(String[] args) throws IOException, InterruptedException, TimeoutException {
-//        server();
+        server();
 //        Thread.sleep(1000*5);
-        getInfo("Douyu", "5720533", Task.timeout);
+//        getInfo("Douyu", "5720533", Task.timeout);
 //        getInfo2("Douyu", "7223839");
 //        getInfo("Douyu", "1011");
 //        server();
