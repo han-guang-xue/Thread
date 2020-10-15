@@ -3,8 +3,10 @@ package com.example.hostinfo.conf;
 import com.alibaba.fastjson.JSON;
 import com.example.hostinfo.bean.Anchor;
 import com.example.hostinfo.bean.Failure;
+import com.example.hostinfo.interceptor.PlatformInterceptor;
 import com.example.hostinfo.service.HostService;
 import com.example.hostinfo.util.CalabashUtil;
+import com.example.hostinfo.util.exception.NotLiveException;
 import com.example.hostinfo.util.proxy.IP;
 import com.example.hostinfo.util.proxy.ProxySocks;
 import org.slf4j.Logger;
@@ -117,7 +119,7 @@ public class Task {
         List<List<Anchor>> halve = getHalve(list,default_proxy_num);
         int actual_proxy_num = halve.size();
         ExecutorService halvefool = Executors.newFixedThreadPool(actual_proxy_num);
-        logger.info("成功创建代理进程" + actual_proxy_num + ";");
+        logger.info("创建代理进程" + actual_proxy_num + ";");
 
         //设置代理IP
         setProxyNum(actual_proxy_num);
@@ -137,7 +139,7 @@ public class Task {
 
         }
         halvefool.shutdown();
-        boolean flag = halvefool.awaitTermination(1000, TimeUnit.SECONDS);
+        boolean flag = halvefool.awaitTermination(24, TimeUnit.HOURS);
         if(flag) {
             logger.info("代理线程结束, 重新运行");
             this.start();
@@ -150,7 +152,7 @@ public class Task {
 
     public boolean start(List<Anchor> anchors,Integer proxyID) throws InterruptedException {
         ExecutorService fixedThreadPool = Executors.newFixedThreadPool(threadNum);
-        logger.info("成功创建线程池, 线程池最大并发数: " + threadNum);
+        logger.info("创建线程池, 线程池最大并发数: " + threadNum);
         for (int i = 0; i < anchors.size(); i++) {
             int finalI = i;
             Anchor anchor = anchors.get(finalI);
@@ -172,7 +174,7 @@ public class Task {
             });
         }
         fixedThreadPool.shutdown();
-        boolean flag = fixedThreadPool.awaitTermination(1000, TimeUnit.SECONDS);
+        boolean flag = fixedThreadPool.awaitTermination(24, TimeUnit.HOURS);
         if(flag) {
             return true;
         }else{
@@ -183,7 +185,7 @@ public class Task {
 
     public static boolean runInThread(Anchor anchor, int index, String ip, Integer proxyID) {
         logger.debug("获取信息> 平台: " + typeMap.get(anchor.getPlantform())
-                + "; 代理进程: " + (proxyID + 1)
+                + "; 代理进程:" + (proxyID + 1)
                 + "; 代理IP: " + ip
                 + "; 用户更新时间: " + anchor.getUpdateTime()
                 + "; 房间号: " + anchor.getRoomId()
@@ -192,19 +194,62 @@ public class Task {
                 + "条"
             );
 
-        String logProx = "代理IP: " + ip;
+        String platform = typeMap.get(anchor.getPlantform());
+        String roomId = anchor.getRoomId();
+        String errorMessage = null;
+        Long time; String status;
         try {
+            PlatformInterceptor.getLiveStatus(platform,roomId);
             Long startTime = System.currentTimeMillis();
             CalabashUtil.getInfo(typeMap.get(anchor.getPlantform()), anchor.getRoomId(), timeout, ip);
             Long endTime = System.currentTimeMillis();
-            logger.info("代理进程: "+ proxyID + ",第" + (index + 1) + "条,successed,用时:" + (endTime - startTime)/1000 + "秒," + logProx);
+            time = (endTime - startTime)/1000; status = "success";
         } catch (IOException e) {
-            logger.error("代理进程: "+ proxyID + ",第" + (index + 1) + "条,failure--,错误信息如下:");
-            logger.error(e.getMessage());
+            time = timeout/1000L; status = " error ";
+            errorMessage = e.getMessage();
+        } catch (NotLiveException e) {
+            time = 0L; status = "warning";
+            errorMessage = "主播未直播";
         } catch (TimeoutException e) {
-            logger.error("代理进程: "+ proxyID + ",第" + (index + 1) + "条,failure--," + logProx + "; 详细数据:" + JSON.toJSONString(anchor) + ";");
+            time = timeout/1000L; status = "failure";
+        }
+        String logMessage = getRoomLog(proxyID, index, roomId, platform, status, time, ip,errorMessage);
+        if(status == "success") {
+            logger.info(logMessage);
+        } else if(status == "warning"){
+            logger.warn(logMessage);
+        } else {
+            logger.error(logMessage);
         }
         return true;
+    }
+
+    public static String getRoomLog(Integer proxyID, int index, String roomId,String platform, String status, Long timeout,String ip, String otherMessage) {
+        return "代理进程:"+ proxyID + ",第" + (index + 1) + "条," + status + ",用时:" + getTimeoutLog(timeout) + "秒;房间信息:" + platform + " "
+                + roomId + "!" + ip + (otherMessage == null ? "": ";message:" + otherMessage);
+    }
+
+    public static String getTimeoutLog(long timeout) {
+        if(timeout < 10) {
+            return "  " + timeout;
+        }
+        if(timeout < 100) {
+            return " " + timeout;
+        }
+        return "" + timeout;
+    }
+
+    public static String getIndexLog(int index){
+        if(index < 10) {
+            return  "   " + index;
+        }
+        if(index < 100) {
+            return "  " + index;
+        }
+        if(index < 1000) {
+            return " " + index;
+        }
+        return index + "";
     }
 
 
@@ -270,7 +315,7 @@ public class Task {
         return havle;
     }
 
-    public IP getIP(Integer proxy_ID) {
+    public synchronized IP getIP(Integer proxy_ID) {
         IP ip = process_ProxyIP.get(proxy_ID);
         if(ip.getExpireTime().getTime() < System.currentTimeMillis()) {
             List<IP> ips = getIPS(1);
@@ -282,22 +327,35 @@ public class Task {
             }else {
                 logStr += ", 获取失败";
             }
-            logger.info("代理进程: " + proxy_ID + "; 代理IP过时," + logStr);
+            logger.info("代理进程:" + proxy_ID + "; 代理IP过时," + logStr);
         }
         return ip;
     }
 
     public void setProxyNum(int num) {
-        List<IP> ips = getIPS(num);
+        int relNum = num;
+        int preNum = 0;
+        if(null == process_ProxyIP) {
+            process_ProxyIP = new HashMap<>();
+        }else{
+            Set<Integer> keyset = process_ProxyIP.keySet();
+            preNum = keyset.size();
+            if(relNum > preNum) {
+                relNum = relNum - preNum; //获取IP真实的个数
+            }
+            return;
+        }
+
+        List<IP> ips = getIPS(relNum);
         if(ips.size() == 0) {
             logger.error("代理IP获取失败, process_ProxyIP 设置失败");
             System.exit(0);
         }
         logger.info("代理IP获取成功 " + JSON.toJSONString(ips));
-        process_ProxyIP = new HashMap<>();
-        for (int i = 0; i < num; i++) {
+        for (int i = preNum; i < num; i++) {
             process_ProxyIP.put(i,ips.get(i));
         }
+
     }
 
     public List<IP> getIPS(int num){

@@ -55,6 +55,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.68</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
 
     </dependencies>
 
@@ -66,13 +72,13 @@
             </plugin>
         </plugins>
         <resources>
-            <resource>
-                <targetPath>tools</targetPath>
-                <includes>
-                    <include>**/**</include>
-                </includes>
-                <directory>tools</directory>
-            </resource>
+<!--            <resource>-->
+<!--                <targetPath>tools</targetPath>-->
+<!--                <includes>-->
+<!--                    <include>**/**</include>-->
+<!--                </includes>-->
+<!--                <directory>tools</directory>-->
+<!--            </resource>-->
         </resources>
     </build>
 
