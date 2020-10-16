@@ -2,6 +2,7 @@ package com.example.hostinfo.util;
 
 
 import com.example.hostinfo.conf.Task;
+import com.example.hostinfo.util.exception.ConnectionFailureException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -81,7 +82,7 @@ public class CalabashUtil {
         }
     }
 
-    public static boolean getInfo(String platform, String roomNum, int timeout) throws IOException, TimeoutException{
+    public static boolean getInfo(String platform, String roomNum, int timeout) throws IOException, TimeoutException, ConnectionFailureException {
         return getInfo(platform,roomNum,timeout,null);
     }
     /**
@@ -94,7 +95,7 @@ public class CalabashUtil {
      * @throws IOException
      * @throws TimeoutException
      */
-    public static boolean getInfo(String platform, String roomNum, int timeout, String ip) throws IOException, TimeoutException {
+    public static boolean getInfo(String platform, String roomNum, int timeout, String ip) throws IOException, TimeoutException, ConnectionFailureException {
         List<String> list = new ArrayList<String>();
         list.add(path + program);
         list.add(platform);
@@ -118,7 +119,11 @@ public class CalabashUtil {
         if(exitCode == Integer.MIN_VALUE){
             throw new TimeoutException("程序超时退出");
         }else{
-            return true;
+            String resFile = path + "result\\"+ platform + "_" + roomNum.split("!")[0] + ".txt";
+            if(new File(resFile).exists()){
+                return true;
+            }
+            throw new ConnectionFailureException();
         }
     }
 
@@ -157,7 +162,7 @@ public class CalabashUtil {
 
         Integer exitCode = processWithTimeout.waitForProcess(1000*5); //一分钟
 
-        if(exitCode == Integer.MIN_VALUE){
+        if(exitCode == Integer.MIN_VALUE) {
             throw new TimeoutException("程序超时退出");
         }else if(exitCode == -1){
             logger.info("程序结束");
@@ -190,6 +195,8 @@ public class CalabashUtil {
                         } catch (TimeoutException e) {
                             e.printStackTrace();
                             logger.error("进程超时");
+                        } catch (ConnectionFailureException e) {
+                            e.printStackTrace();
                         }
                         System.out.println("线程执行完毕 + " + (finalI + 1));
                     } catch (IOException e) {

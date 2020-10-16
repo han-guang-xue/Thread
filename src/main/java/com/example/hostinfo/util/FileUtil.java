@@ -37,6 +37,11 @@ public class FileUtil {
                }
             }
             //读取完数据之后, 将文件删除掉
+            try {
+                Thread.sleep(1000*2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             for (int i = 0; i < files.length; i++) {
                 files[i].delete();
             }

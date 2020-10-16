@@ -1,3 +1,0 @@
-[1015/142236:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
-[1015/142236:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Administrator\AppData\Local\Calabash\Daemon\CefSharp\Cache to C:\Users\Administrator\AppData\Local\Calabash\Daemon\CefSharp\old_Cache_000
-[1015/142236:ERROR:cache_creator.cc(129)] Unable to create cache

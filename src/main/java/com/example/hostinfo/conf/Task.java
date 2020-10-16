@@ -6,6 +6,7 @@ import com.example.hostinfo.bean.Failure;
 import com.example.hostinfo.interceptor.PlatformInterceptor;
 import com.example.hostinfo.service.HostService;
 import com.example.hostinfo.util.CalabashUtil;
+import com.example.hostinfo.util.exception.ConnectionFailureException;
 import com.example.hostinfo.util.exception.NotLiveException;
 import com.example.hostinfo.util.proxy.IP;
 import com.example.hostinfo.util.proxy.ProxySocks;
@@ -28,7 +29,7 @@ public class Task {
     public final static Boolean useAgent = true;  //是否使用代理
     public final static String default_proxy_IP = "119.7.231.157:4261"; //默认一个
     public final static Integer default_proxy_num = 1; //使用多少个代理跑, 每个代理代表一个进程
-    public final static Integer default_threadNum = 1; //每个代理ip下执行的线程
+    public final static Integer default_threadNum = 5; //每个代理ip下执行的线程
     public final static Long default_interval = 15*60*1000L; //获取多久时间之前的数据
     public final static int default_timeout = 3*60*1000; //超时时间
     public final static int default_interval_time = 0*60*1000; //每个ip下线程间执行的时间间隔
@@ -198,11 +199,12 @@ public class Task {
         String roomId = anchor.getRoomId();
         String errorMessage = null;
         Long time; String status;
+        Long startTime = null, endTime;
         try {
             PlatformInterceptor.getLiveStatus(platform,roomId);
-            Long startTime = System.currentTimeMillis();
+            startTime = System.currentTimeMillis();
             CalabashUtil.getInfo(typeMap.get(anchor.getPlantform()), anchor.getRoomId(), timeout, ip);
-            Long endTime = System.currentTimeMillis();
+            endTime = System.currentTimeMillis();
             time = (endTime - startTime)/1000; status = "success";
         } catch (IOException e) {
             time = timeout/1000L; status = " error ";
@@ -212,6 +214,11 @@ public class Task {
             errorMessage = "主播未直播";
         } catch (TimeoutException e) {
             time = timeout/1000L; status = "failure";
+            errorMessage = "请求超时";
+        } catch (ConnectionFailureException e) {
+            time = (System.currentTimeMillis() - startTime)/1000;
+            status = "failure";
+            errorMessage = "重连失败";
         }
         String logMessage = getRoomLog(proxyID, index, roomId, platform, status, time, ip,errorMessage);
         if(status == "success") {
@@ -315,22 +322,7 @@ public class Task {
         return havle;
     }
 
-    public synchronized IP getIP(Integer proxy_ID) {
-        IP ip = process_ProxyIP.get(proxy_ID);
-        if(ip.getExpireTime().getTime() < System.currentTimeMillis()) {
-            List<IP> ips = getIPS(1);
-            String logStr = "系统重新获取; ";
-            if(ips.size() != 0) {
-                ip = ips.get(0);
-                logStr += JSON.toJSONString(ip);
-                process_ProxyIP.put(proxy_ID, ip);
-            }else {
-                logStr += ", 获取失败";
-            }
-            logger.info("代理进程:" + proxy_ID + "; 代理IP过时," + logStr);
-        }
-        return ip;
-    }
+
 
     public void setProxyNum(int num) {
         int relNum = num;
@@ -356,6 +348,23 @@ public class Task {
             process_ProxyIP.put(i,ips.get(i));
         }
 
+    }
+
+    public synchronized IP getIP(Integer proxy_ID) {
+        IP ip = process_ProxyIP.get(proxy_ID);
+        if(ip.getExpireTime().getTime() < System.currentTimeMillis()) {
+            List<IP> ips = getIPS(1);
+            String logStr = "系统重新获取; ";
+            if(ips.size() != 0) {
+                ip = ips.get(0);
+                logStr += JSON.toJSONString(ip);
+                process_ProxyIP.put(proxy_ID, ip);
+            }else {
+                logStr += ", 获取失败";
+            }
+            logger.info("代理进程:" + proxy_ID + "; 代理IP过时," + logStr);
+        }
+        return ip;
     }
 
     public List<IP> getIPS(int num){

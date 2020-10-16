@@ -1,0 +1,51 @@
+﻿2020-10-16 18:39:42,801 [1] INFO  Calabash.Transport - TCP 服务启动成功
+2020-10-16 18:40:04,521 [13] INFO  Calabash.Daemon - Receive Request : SelectRoomReq	 Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,521 [11] INFO  Calabash.Daemon - Receive Request : SelectRoomReq	 Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:04,521 [22] INFO  Calabash.Daemon - Receive Request : SelectRoomReq	 Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:04,521 [16] INFO  Calabash.Daemon - Receive Request : SelectRoomReq	 Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:04,528 [19] INFO  Calabash.Daemon - Receive Request : SelectRoomReq	 Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,567 [34] INFO  Calabash.Daemon - Query Room GiftList Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,567 [36] INFO  Calabash.Daemon - Query Room GiftList Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:04,567 [35] INFO  Calabash.Daemon - Query Room GiftList Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:04,570 [37] INFO  Calabash.Daemon - Query Room GiftList Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:04,618 [38] INFO  Calabash.Daemon - Query Room GiftList Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,707 [36] INFO  Calabash.Daemon - Huya:22135191!114.99.12.102:4227 获取房间礼物数据成功
+2020-10-16 18:40:04,707 [34] INFO  Calabash.Daemon - Huya:20069889!114.99.12.102:4227 获取房间礼物数据成功
+2020-10-16 18:40:04,740 [35] INFO  Calabash.Daemon - Huya:23347604!114.99.12.102:4227 获取房间礼物数据成功
+2020-10-16 18:40:04,744 [38] INFO  Calabash.Daemon - Huya:19937420!114.99.12.102:4227 获取房间礼物数据成功
+2020-10-16 18:40:04,744 [37] INFO  Calabash.Daemon - Huya:20539989!114.99.12.102:4227 获取房间礼物数据成功
+2020-10-16 18:40:04,962 [13] INFO  Calabash.Daemon - Receive Request : ConnectRoomReq	 Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,972 [13] DEBUG Calabash.Platform.Protocol - ProtocolProxyService Create Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,983 [13] DEBUG Calabash.Platform.Protocol - ProtocolService Create Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,987 [19] INFO  Calabash.Daemon - Receive Request : ConnectRoomReq	 Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,987 [19] DEBUG Calabash.Platform.Protocol - ProtocolProxyService Create Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,988 [19] DEBUG Calabash.Platform.Protocol - ProtocolService Create Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,988 [19] DEBUG Calabash.Platform.Protocol - AuthProtocolService Create Huya:19937420!114.99.12.102:4227
+2020-10-16 18:40:04,989 [13] DEBUG Calabash.Platform.Protocol - AuthProtocolService Create Huya:20069889!114.99.12.102:4227
+2020-10-16 18:40:04,993 [19] INFO  Calabash.Daemon - 正在连接的房间: [Huya/19937420]
+2020-10-16 18:40:04,994 [13] INFO  Calabash.Daemon - 正在连接的房间: [Huya/20069889]
+2020-10-16 18:40:04,996 [46] INFO  Calabash.Daemon - 连接启动中 Huya:19937420
+2020-10-16 18:40:04,996 [47] INFO  Calabash.Daemon - 连接启动中 Huya:20069889
+2020-10-16 18:40:04,998 [46] INFO  Calabash.Daemon - 当前房间连接数：2
+2020-10-16 18:40:04,998 [47] INFO  Calabash.Daemon - 当前房间连接数：2
+2020-10-16 18:40:04,999 [22] INFO  Calabash.Daemon - Receive Request : ConnectRoomReq	 Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:04,999 [22] DEBUG Calabash.Platform.Protocol - ProtocolProxyService Create Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:04,999 [11] INFO  Calabash.Daemon - Receive Request : ConnectRoomReq	 Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:05,000 [11] DEBUG Calabash.Platform.Protocol - ProtocolProxyService Create Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:05,000 [22] DEBUG Calabash.Platform.Protocol - ProtocolService Create Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:05,000 [22] DEBUG Calabash.Platform.Protocol - AuthProtocolService Create Huya:23347604!114.99.12.102:4227
+2020-10-16 18:40:05,001 [22] INFO  Calabash.Daemon - 正在连接的房间: [Huya/23347604]
+2020-10-16 18:40:05,000 [11] DEBUG Calabash.Platform.Protocol - ProtocolService Create Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:05,001 [52] INFO  Calabash.Daemon - 连接启动中 Huya:23347604
+2020-10-16 18:40:05,001 [11] DEBUG Calabash.Platform.Protocol - AuthProtocolService Create Huya:22135191!114.99.12.102:4227
+2020-10-16 18:40:05,004 [52] INFO  Calabash.Daemon - 当前房间连接数：3
+2020-10-16 18:40:05,004 [11] INFO  Calabash.Daemon - 正在连接的房间: [Huya/22135191]
+2020-10-16 18:40:05,005 [55] INFO  Calabash.Daemon - 连接启动中 Huya:22135191
+2020-10-16 18:40:05,005 [55] INFO  Calabash.Daemon - 当前房间连接数：4
+2020-10-16 18:40:05,023 [16] INFO  Calabash.Daemon - Receive Request : ConnectRoomReq	 Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:05,024 [16] DEBUG Calabash.Platform.Protocol - ProtocolProxyService Create Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:05,024 [16] DEBUG Calabash.Platform.Protocol - ProtocolService Create Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:05,024 [16] DEBUG Calabash.Platform.Protocol - AuthProtocolService Create Huya:20539989!114.99.12.102:4227
+2020-10-16 18:40:05,025 [16] INFO  Calabash.Daemon - 正在连接的房间: [Huya/20539989]
+2020-10-16 18:40:05,026 [59] INFO  Calabash.Daemon - 连接启动中 Huya:20539989
+2020-10-16 18:40:05,026 [59] INFO  Calabash.Daemon - 当前房间连接数：5

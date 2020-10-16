@@ -9,7 +9,7 @@
         from "Anchor"
         where "UpdateTime" > #{ToDay }
         and "Plantform" = '1'
-        order by "UpdateTime" desc limit 100;
+        order by "UpdateTime" desc limit 1000;
     </select>
 
     <select id="selectAll" resultType="com.example.hostinfo.bean.Anchor">
