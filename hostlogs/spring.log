@@ -4890,3 +4890,52 @@ Caused by: org.postgresql.util.PSQLException: This connection has been closed.
 2020-10-19 11:50:02.036 DEBUG 50460 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==>  Preparing: insert into "HostInfo" ("RoomId","Platform","HotNum","FocusNum","VipNum","State","CreateTime") values (?,?,?,?,?,?,?) , (?,?,?,?,?,?,?) , (?,?,?,?,?,?,?) , (?,?,?,?,?,?,?) , (?,?,?,?,?,?,?) , (?,?,?,?,?,?,?)
 2020-10-19 11:50:02.036 DEBUG 50460 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : ==> Parameters: 11908193(String), 1(Integer), 7349(Integer), 89980(Integer), 20(Integer), null, 2020-10-19 11:50:00.002(Timestamp), 12395840(String), 1(Integer), 292(Integer), 86718(Integer), 0(Integer), null, 2020-10-19 11:50:00.002(Timestamp), 13633364(String), 1(Integer), 8572(Integer), 139665(Integer), 7(Integer), null, 2020-10-19 11:50:00.002(Timestamp), 16913382(String), 1(Integer), 106127(Integer), 84958(Integer), 11(Integer), null, 2020-10-19 11:50:00.002(Timestamp), 21659413(String), 1(Integer), 500(Integer), 85411(Integer), 3(Integer), null, 2020-10-19 11:50:00.002(Timestamp), 23289252(String), 1(Integer), 6107(Integer), 85615(Integer), 8(Integer), null, 2020-10-19 11:50:00.002(Timestamp)
 2020-10-19 11:50:02.069 DEBUG 50460 --- [scheduling-1] c.e.hostinfo.dao.HostInfoDao.insert      : <==    Updates: 6
+2020-10-19 11:52:03.977  INFO 20852 --- [main] c.example.hostinfo.HostinfoApplication   : Starting HostinfoApplication on SD-20200824WBZQ with PID 20852 (E:\YCXGIT\HostInfo\target\classes started by Administrator in E:\YCXGIT\HostInfo)
+2020-10-19 11:52:03.980  INFO 20852 --- [main] c.example.hostinfo.HostinfoApplication   : No active profile set, falling back to default profiles: default
+2020-10-19 11:52:04.761  INFO 20852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2020-10-19 11:52:04.770  INFO 20852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-19 11:52:04.770  INFO 20852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 11:52:04.832  INFO 20852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-19 11:52:04.832  INFO 20852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2020-10-19 11:52:05.057  INFO 20852 --- [Thread-4] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-10-19 11:52:05.154  INFO 20852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 11:52:05.261  INFO 20852 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-19 11:52:05.293  INFO 20852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2020-10-19 11:52:05.301  INFO 20852 --- [main] c.example.hostinfo.HostinfoApplication   : Started HostinfoApplication in 1.558 seconds (JVM running for 2.364)
+2020-10-19 11:52:10.142  INFO 20852 --- [Thread-4] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-19 11:52:10.156  INFO 20852 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-19 11:52:10.482  INFO 20852 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-19 11:52:10.487 DEBUG 20852 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc limit 1000;
+2020-10-19 11:52:10.550 DEBUG 20852 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-10-19 11:37:10.142(Timestamp)
+2020-10-19 11:52:10.901 DEBUG 20852 --- [Thread-4] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1000
+2020-10-19 11:52:10.906  INFO 20852 --- [Thread-4] com.example.hostinfo.conf.Task           : 读取到数据总共有1000条
+2020-10-19 11:52:10.907  INFO 20852 --- [Thread-4] com.example.hostinfo.conf.Task           : 创建代理进程1;
+2020-10-19 11:52:11.169  INFO 20852 --- [Thread-4] com.example.hostinfo.conf.Task           : 代理IP获取成功 [{"curIP":"119.7.230.63:4261","expireTime":1603081002000,"iP":"119.7.230.63","port":"4261"}]
+2020-10-19 11:52:11.170  INFO 20852 --- [pool-1-thread-1] com.example.hostinfo.conf.Task           : 创建线程池, 线程池最大并发数: 5
+2020-10-19 11:55:12.077 ERROR 20852 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程:0,第3条,failure,用时:180秒;房间信息:Huya 17113158!119.7.230.63:4261;message:请求超时
+2020-10-19 11:55:12.082 ERROR 20852 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程:0,第1条,failure,用时:180秒;房间信息:Huya 14969033!119.7.230.63:4261;message:请求超时
+2020-10-19 11:55:12.090 ERROR 20852 --- [pool-2-thread-4] com.example.hostinfo.conf.Task           : 代理进程:0,第4条,failure,用时:180秒;房间信息:Huya 20732333!119.7.230.63:4261;message:请求超时
+2020-10-19 11:55:12.096 ERROR 20852 --- [pool-2-thread-5] com.example.hostinfo.conf.Task           : 代理进程:0,第5条,failure,用时:180秒;房间信息:Huya 20134767!119.7.230.63:4261;message:请求超时
+2020-10-19 11:55:12.186 ERROR 20852 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程:0,第2条,failure,用时:180秒;房间信息:Huya 22681592!119.7.230.63:4261;message:请求超时
+2020-10-19 11:58:12.529 ERROR 20852 --- [pool-2-thread-4] com.example.hostinfo.conf.Task           : 代理进程:0,第8条,failure,用时:180秒;房间信息:Huya 23256560!119.7.230.63:4261;message:请求超时
+2020-10-19 11:58:12.540 ERROR 20852 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程:0,第7条,failure,用时:180秒;房间信息:Huya 221825!119.7.230.63:4261;message:请求超时
+2020-10-19 11:58:12.549 ERROR 20852 --- [pool-2-thread-5] com.example.hostinfo.conf.Task           : 代理进程:0,第9条,failure,用时:180秒;房间信息:Huya 22432661!119.7.230.63:4261;message:请求超时
+2020-10-19 11:58:12.559 ERROR 20852 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程:0,第10条,failure,用时:180秒;房间信息:Huya 23478610!119.7.230.63:4261;message:请求超时
+2020-10-19 11:58:12.564 ERROR 20852 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程:0,第6条,failure,用时:180秒;房间信息:Huya 22525160!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.068 ERROR 20852 --- [pool-2-thread-1] com.example.hostinfo.conf.Task           : 代理进程:0,第12条,failure,用时:180秒;房间信息:Huya 23470415!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.074 ERROR 20852 --- [pool-2-thread-5] com.example.hostinfo.conf.Task           : 代理进程:0,第13条,failure,用时:180秒;房间信息:Huya 19545012!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.081 ERROR 20852 --- [pool-2-thread-2] com.example.hostinfo.conf.Task           : 代理进程:0,第14条,failure,用时:180秒;房间信息:Huya 16082867!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.092 ERROR 20852 --- [pool-2-thread-4] com.example.hostinfo.conf.Task           : 代理进程:0,第11条,failure,用时:180秒;房间信息:Huya 179321!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.103 ERROR 20852 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程:0,第15条,failure,用时:180秒;房间信息:Huya 22708058!119.7.230.63:4261;message:请求超时
+2020-10-19 12:01:13.567  WARN 20852 --- [pool-2-thread-3] com.example.hostinfo.conf.Task           : 代理进程:0,第20条,warning,用时:  0秒;房间信息:Huya 23075635!119.7.230.63:4261;message:主播未直播
+2020-10-19 12:01:45.609  INFO 20852 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 12:01:45.609  INFO 20852 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-19 12:01:45.624  INFO 20852 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-10-19 12:01:45.785  INFO 20852 --- [Thread-31] com.example.hostinfo.conf.Task           : 开启 Server(Calabash.Business.Daemon.Host)...
+2020-10-19 12:01:50.792  INFO 20852 --- [Thread-31] com.example.hostinfo.conf.Task           : 程序启动, 读取 Anchor 数据...
+2020-10-19 12:01:50.827 DEBUG 20852 --- [Thread-31] c.e.h.dao.HostInfoDao.selectByToDay      : ==>  Preparing: select "Id", "RoomId","Plantform","PlantformUid" from "Anchor" where "UpdateTime" > ? and "Plantform" = '1' order by "UpdateTime" desc limit 1000;
+2020-10-19 12:01:50.827 DEBUG 20852 --- [Thread-31] c.e.h.dao.HostInfoDao.selectByToDay      : ==> Parameters: 2020-10-19 11:46:50.792(Timestamp)
+2020-10-19 12:01:51.139 DEBUG 20852 --- [Thread-31] c.e.h.dao.HostInfoDao.selectByToDay      : <==      Total: 1000
+2020-10-19 12:01:51.139  INFO 20852 --- [Thread-31] com.example.hostinfo.conf.Task           : 读取到数据总共有1000条
+2020-10-19 12:01:51.140  INFO 20852 --- [Thread-31] com.example.hostinfo.conf.Task           : 创建代理进程1;
+2020-10-19 12:01:51.140  INFO 20852 --- [pool-3-thread-1] com.example.hostinfo.conf.Task           : 创建线程池, 线程池最大并发数: 5
