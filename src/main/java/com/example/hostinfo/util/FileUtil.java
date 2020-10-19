@@ -2,6 +2,7 @@ package com.example.hostinfo.util;
 
 import com.example.hostinfo.bean.HostInfo;
 import com.example.hostinfo.conf.Task;
+import com.example.hostinfo.util.script.ScriptClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileUtil {
-    public static String resultsPath =  CalabashUtil.path + "result";
+    public static String resultsPath =  ScriptClient.path + "result";
     public static Logger logger = LoggerFactory.getLogger(FileUtil.class);
 
     public static BufferedReader reader;

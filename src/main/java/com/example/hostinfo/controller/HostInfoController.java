@@ -4,7 +4,7 @@ import com.example.hostinfo.bean.Anchor;
 import com.example.hostinfo.conf.Task;
 import com.example.hostinfo.dao.HostInfoDao;
 import com.example.hostinfo.service.HostService;
-import com.example.hostinfo.util.CalabashUtil;
+import com.example.hostinfo.util.script.ScriptServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -47,7 +47,7 @@ public class HostInfoController {
     @GetMapping("getInfo")
     public Map<String,Object> getInfo(){
         Map<String,Object> resMap = new HashMap<>();
-        resMap.put("Server(Calabash.Business.Daemon.Host)", CalabashUtil.status());
+        resMap.put("Server(Calabash.Business.Daemon.Host)", ScriptServer.status());
         resMap.put("FixedThreadPool", task.getPool());
         return resMap;
     }

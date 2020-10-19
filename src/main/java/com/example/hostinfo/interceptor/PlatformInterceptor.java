@@ -39,9 +39,11 @@ public class PlatformInterceptor {
         String url = "https://www.huya.com";
         String respones = NetworkUtil.sendGet(url, roomId);
         Document document = Jsoup.parse(respones);
-        Elements preStartTime = document.getElementsByClass("host-prevStartTime");
+        Elements errorTip = document.getElementsByClass("error-tip");  //房间号不存在
+        Elements preStartTime = document.getElementsByClass("host-prevStartTime"); //没有开播
+        Elements tip = document.getElementsByClass("tip"); //违规
 
-        if(preStartTime.size() > 0){
+        if(preStartTime.size() > 0 || errorTip.size() > 0 || tip.size() >0){
             return false;
         }else{
             return true;
@@ -49,12 +51,23 @@ public class PlatformInterceptor {
     }
 
     public static void main(String[] args) {
-        try {
-            System.out.println(getLiveStatus("Huya","21271670"));
-//            System.out.println(getLiveBroadcastStatus_Huya("22125566"));
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println(e.getMessage());
+//        System.out.println(getLiveBroadcastStatus_Huya1("1000"));
+//        System.out.println(getLiveBroadcastStatus_Huya1("wjz520cx"));
+        System.out.println(getLiveBroadcastStatus_Huya1("23466002")); //违规
+        System.out.println(getLiveBroadcastStatus_Huya1("haddis"));
+    }
+
+    public static boolean getLiveBroadcastStatus_Huya1(String roomId){
+        String url = "https://www.huya.com";
+        String respones = NetworkUtil.sendGet(url, roomId);
+        Document document = Jsoup.parse(respones);
+        Elements errorTip = document.getElementsByClass("error-tip");  //房间号不存在
+        Elements preStartTime = document.getElementsByClass("host-prevStartTime"); //没有开播
+        Elements tip = document.getElementsByClass("tip"); //违规
+        if(preStartTime.size() > 0 || errorTip.size() > 0 || tip.size() >0){
+            return false;
+        }else{
+            return true;
         }
     }
 }

@@ -5,7 +5,8 @@ import com.example.hostinfo.bean.Anchor;
 import com.example.hostinfo.bean.Failure;
 import com.example.hostinfo.interceptor.PlatformInterceptor;
 import com.example.hostinfo.service.HostService;
-import com.example.hostinfo.util.CalabashUtil;
+import com.example.hostinfo.util.script.ScriptClient;
+import com.example.hostinfo.util.script.ScriptServer;
 import com.example.hostinfo.util.exception.ConnectionFailureException;
 import com.example.hostinfo.util.exception.NotLiveException;
 import com.example.hostinfo.util.proxy.IP;
@@ -28,15 +29,16 @@ import java.util.concurrent.TimeoutException;
 public class Task {
     public final static Boolean useAgent = true;  //是否使用代理
     public final static String default_proxy_IP = "119.7.231.157:4261"; //默认一个
+    public static volatile int overtime = 0; //连续超时次数
+    public static volatile long preOverTime = 0L; //上次超时的时间点
     public final static Integer default_proxy_num = 1; //使用多少个代理跑, 每个代理代表一个进程
     public final static Integer default_threadNum = 5; //每个代理ip下执行的线程
     public final static Long default_interval = 15*60*1000L; //获取多久时间之前的数据
     public final static int default_timeout = 3*60*1000; //超时时间
     public final static int default_interval_time = 0*60*1000; //每个ip下线程间执行的时间间隔
-    public static volatile Map<Integer,IP> process_ProxyIP = null; //存储每个进程的代理IP
-    public static volatile Map<Integer, Failure> process_ProxyIP_Status = null;
+    public static Map<Integer,IP> process_ProxyIP = null; //存储每个进程的代理IP
+    public static Map<Integer, Failure> process_ProxyIP_Status = null;
     public static Logger logger = LoggerFactory.getLogger(Task.class);
-
     @Autowired
     HostService hostService;
 
@@ -76,7 +78,6 @@ public class Task {
     public boolean runServer() {
         return runServer(null,null,null);
     }
-
 
 
     public static Map<String,String> typeMap = new HashMap<>();
@@ -203,7 +204,7 @@ public class Task {
         try {
             PlatformInterceptor.getLiveStatus(platform,roomId);
             startTime = System.currentTimeMillis();
-            CalabashUtil.getInfo(typeMap.get(anchor.getPlantform()), anchor.getRoomId(), timeout, ip);
+            ScriptClient.getInfo(typeMap.get(anchor.getPlantform()), anchor.getRoomId(), timeout, ip);
             endTime = System.currentTimeMillis();
             time = (endTime - startTime)/1000; status = "success";
         } catch (IOException e) {
@@ -268,30 +269,34 @@ public class Task {
         }
     }
 
-//    public void runClient() throws Exception {
-//        //启动服务端
-//        logger.info("开启 Server(Calabash.Business.Daemon.Host)...");
-//        if(CalabashUtil.server()){
-//            //等待5秒,保证 Calabash.Business.Daemon.Host 能够启动
-//            Thread.sleep(1000*5);
-//            this.start();
-//        }else{
-//            logger.error("服务端开启失败");
-//        }
-//    }
+    /**
+     * 启动客户端和服务端
+     * @throws Exception
+     */
+    public void runClient() throws Exception {
+        //启动服务端
+        logger.info("开启 Server(Calabash.Business.Daemon.Host)...");
+        if(ScriptServer.start()){
+            //等待5秒,保证 Calabash.Business.Daemon.Host 能够启动
+            Thread.sleep(1000*5);
+            this.start();
+        }else{
+            logger.error("服务端开启失败");
+        }
+    }
 
     /**
      * 只启动客户端
      * @throws Exception
      */
-    public void runClient() throws Exception {
-        this.start();
-    }
+//    public void runClient() throws Exception {
+//        this.start();
+//    }
 
     public void shutdown () {
         if(null != thread) {
-            CalabashUtil.shutdown();
-            // 暂不晓得如何立即关闭 线程池 ExecutorService
+            ScriptServer.shutdown();
+            // 暂不晓得如何彻底立即关闭 线程池 ExecutorService
         }
     }
 
